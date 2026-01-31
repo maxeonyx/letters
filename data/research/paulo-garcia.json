@@ -1,8 +1,8 @@
 {
   "slug": "paulo-garcia",
   "name": "Paulo Garcia",
-  "researchStatus": "in-progress",
-  "lastUpdated": "2026-01-31T23:49:07.2543908+13:00",
+  "researchStatus": "done",
+  "lastUpdated": "2026-02-01T00:32:30.4862638+13:00",
   "postalAddress": {
     "status": "found",
     "value": "3069 Great North Road, New Lynn, Auckland",
@@ -18,10 +18,10 @@
     "notes": "Donate link present on MP contact page; it points to the National Party donation form."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of National Party contact page did not mention AI or artificial intelligence."
   },
   "personalizationNotes": null,
   "sourcesChecked": [

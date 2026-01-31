@@ -1,13 +1,13 @@
 {
   "slug": "scott-simpson",
   "name": "Scott Simpson",
-  "researchStatus": "in-progress",
-  "lastUpdated": "2026-01-31T11:06:08.604Z",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:37:29.0479825Z",
   "postalAddress": {
     "status": "found",
-    "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
-    "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/simpson-scott/",
-    "notes": "Parliament Office postal address listed under Contact Details"
+    "value": "Freepost Parliament, Private Bag 18 888, Parliament Buildings, Wellington 6160",
+    "source": "https://www.haveyoursay.org.nz/mp/scott-simpson",
+    "notes": "Postal address listed on HaveYourSay MP page"
   },
   "donationMethod": {
     "status": "found",
@@ -18,10 +18,10 @@
     "notes": "No public direct-to-MP donation method found on MP/party bio; only party donation page (form)"
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan only; no AI-specific evidence recorded"
   },
   "personalizationNotes": null,
   "sourcesChecked": [
@@ -42,6 +42,24 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Donation page is for National Party (online form), not MP-specific"
+    },
+    {
+      "source": "https://www.national.org.nz/team/scottsimpson/contact",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Contact page shows 'Coromandel Electorate Office' but no street/PO Box address displayed (only email)"
+    },
+    {
+      "source": "https://www.haveyoursay.org.nz/mp/scott-simpson",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found postal address: Freepost Parliament, Private Bag 18 888, Parliament Buildings, Wellington 6160"
+    },
+    {
+      "source": "data/mps.json",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "AI involvement quick scan recorded as none (no AI/tech roles noted in scraped metadata)"
     }
   ]
 }

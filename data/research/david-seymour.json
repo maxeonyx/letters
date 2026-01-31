@@ -1,8 +1,8 @@
 {
   "slug": "david-seymour",
   "name": "David Seymour",
-  "researchStatus": "partial",
-  "lastUpdated": "2026-01-31T09:53:45.099Z",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T10:39:10.000Z",
   "postalAddress": {
     "status": "found",
     "value": "Epsom Electorate Office, PO Box 9209, Newmarket, Auckland 1149",
@@ -10,18 +10,18 @@
     "notes": "Mailing address shown on ACT contact page. Street address also listed: Suite 2.4, Level 2, 27 Gillies Avenue, Newmarket, Auckland 1023."
   },
   "donationMethod": {
-    "status": "found",
+    "status": "not-found",
     "method": "party-channel",
     "url": "https://action.act.org.nz/donate",
     "bankAccount": null,
-    "details": "Online donation form (party donation).",
-    "notes": "No obvious public method found for donating directly to David Seymour personally; party has online donation page."
+    "details": "ACT Party donation page.",
+    "notes": "No obvious public method found for donating directly to David Seymour personally; only party donation page found."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of Parliament profile page did not show AI/technology keywords."
   },
   "personalizationNotes": null,
   "sourcesChecked": [
@@ -36,6 +36,12 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found ACT online donation form (party donation channel)."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/seymour-david/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Quick scan for AI/technology keywords on Parliament profile; no relevant mentions found."
     }
   ]
 }

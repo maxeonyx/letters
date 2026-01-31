@@ -1,28 +1,53 @@
 {
   "slug": "maureen-pugh",
   "name": "Maureen Pugh",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:56:42.000Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Hokitika Office: 4 Bert Mercer Drive, Hokitika Airport, Hokitika 7810; Motueka Office: 117 High Street, Motueka",
+    "source": "https://www.national.org.nz/team/maureenpugh/contact",
+    "notes": "Electorate office street addresses listed on National Party MP contact page (no PO Box shown)."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
     "bankAccount": null,
-    "details": null,
-    "notes": null
+    "details": "Donate via National Party online donation page",
+    "notes": "No MP-specific donation method found on contact page; National provides party donation form."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of National Party profile page did not mention AI or artificial intelligence."
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www.national.org.nz/team/maureenpugh/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found electorate office addresses (Hokitika; Motueka)."
+    },
+    {
+      "source": "https://www.national.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found National Party donation page (party channel)."
+    },
+    {
+      "source": "https://www.haveyoursay.org.nz/mp/maureen-pugh",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found parliamentary postal address (Freepost Parliament / Private Bag 18 888) as an alternative." 
+    },
+    {
+      "source": "https://www.national.org.nz/team/maureenpugh",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "AI keyword scan (artificial intelligence/AI/etc.) - no relevant mentions found."
+    }
+  ]
 }

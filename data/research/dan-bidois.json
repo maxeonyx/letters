@@ -1,8 +1,8 @@
 {
   "slug": "dan-bidois",
   "name": "Dan Bidois",
-  "researchStatus": "partial",
-  "lastUpdated": "2026-01-31T09:54:08.000Z",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:41:24.368Z",
   "postalAddress": {
     "status": "found",
     "value": "Birkenhead Office, 7 Birkenhead Ave, Birkenhead",
@@ -10,7 +10,7 @@
     "notes": "Electorate office address listed under Offices."
   },
   "donationMethod": {
-    "status": "found",
+    "status": "not-found",
     "method": "party-channel",
     "url": "https://www.national.org.nz/donate",
     "bankAccount": null,
@@ -18,10 +18,10 @@
     "notes": "Only public donation link found is National Party donation page (not an MP-specific donation method)."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of Parliament MP page for AI/technology keywords found nothing obvious."
   },
   "personalizationNotes": null,
   "sourcesChecked": [
@@ -36,6 +36,12 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Donate link on MP page points to National Party donation page."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/bidois-dan/#mp-contact-details",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160) available on Parliament contact details section (kept Birkenhead electorate office street address as better for physical mail)."
     }
   ]
 }

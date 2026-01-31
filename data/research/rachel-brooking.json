@@ -1,28 +1,41 @@
 {
   "slug": "rachel-brooking",
   "name": "Rachel Brooking",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-02-01T00:32:30.4862638+13:00",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Dunedin Office: 544 Great King Street, Dunedin",
+    "source": "https://www.labour.org.nz/our-team/hon-rachel-brooking/",
+    "notes": "Labour MP profile page contact section lists Dunedin office address and also lists 'Freepost PO Box 18 888, Parliament Buildings, Wellington 6160'."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://www.labour.org.nz/donate/",
     "bankAccount": null,
-    "details": null,
-    "notes": null
+    "details": "No public, MP-specific donation method found; Labour provides a party donation page.",
+    "notes": "Only clear public donation path located was via Labour Party donate page."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of Labour profile page did not mention AI or artificial intelligence (page includes spokesperson portfolio 'Space' in mps.json, but no AI content located here)."
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www.labour.org.nz/our-team/hon-rachel-brooking/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Dunedin office address and Freepost Parliament postal address." 
+    },
+    {
+      "source": "https://www.labour.org.nz/donate/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Labour Party donation page (party-channel)."
+    }
+  ]
 }

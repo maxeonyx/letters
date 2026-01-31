@@ -1,28 +1,53 @@
 {
   "slug": "louise-upston",
   "name": "Louise Upston",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-02-01T01:24:00.000Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Taupō Office: PO Box 280, Taupō 3351 (physical: 67 Paora Hapi Street, Taupō, Waikato 3420)",
+    "source": "https://www.national.org.nz/team/louiseupston/contact",
+    "notes": "Electorate office (Taupō) listed on National Party MP contact page."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
     "bankAccount": null,
-    "details": null,
-    "notes": null
+    "details": "Donate via National Party online donation page",
+    "notes": "No MP-specific donation method found on contact page; National provides party donation form."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of National contact page found no AI/technology mentions."
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www.national.org.nz/team/louiseupston/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found electorate office postal address (PO Box 280, Taupō 3351) and physical address (67 Paora Hapi Street, Taupō)."
+    },
+    {
+      "source": "https://www.national.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found National Party donation page (party channel)."
+    },
+    {
+      "source": "https://www.national.org.nz/team/louiseupston/contact",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "AI involvement scan: no relevant AI/tech mentions found on contact page."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/louise-upston/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Playwright navigation failed with net::ERR_HTTP_RESPONSE_CODE_FAILURE (likely 5xx) on 2026-02-01."
+    }
+  ]
 }

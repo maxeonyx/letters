@@ -1,28 +1,53 @@
 {
   "slug": "rawiri-waititi",
   "name": "Rawiri Waititi",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:59:30.000Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Freepost Parliament, Private Bag 18 888, Parliament Buildings, Wellington 6160",
+    "source": "https://www.haveyoursay.org.nz/mp/rawiri-waititi",
+    "notes": "Have your say lists MP postal address as Freepost Parliament / Private Bag 18 888."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.maoriparty.org.nz/donate",
     "bankAccount": null,
-    "details": null,
-    "notes": null
+    "details": "No public, MP-specific donation method found; Te Pāti Māori provides a party koha/donation page.",
+    "notes": "Donation page is a party koha form (card payment)."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of Te Pāti Māori profile page did not mention AI or artificial intelligence."
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/waititi-rawiri/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Parliament page returned HTTP response code failure in Playwright (likely Radware/bot protection); could not access contact details."
+    },
+    {
+      "source": "https://www.maoriparty.org.nz/rawiri_waititi",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "No postal address listed on profile page."
+    },
+    {
+      "source": "https://www.maoriparty.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Te Pāti Māori party koha/donation form."
+    },
+    {
+      "source": "https://www.haveyoursay.org.nz/mp/rawiri-waititi",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found postal address (Freepost Parliament, Private Bag 18 888, Parliament Buildings, Wellington 6160)."
+    }
+  ]
 }

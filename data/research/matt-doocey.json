@@ -1,28 +1,54 @@
 {
   "slug": "matt-doocey",
   "name": "Matt Doocey",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:43:05.642Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Rangiora Office: PO Box 765, Rangiora 7440 (physical: Level 1, Conway Building, 188 High Street, Rangiora, Christchurch 7440); Kaiapoi Office: 137 Williams Street, Kaiapoi, Canterbury 7630",
+    "source": "https://www.national.org.nz/team/mattdoocey/contact",
+    "notes": "Electorate office addresses listed on National Party MP contact page."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
     "bankAccount": null,
-    "details": null,
-    "notes": null
+    "details": "Donate via National Party online donation page",
+    "notes": "No MP-specific donation method found on contact page; National provides party donation form."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
-    "evidence": [],
-    "notes": null
+    "status": "checked",
+    "level": "tangential",
+    "evidence": [
+      {
+        "type": "article",
+        "summary": "National Party profile links to news item titled 'AI navigation to deliver faster access to support'.",
+        "url": "https://www.national.org.nz/news/20251125-hon-matt-doocey-ai-navigation-to-deliver-faster-access-to-support",
+        "date": null
+      }
+    ],
+    "notes": "Quick scan: National Party profile page contains an AI-related news link; no further AI material checked."
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www.national.org.nz/team/mattdoocey/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found electorate office addresses incl. Rangiora PO Box 765, Rangiora 7440 and physical office addresses (Rangiora; Kaiapoi)."
+    },
+    {
+      "source": "https://www.national.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found National Party donation page (party channel)."
+    },
+    {
+      "source": "https://www.national.org.nz/team/mattdoocey",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "AI quick scan: page contains link titled 'AI navigation to deliver faster access to support'."
+    }
+  ]
 }

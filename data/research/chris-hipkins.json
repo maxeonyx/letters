@@ -1,8 +1,8 @@
 {
   "slug": "chris-hipkins",
   "name": "Chris Hipkins",
-  "researchStatus": "in-progress",
-  "lastUpdated": "2026-01-31T09:48:55.1300938Z",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:41:24.366Z",
   "postalAddress": {
     "status": "found",
     "value": "Freepost PO Box 18 888, Parliament Buildings, Wellington 6160",
@@ -18,10 +18,10 @@
     "notes": "No individual MP donation method found; page links to Labour party donation page."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of Parliament MP page for AI/technology keywords found nothing obvious."
   },
   "personalizationNotes": null,
   "sourcesChecked": [
@@ -36,6 +36,12 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Donation link present but appears to be party-level donate page (https://www.labour.org.nz/donate); no MP-specific donation method listed."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/hipkins-chris/#mp-contact-details",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160) available on Parliament contact details section (kept Freepost PO Box address from Labour profile)."
     }
   ]
 }

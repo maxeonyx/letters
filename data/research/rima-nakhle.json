@@ -1,13 +1,13 @@
 {
   "slug": "rima-nakhle",
   "name": "Rima Nakhle",
-  "researchStatus": "in-progress",
-  "lastUpdated": "2026-01-31T11:05:39.795Z",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:36:52.1910266Z",
   "postalAddress": {
     "status": "found",
-    "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
-    "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/nakhle-rima/",
-    "notes": "Parliament Office postal address listed under Contact Details"
+    "value": "Takanini Office, 215 Great South Road, Takanini",
+    "source": "https://www.national.org.nz/team/rimanakhle/contact",
+    "notes": "Electorate office street address listed under 'Offices'"
   },
   "donationMethod": {
     "status": "found",
@@ -18,10 +18,10 @@
     "notes": "No public direct-to-MP donation method found on MP/party bio; only party donation page (form)"
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan only; no AI-specific evidence recorded"
   },
   "personalizationNotes": null,
   "sourcesChecked": [
@@ -38,10 +38,22 @@
       "notes": "No donation method/link found on MP bio page"
     },
     {
+      "source": "https://www.national.org.nz/team/rimanakhle/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found electorate office street address: Takanini Office, 215 Great South Road, Takanini"
+    },
+    {
       "source": "https://www.national.org.nz/donate",
       "checked": true,
       "foundUseful": true,
       "notes": "Donation page is for National Party (online form), not MP-specific"
+    },
+    {
+      "source": "data/mps.json",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "AI involvement quick scan recorded as none (no AI/tech roles noted in scraped metadata)"
     }
   ]
 }

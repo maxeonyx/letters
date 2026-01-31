@@ -1,28 +1,59 @@
 {
   "slug": "mariameno-kapa-kingi",
   "name": "Mariameno Kapa-Kingi",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-02-01T01:26:00.000Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Freepost Parliament, Private Bag 18 888, Parliament Buildings, Wellington 6160",
+    "source": "https://www.haveyoursay.org.nz/mp/mariameno-kapa-kingi",
+    "notes": "HaveYourSay page lists postal address as Freepost Parliament / Private Bag (parliament address)."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
+    "status": "not-found",
+    "method": "none-found",
     "url": null,
     "bankAccount": null,
     "details": null,
-    "notes": null
+    "notes": "No public MP-specific donation method found (independent)."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of available public profile (HaveYourSay) found no AI/technology mentions."
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www.haveyoursay.org.nz/mp/mariameno-kapa-kingi",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found postal address: Freepost Parliament, Private Bag 18 888, Parliament Buildings, Wellington 6160."
+    },
+    {
+      "source": "https://duckduckgo.com/?q=Mariameno+Kapa-Kingi+electorate+office+address&ia=web",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Search results used to locate contact/postal info; pointed to HaveYourSay page."
+    },
+    {
+      "source": "https://wheretheystand.nz/people/mariameno-kapa-kingi/details",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "No donation/contact details found."
+    },
+    {
+      "source": "https://www.haveyoursay.org.nz/mp/mariameno-kapa-kingi",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "AI involvement scan (keywords: AI/artificial intelligence/technology/digital/etc.): no relevant mentions found."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/mariameno-kapa-kingi/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Playwright navigation failed with net::ERR_HTTP_RESPONSE_CODE_FAILURE (likely 5xx) on 2026-02-01."
+    }
+  ]
 }

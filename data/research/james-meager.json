@@ -1,8 +1,8 @@
 {
   "slug": "james-meager",
   "name": "James Meager",
-  "researchStatus": "in-progress",
-  "lastUpdated": "2026-01-31T10:08:02.0492012Z",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T10:42:12.000Z",
   "postalAddress": {
     "status": "found",
     "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
@@ -18,10 +18,10 @@
     "notes": "No MP-specific donation method found; National MP page links to party donation page"
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of Parliament profile page did not show AI/technology keywords."
   },
   "personalizationNotes": null,
   "sourcesChecked": [
@@ -36,6 +36,12 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Donation link present but goes to party donate page: https://www.national.org.nz/donate"
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/meager-james/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Quick scan for AI/technology keywords on Parliament profile; no relevant mentions found."
     }
   ]
 }

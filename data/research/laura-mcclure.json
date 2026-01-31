@@ -1,28 +1,66 @@
 {
   "slug": "laura-mcclure",
   "name": "Laura McClure",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-02-01T01:21:00.000Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "ACT New Zealand (Head Office): Suite 2.5, Level 2, 27 Gillies Avenue, Newmarket, Auckland 1023; Mail: PO Box 99651, Newmarket, Auckland 1149",
+    "source": "https://action.act.org.nz/contact",
+    "notes": "ACT contact page lists head office street address and PO Box."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
-    "bankAccount": null,
-    "details": null,
-    "notes": null
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://action.act.org.nz/donate",
+    "bankAccount": "01-0102-0670937-00",
+    "details": "Donate via ACT New Zealand; bank transfer reference: Full Name; particulars: Post Code",
+    "notes": "ACT donation page provides online form and bank transfer details; no MP-specific donation method found."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
-    "evidence": [],
-    "notes": null
+    "status": "checked",
+    "level": "tangential",
+    "evidence": [
+      {
+        "type": "bio",
+        "summary": "ACT profile states she is a champion for SMEs and the use of innovation and technology to help businesses grow.",
+        "url": "https://www.act.org.nz/people/laura-mcclure",
+        "date": null
+      }
+    ],
+    "notes": "No direct AI mentions found in quick scan; only general innovation/technology references."
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www.act.org.nz/people/laura-mcclure",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found address in authorisation footer: Suite 2.5, 27 Gillies Avenue, Newmarket, Auckland 1023."
+    },
+    {
+      "source": "https://action.act.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found ACT donation method (party channel) including bank account 01-0102-0670937-00 and instructions."
+    },
+    {
+      "source": "https://action.act.org.nz/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found ACT head office postal details including PO Box 99651, Newmarket, Auckland 1149."
+    },
+    {
+      "source": "https://www.act.org.nz/people/laura-mcclure",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "AI involvement scan: no AI keywords; did mention innovation/technology in bio."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/laura-mcclure/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Playwright navigation failed with net::ERR_HTTP_RESPONSE_CODE_FAILURE (likely 5xx) on 2026-02-01."
+    }
+  ]
 }

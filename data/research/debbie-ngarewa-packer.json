@@ -1,8 +1,8 @@
 {
   "slug": "debbie-ngarewa-packer",
   "name": "Debbie Ngarewa-Packer",
-  "researchStatus": "partial",
-  "lastUpdated": "2026-01-31T09:53:45.100Z",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T10:43:02.000Z",
   "postalAddress": {
     "status": "found",
     "value": "Parliament Office, Private Bag 18888, Parliament Buildings, Wellington 6160",
@@ -10,18 +10,18 @@
     "notes": "Parliament MP page contact details list Parliament Office postal address."
   },
   "donationMethod": {
-    "status": "found",
+    "status": "not-found",
     "method": "party-channel",
     "url": "https://www.maoriparty.org.nz/donate",
     "bankAccount": null,
-    "details": "Koha / online donation form (party donation).",
-    "notes": "No obvious public method found for donating directly to Debbie Ngarewa-Packer personally; Te Pāti Māori has a Koha (donation) page."
+    "details": "Te Pāti Māori Koha (donation) page.",
+    "notes": "No MP-specific donation method found; only party donation page found."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of Parliament profile page did not show AI/technology keywords."
   },
   "personalizationNotes": null,
   "sourcesChecked": [
@@ -48,6 +48,12 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Te Pāti Māori Koha (donation) page with online donation form (party donation channel)."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/ngarewa-packer-debbie/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Quick scan for AI/technology keywords on Parliament profile; no relevant mentions found."
     }
   ]
 }

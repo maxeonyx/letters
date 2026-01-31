@@ -1,28 +1,53 @@
 {
   "slug": "mike-davidson",
   "name": "Mike Davidson",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:57:56.000Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Freepost Parliament, Private Bag 18 888, Parliament Buildings, Wellington 6160",
+    "source": "https://www.haveyoursay.org.nz/mp/mike-davidson",
+    "notes": "Have your say lists MP postal address as Freepost Parliament / Private Bag 18 888."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "found",
+    "method": "website",
+    "url": "https://www.greens.org.nz/donate",
     "bankAccount": null,
-    "details": null,
-    "notes": null
+    "details": "Green Party online donation form.",
+    "notes": "Party donation page; no MP-specific donation mechanism found."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of Green Party profile page did not mention AI or artificial intelligence."
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/davidson-mike/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Parliament page returned HTTP response code failure in Playwright (likely Radware/bot protection); could not access contact details."
+    },
+    {
+      "source": "https://www.greens.org.nz/mike_davidson",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "No MP electorate/parliament postal address found on page."
+    },
+    {
+      "source": "https://www.greens.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Green Party donation page with embedded form."
+    },
+    {
+      "source": "https://www.haveyoursay.org.nz/mp/mike-davidson",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found postal address (Freepost Parliament, Private Bag 18 888, Parliament Buildings, Wellington 6160)."
+    }
+  ]
 }

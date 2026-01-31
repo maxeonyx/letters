@@ -1,28 +1,53 @@
 {
   "slug": "mark-mitchell",
   "name": "Mark Mitchell",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-02-01T01:28:00.000Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Whangaparāoa Electorate Office: Shop 7, 4 Keith Morris Lane, Orewa 0931",
+    "source": "https://www.national.org.nz/team/markmitchell/contact",
+    "notes": "Electorate office address listed on National Party MP contact page."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
     "bankAccount": null,
-    "details": null,
-    "notes": null
+    "details": "Donate via National Party online donation page",
+    "notes": "No MP-specific donation method found on contact page; National provides party donation form."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of National contact page found no AI/technology mentions."
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www.national.org.nz/team/markmitchell/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found electorate office postal address (Shop 7, 4 Keith Morris Lane, Orewa 0931)."
+    },
+    {
+      "source": "https://www.national.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found National Party donation page (party channel)."
+    },
+    {
+      "source": "https://www.national.org.nz/team/markmitchell/contact",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "AI involvement scan: no relevant AI/tech mentions found on contact page."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/mark-mitchell/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Playwright navigation failed with net::ERR_HTTP_RESPONSE_CODE_FAILURE (likely 5xx) on 2026-02-01."
+    }
+  ]
 }

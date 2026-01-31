@@ -1,28 +1,41 @@
 {
   "slug": "mike-butterick",
   "name": "Mike Butterick",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-02-01T00:32:30.4862638+13:00",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Freepost Parliament: Private Bag 18 888, Parliament Buildings, Wellington 6160",
+    "source": "https://www.national.org.nz/team/mikebutterick/contact",
+    "notes": "National Party contact page lists a Freepost Parliament postal address (also lists Masterton office street address: 6 Lincoln Road, Masterton)."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
     "bankAccount": null,
-    "details": null,
-    "notes": null
+    "details": "No public, MP-specific donation method found; National Party provides a party donation form.",
+    "notes": "National Party site uses a central party donation page."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of available public profile/contact pages did not mention AI or artificial intelligence."
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/butterick-mike/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Parliament page returned HTTP response code failure in Playwright (likely Radware/bot protection); could not access contact details."
+    },
+    {
+      "source": "https://www.national.org.nz/team/mikebutterick/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Freepost Parliament postal address (and Masterton office street address)."
+    }
+  ]
 }

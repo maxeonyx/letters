@@ -1,13 +1,13 @@
 {
   "slug": "chloe-swarbrick",
   "name": "Chlöe Swarbrick",
-  "researchStatus": "in-progress",
-  "lastUpdated": "2026-01-31T00:00:00.000Z",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:41:24.364Z",
   "postalAddress": {
     "status": "found",
     "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
     "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/swarbrick-chloe/#mp-contact-details",
-    "notes": "Parliament Office"
+    "notes": "Parliament Office postal address listed on Parliament contact details section."
   },
   "donationMethod": {
     "status": "not-found",
@@ -18,10 +18,10 @@
     "notes": "No individual MP donation method found; only party donation page identified."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of Parliament MP page for AI/technology keywords found nothing obvious."
   },
   "personalizationNotes": null,
   "sourcesChecked": [
@@ -30,6 +30,12 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Parliament Office postal address in Contact Details section"
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/swarbrick-chloe/#mp-contact-details",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Confirmed Parliament Office postal address: Private Bag 18888, Parliament Buildings, Wellington 6160."
     },
     {
       "source": "https://www.greens.org.nz/chloe_swarbrick",

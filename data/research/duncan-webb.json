@@ -1,27 +1,27 @@
 {
   "slug": "duncan-webb",
   "name": "Duncan Webb",
-  "researchStatus": "partial",
-  "lastUpdated": "2026-01-31T09:53:45.101Z",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T10:40:14.000Z",
   "postalAddress": {
     "status": "found",
-    "value": "Christchurch Central electorate office, 132b Victoria St, Christchurch Central",
-    "source": "https://www.labour.org.nz/our-team/hon-dr-duncan-webb/",
-    "notes": "Labour profile page lists electorate office street address; also lists Wellington postal address: Freepost PO Box 18 888, Parliament Buildings, Wellington 6160."
+    "value": "Parliament Office, Private Bag 18888, Parliament Buildings, Wellington 6160",
+    "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/webb-duncan/",
+    "notes": "Parliament MP page Contact Details lists Parliament Office postal address. (Labour profile also lists electorate office street address.)"
   },
   "donationMethod": {
-    "status": "found",
+    "status": "not-found",
     "method": "party-channel",
     "url": "https://www.labour.org.nz/donate",
     "bankAccount": null,
-    "details": "Online donation form (party donation).",
-    "notes": "No obvious public method found for donating directly to Duncan Webb personally; Labour has online donation page."
+    "details": "Labour Party donation page.",
+    "notes": "No obvious public method found for donating directly to Duncan Webb personally; only party donation page found."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of Parliament profile page did not show AI/technology keywords."
   },
   "personalizationNotes": null,
   "sourcesChecked": [
@@ -36,6 +36,18 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Labour online donation form (party donation channel)."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/webb-duncan/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160) in Contact Details."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/webb-duncan/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Quick scan for AI/technology keywords on Parliament profile; no relevant mentions found."
     }
   ]
 }

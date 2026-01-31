@@ -1,28 +1,59 @@
 {
   "slug": "mark-cameron",
   "name": "Mark Cameron",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-02-01T01:27:00.000Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "ACT New Zealand (Head Office): Suite 2.5, Level 2, 27 Gillies Avenue, Newmarket, Auckland 1023; Mail: PO Box 99651, Newmarket, Auckland 1149",
+    "source": "https://action.act.org.nz/contact",
+    "notes": "ACT contact page lists head office street address and PO Box."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
-    "bankAccount": null,
-    "details": null,
-    "notes": null
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://action.act.org.nz/donate",
+    "bankAccount": "01-0102-0670937-00",
+    "details": "Donate via ACT New Zealand; bank transfer reference: Full Name; particulars: Post Code",
+    "notes": "ACT donation page provides online form and bank transfer details; no MP-specific donation method found."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of ACT profile page found no AI/technology mentions beyond site navigation."
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www.act.org.nz/people/mark-cameron",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found address in authorisation footer: Suite 2.5, 27 Gillies Avenue, Newmarket, Auckland 1023."
+    },
+    {
+      "source": "https://action.act.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found ACT donation method (party channel) including bank account 01-0102-0670937-00 and instructions."
+    },
+    {
+      "source": "https://action.act.org.nz/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found ACT head office postal details including PO Box 99651, Newmarket, Auckland 1149."
+    },
+    {
+      "source": "https://www.act.org.nz/people/mark-cameron",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "AI involvement scan: no relevant AI/tech mentions found on ACT profile page."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/mark-cameron/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Playwright navigation failed with net::ERR_HTTP_RESPONSE_CODE_FAILURE (likely 5xx) on 2026-02-01."
+    }
+  ]
 }

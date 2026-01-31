@@ -1,28 +1,53 @@
 {
   "slug": "nancy-lu",
   "name": "Nancy Lu",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:59:30.000Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Freepost Parliament, Private Bag 18 888, Parliament Buildings, Wellington 6160",
+    "source": "https://www.haveyoursay.org.nz/mp/nancy-lu",
+    "notes": "Have your say lists MP postal address as Freepost Parliament / Private Bag 18 888."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
     "bankAccount": null,
-    "details": null,
-    "notes": null
+    "details": "No public, MP-specific donation method found; National Party provides a party donation form.",
+    "notes": "National Party site uses a central party donation page."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of available public profile/contact pages did not mention AI or artificial intelligence."
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/lu-nancy/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Parliament page returned HTTP response code failure in Playwright (likely Radware/bot protection); could not access contact details."
+    },
+    {
+      "source": "https://www.national.org.nz/team/nancylu/contact",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "No postal address shown; email only." 
+    },
+    {
+      "source": "https://www.national.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "National Party donation form (party-channel)."
+    },
+    {
+      "source": "https://www.haveyoursay.org.nz/mp/nancy-lu",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found postal address (Freepost Parliament, Private Bag 18 888, Parliament Buildings, Wellington 6160)."
+    }
+  ]
 }

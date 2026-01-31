@@ -1,13 +1,13 @@
 {
   "slug": "simon-watts",
   "name": "Simon Watts",
-  "researchStatus": "partial",
-  "lastUpdated": "2026-01-31T11:02:51.913Z",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:37:42.1734005Z",
   "postalAddress": {
     "status": "found",
-    "value": "North Shore Electorate Office, 1 Earnoch Avenue, Takapuna, Auckland 0622",
-    "source": "https://www.national.org.nz/team/simonwatts/contact",
-    "notes": "Electorate office address on National Party contact page."
+    "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
+    "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/watts-simon/",
+    "notes": "Parliament Office postal address listed under Contact Details"
   },
   "donationMethod": {
     "status": "found",
@@ -18,10 +18,10 @@
     "notes": "No MP-specific donation method found; party donation page linked from MP page."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan only; no AI-specific evidence recorded"
   },
   "personalizationNotes": null,
   "sourcesChecked": [
@@ -36,6 +36,18 @@
       "checked": true,
       "foundUseful": true,
       "notes": "National Party donation page (party-level donation form)."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/watts-simon/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160)"
+    },
+    {
+      "source": "data/mps.json",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "AI involvement quick scan recorded as none (no AI/tech roles noted in scraped metadata)"
     }
   ]
 }

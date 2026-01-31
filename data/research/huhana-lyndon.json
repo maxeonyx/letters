@@ -1,8 +1,8 @@
 {
   "slug": "huhana-lyndon",
   "name": "Hūhana Lyndon",
-  "researchStatus": "in-progress",
-  "lastUpdated": "2026-01-31T10:07:40.8695460Z",
+  "researchStatus": "done",
+  "lastUpdated": "2026-02-01T01:20:00.000Z",
   "postalAddress": {
     "status": "found",
     "value": "Level 5, 108 The Terrace, Wellington",
@@ -14,14 +14,14 @@
     "method": "party-channel",
     "url": "https://www.greens.org.nz/donate",
     "bankAccount": null,
-    "details": null,
-    "notes": "No MP-specific donation method found; only Green Party donation page linked from MP bio"
+    "details": "Green Party donation page.",
+    "notes": "No MP-specific donation method found; only party donation page found."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of Green profile page did not show AI/technology keywords; Parliament profile page was unavailable (5xx)."
   },
   "personalizationNotes": null,
   "sourcesChecked": [
@@ -30,6 +30,12 @@
       "checked": true,
       "foundUseful": false,
       "notes": "HTTP 500 error when loading MP page (2026-01-31)"
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/lyndon-huhana/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Playwright navigation failed with net::ERR_HTTP_RESPONSE_CODE_FAILURE (likely 5xx) on 2026-01-31."
     },
     {
       "source": "https://www.greens.org.nz/huhana_lyndon",
@@ -42,6 +48,24 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Donation link present but goes to party donate page: https://www.greens.org.nz/donate"
+    },
+    {
+      "source": "https://www.greens.org.nz/huhana_lyndon",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Quick scan for AI/technology keywords on Green profile; no relevant mentions found."
+    },
+    {
+      "source": "https://www.greens.org.nz/huhana_lyndon",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "AI involvement scan (keywords: AI/artificial intelligence/technology/digital/etc.): no relevant mentions beyond site navigation."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/huhana-lyndon/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Playwright navigation failed with net::ERR_HTTP_RESPONSE_CODE_FAILURE (likely 5xx) on 2026-02-01."
     }
   ]
 }

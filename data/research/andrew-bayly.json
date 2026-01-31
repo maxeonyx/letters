@@ -1,8 +1,8 @@
 {
   "slug": "andrew-bayly",
   "name": "Andrew Bayly",
-  "researchStatus": "in-progress",
-  "lastUpdated": "2026-01-31T09:35:32.3570950Z",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:41:24.363Z",
   "postalAddress": {
     "status": "found",
     "value": "PO Box 528, Pukekohe 2340",
@@ -10,18 +10,18 @@
     "notes": "Electorate/community office mailing address from Parliament office list CSV (Row: Andrew Bayly MP)."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
     "bankAccount": null,
     "details": null,
-    "notes": null
+    "notes": "No individual MP donation method found; contact page includes party donation link."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of Parliament MP page for AI/technology keywords found nothing obvious."
   },
   "personalizationNotes": null,
   "sourcesChecked": [
@@ -36,6 +36,12 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160)."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/bayly-andrew/#mp-contact-details",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Confirmed Parliament Office postal address in contact details section (Private Bag 18888, Parliament Buildings, Wellington 6160)."
     },
     {
       "source": "https://www3.parliament.nz/media/11976/electorate-and-community-offices-address-as-at-25-september-2025.csv",

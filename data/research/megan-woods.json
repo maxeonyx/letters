@@ -1,28 +1,60 @@
 {
   "slug": "megan-woods",
   "name": "Megan Woods",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:57:07.000Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Wigram electorate office: Shop 8, McCarthy Street Shops (Corner of McCarthy Street & Rowley Ave), Hoon Hay, Christchurch; Parliamentary office: Freepost PO Box 18 888, Parliament Buildings, Wellington 6160",
+    "source": "https://www.labour.org.nz/our-team/hon-dr-megan-woods/",
+    "notes": "Labour MP page lists electorate office street address and parliamentary Freepost/PO Box address."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.labour.org.nz/donate",
     "bankAccount": null,
-    "details": null,
-    "notes": null
+    "details": "Donate via Labour Party donation page",
+    "notes": "No MP-specific donation method found on Labour MP page; donation appears to be via party."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
-    "evidence": [],
-    "notes": null
+    "status": "checked",
+    "level": "tangential",
+    "evidence": [
+      {
+        "type": "other",
+        "summary": "Labour profile notes portfolio experience including Research, Science and Innovation (no direct AI statements found in quick scan).",
+        "url": "https://www.labour.org.nz/our-team/hon-dr-megan-woods/",
+        "date": null
+      }
+    ],
+    "notes": "No direct AI mention found on profile page, but has science/innovation portfolio background (tangential)."
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www.labour.org.nz/our-team/hon-dr-megan-woods/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found electorate office address (Shop 8, McCarthy Street Shops, Hoon Hay, Christchurch) and parliamentary Freepost/PO Box address."
+    },
+    {
+      "source": "https://www.labour.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Labour Party donation page (party channel)."
+    },
+    {
+      "source": "https://www.haveyoursay.org.nz/mp/megan-woods",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Also shows parliamentary postal address; electorate office address already found on Labour site."
+    },
+    {
+      "source": "https://www.labour.org.nz/our-team/hon-dr-megan-woods/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "AI involvement quick scan: no direct AI mention; notes Research, Science and Innovation portfolio background (tangential)."
+    }
+  ]
 }

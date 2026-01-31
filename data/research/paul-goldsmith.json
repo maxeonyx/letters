@@ -1,8 +1,8 @@
 {
   "slug": "paul-goldsmith",
   "name": "Paul Goldsmith",
-  "researchStatus": "in-progress",
-  "lastUpdated": "2026-01-31T23:49:25.4697423+13:00",
+  "researchStatus": "done",
+  "lastUpdated": "2026-02-01T00:32:30.4862638+13:00",
   "postalAddress": {
     "status": "found",
     "value": "107 Great South Road, Epsom, Auckland 1051",
@@ -18,10 +18,10 @@
     "notes": "Donate link present on MP contact page; it points to the National Party donation form."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of National Party contact page did not mention AI or artificial intelligence."
   },
   "personalizationNotes": null,
   "sourcesChecked": [

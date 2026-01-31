@@ -1,16 +1,16 @@
 {
   "slug": "cushla-tangaere-manuel",
   "name": "Cushla Tangaere-Manuel",
-  "researchStatus": "partial",
-  "lastUpdated": "2026-01-31T09:54:02.000Z",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:41:24.367Z",
   "postalAddress": {
     "status": "found",
-    "value": "Parliament Buildings, Wellington (for Cushla Tangaere‑Manuel MP)",
-    "source": "https://www.labour.org.nz/our-team/cushla-tangaere-manuel/",
-    "notes": "Labour profile does not list electorate office address; shows authorised-by footer including Parliament Bldg, Wellington."
+    "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
+    "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/tangaere-manuel-cushla/#mp-contact-details",
+    "notes": "Parliament Office postal address listed on Parliament contact details section."
   },
   "donationMethod": {
-    "status": "found",
+    "status": "not-found",
     "method": "party-channel",
     "url": "https://www.labour.org.nz/donate",
     "bankAccount": null,
@@ -18,10 +18,17 @@
     "notes": "Only public donation link found is Labour Party donate page (not an MP-specific donation method)."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
-    "evidence": [],
-    "notes": null
+    "status": "checked",
+    "level": "tangential",
+    "evidence": [
+      {
+        "type": "committee",
+        "summary": "Member of the Economic Development, Science and Innovation Committee",
+        "url": null,
+        "date": null
+      }
+    ],
+    "notes": "No direct AI statements found in quick scan; committee membership is tech-adjacent."
   },
   "personalizationNotes": null,
   "sourcesChecked": [
@@ -30,6 +37,12 @@
       "checked": true,
       "foundUseful": true,
       "notes": "No electorate office address found; only Parliament Buildings mentioned in authorised-by footer."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/tangaere-manuel-cushla/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address: Private Bag 18888, Parliament Buildings, Wellington 6160."
     },
     {
       "source": "https://www.labour.org.nz/our-team/cushla-tangaere-manuel/",

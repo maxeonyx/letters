@@ -1,28 +1,53 @@
 {
   "slug": "mark-patterson",
   "name": "Mark Patterson",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:56:20.000Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Freepost Parliament, Private Bag 18 888, Parliament Buildings, Wellington 6160",
+    "source": "https://www.haveyoursay.org.nz/mp/mark-patterson",
+    "notes": "Have your say lists MP postal address as Freepost Parliament / Private Bag 18 888 (preferred over party authorisation address)."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.nzfirst.nz/donate",
     "bankAccount": null,
-    "details": null,
-    "notes": null
+    "details": "NZ First donation page uses online form; page notes bank transfer available by contacting admin@nzfirst.nz",
+    "notes": "No MP-specific donation method found; donation appears to be via party."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of NZ First profile page did not mention AI or artificial intelligence."
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www.nzfirst.nz/mark-patterson",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found address in authorisation footer: 91 Makino Road, Feilding."
+    },
+    {
+      "source": "https://www.nzfirst.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found NZ First donation page (party channel) with online donation form; mentions bank transfer via contacting admin@nzfirst.nz."
+    },
+    {
+      "source": "https://www.haveyoursay.org.nz/mp/mark-patterson",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found postal address (Freepost Parliament, Private Bag 18 888, Parliament Buildings, Wellington 6160)."
+    },
+    {
+      "source": "https://www.nzfirst.nz/mark-patterson",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "AI keyword scan (artificial intelligence/AI/etc.) - no relevant mentions found."
+    }
+  ]
 }

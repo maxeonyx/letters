@@ -1,28 +1,41 @@
 {
   "slug": "nicola-grigg",
   "name": "Nicola Grigg",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-02-01T00:32:30.4862638+13:00",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Selwyn Electorate Office: Shop 34, Rolleston Square, 9 Masefield Drive, Rolleston 7614",
+    "source": "https://www.national.org.nz/team/nicolagrigg/contact",
+    "notes": "National Party contact page lists electorate office and a Parliamentary Office address (1 Molesworth Street, Pipitea, Wellington 6011)."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
     "bankAccount": null,
-    "details": null,
-    "notes": null
+    "details": "No public, MP-specific donation method found; National Party provides a party donation form.",
+    "notes": "National Party site uses a central party donation page."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of available public profile/contact pages did not mention AI or artificial intelligence."
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www.national.org.nz/team/nicolagrigg/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Selwyn electorate office postal address (and parliamentary office address)."
+    },
+    {
+      "source": "https://www.national.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "National Party donation form (party-channel)."
+    }
+  ]
 }

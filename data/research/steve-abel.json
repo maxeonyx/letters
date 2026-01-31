@@ -1,13 +1,13 @@
 {
   "slug": "steve-abel",
   "name": "Steve Abel",
-  "researchStatus": "partial",
-  "lastUpdated": "2026-01-31T11:02:51.923Z",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:37:57.5695750Z",
   "postalAddress": {
     "status": "found",
-    "value": "Level 5, 108 The Terrace, Wellington",
-    "source": "https://www.greens.org.nz/steve_abel",
-    "notes": "Address shown in page footer (Green Party address)."
+    "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
+    "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/abel-steve/",
+    "notes": "Parliament Office postal address listed under Contact Details"
   },
   "donationMethod": {
     "status": "found",
@@ -18,10 +18,10 @@
     "notes": "No MP-specific donation method found; donation is via Green Party website."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan only; no AI-specific evidence recorded"
   },
   "personalizationNotes": null,
   "sourcesChecked": [
@@ -36,6 +36,18 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Donation link from MP bio leads to Green Party donation page."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/abel-steve/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160)"
+    },
+    {
+      "source": "data/mps.json",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "AI involvement quick scan recorded as none (no AI/tech roles noted in scraped metadata)"
     }
   ]
 }

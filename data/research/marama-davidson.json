@@ -1,28 +1,53 @@
 {
   "slug": "marama-davidson",
   "name": "Marama Davidson",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-02-01T01:25:00.000Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Green Party office (authorisation address): Level 5, 108 The Terrace, Wellington",
+    "source": "https://www.greens.org.nz/marama_davidson",
+    "notes": "Address appears as the authorisation footer on Greens profile page (may be party office rather than electorate office)."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.greens.org.nz/donate",
     "bankAccount": null,
-    "details": null,
-    "notes": null
+    "details": "Donate via Green Party donation page",
+    "notes": "No MP-specific donation method found on Greens profile page; donation appears to be via party."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of Greens profile page found no AI/technology mentions beyond site navigation."
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www.greens.org.nz/marama_davidson",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found postal address in authorisation footer: Level 5, 108 The Terrace, Wellington."
+    },
+    {
+      "source": "https://www.greens.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Green Party donation page (party channel)."
+    },
+    {
+      "source": "https://www.greens.org.nz/marama_davidson",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "AI involvement scan (keywords: AI/artificial intelligence/technology/digital/etc.): no relevant mentions beyond site navigation."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/marama-davidson/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Playwright navigation failed with net::ERR_HTTP_RESPONSE_CODE_FAILURE (likely 5xx) on 2026-02-01."
+    }
+  ]
 }

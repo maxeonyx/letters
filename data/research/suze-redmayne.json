@@ -1,8 +1,8 @@
 {
   "slug": "suze-redmayne",
   "name": "Suze Redmayne",
-  "researchStatus": "partial",
-  "lastUpdated": "2026-01-31T11:02:51.924Z",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:38:33.0441346Z",
   "postalAddress": {
     "status": "found",
     "value": "Feilding Electorate Office, 51 Fergusson Street, Feilding 4702; PO Box 335, Feilding 4740",
@@ -18,10 +18,10 @@
     "notes": "No MP-specific donation method found; party donation page used."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan only; no AI-specific evidence recorded"
   },
   "personalizationNotes": null,
   "sourcesChecked": [
@@ -36,6 +36,12 @@
       "checked": true,
       "foundUseful": true,
       "notes": "National Party donation page (party-level donation form)."
+    },
+    {
+      "source": "data/mps.json",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "AI involvement quick scan recorded as none (no AI/tech roles noted in scraped metadata)"
     }
   ]
 }

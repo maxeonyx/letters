@@ -1,27 +1,27 @@
 {
   "slug": "deborah-russell",
   "name": "Deborah Russell",
-  "researchStatus": "partial",
-  "lastUpdated": "2026-01-31T09:53:45.101Z",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T10:39:59.000Z",
   "postalAddress": {
     "status": "found",
-    "value": "Freepost PO Box 18 888, Parliament Buildings, Wellington 6160",
-    "source": "https://www.labour.org.nz/our-team/hon-dr-deborah-russell/",
-    "notes": "Labour profile page contact section lists this postal address under 'Contact Deborah Russell'."
+    "value": "Parliament Office, Private Bag 18888, Parliament Buildings, Wellington 6160",
+    "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/russell-deborah/",
+    "notes": "Parliament MP page Contact Details lists Parliament Office postal address."
   },
   "donationMethod": {
-    "status": "found",
+    "status": "not-found",
     "method": "party-channel",
     "url": "https://www.labour.org.nz/donate",
     "bankAccount": null,
-    "details": "Online donation form (party donation).",
-    "notes": "No obvious public method found for donating directly to Deborah Russell personally; Labour has online donation page."
+    "details": "Labour Party donation page.",
+    "notes": "No obvious public method found for donating directly to Deborah Russell personally; only party donation page found."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of Parliament profile page did not show AI/technology keywords."
   },
   "personalizationNotes": null,
   "sourcesChecked": [
@@ -36,6 +36,18 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Labour online donation form (party donation channel)."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/russell-deborah/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160) in Contact Details."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/russell-deborah/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Quick scan for AI/technology keywords on Parliament profile; no relevant mentions found."
     }
   ]
 }

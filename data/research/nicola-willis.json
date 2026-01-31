@@ -1,28 +1,47 @@
 {
   "slug": "nicola-willis",
   "name": "Nicola Willis",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-02-01T00:32:30.4862638+13:00",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Johnsonville Office: Shop 3 Johnsonville Shopping Centre, 34 Johnsonville Road, Johnsonville, Wellington",
+    "source": "https://www.national.org.nz/team/nicolawillis/contact",
+    "notes": "National Party contact page lists Johnsonville office address and a Parliamentary Office address (1 Molesworth Street, Pipitea, Wellington 6011)."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
     "bankAccount": null,
-    "details": null,
-    "notes": null
+    "details": "No public, MP-specific donation method found; National Party provides a party donation form.",
+    "notes": "National Party site uses a central party donation page."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of available public profile/contact pages did not mention AI or artificial intelligence."
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://nicolawillis.national.org.nz/contact/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Returned HTTP response code failure in Playwright; could not access this site from this environment." 
+    },
+    {
+      "source": "https://www.national.org.nz/team/nicolawillis/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Johnsonville office postal address and parliamentary office address."
+    },
+    {
+      "source": "https://www.national.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "National Party donation form (party-channel)."
+    }
+  ]
 }

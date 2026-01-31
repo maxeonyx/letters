@@ -1,28 +1,60 @@
 {
   "slug": "melissa-lee",
   "name": "Melissa Lee",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:57:33.000Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "MP Office: 107 Great South Road, Epsom, Auckland 1051",
+    "source": "https://www.national.org.nz/team/melissalee/contact",
+    "notes": "Office address listed on National Party MP contact page (no PO Box shown)."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
     "bankAccount": null,
-    "details": null,
-    "notes": null
+    "details": "Donate via National Party online donation page",
+    "notes": "No MP-specific donation method found on contact page; National provides party donation form."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
-    "evidence": [],
-    "notes": null
+    "status": "checked",
+    "level": "tangential",
+    "evidence": [
+      {
+        "type": "other",
+        "summary": "National profile notes she was spokesperson for the Digital Economy & Communications (no direct AI statements found in quick scan).",
+        "url": "https://www.national.org.nz/team/melissalee",
+        "date": null
+      }
+    ],
+    "notes": "No direct AI mention found on profile page, but has digital economy/communications background (tangential)."
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www.national.org.nz/team/melissalee/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found office address (107 Great South Road, Epsom, Auckland 1051)."
+    },
+    {
+      "source": "https://www.national.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found National Party donation page (party channel)."
+    },
+    {
+      "source": "https://www.haveyoursay.org.nz/mp/melissa-lee",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Also shows parliamentary postal address; electorate office address already found on National site."
+    },
+    {
+      "source": "https://www.national.org.nz/team/melissalee",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "AI involvement quick scan: no direct AI mention; profile references Digital Economy & Communications spokesperson role (tangential)."
+    }
+  ]
 }

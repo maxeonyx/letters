@@ -1,8 +1,8 @@
 {
   "slug": "christopher-luxon",
   "name": "Christopher Luxon",
-  "researchStatus": "in-progress",
-  "lastUpdated": "2026-01-31T09:49:37.6553136Z",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:41:24.367Z",
   "postalAddress": {
     "status": "found",
     "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
@@ -18,10 +18,10 @@
     "notes": "No individual MP donation method found on contact page; only party donation page link present."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of Parliament MP page for AI/technology keywords found nothing obvious."
   },
   "personalizationNotes": null,
   "sourcesChecked": [
@@ -36,6 +36,12 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Donation link present but points to party-level donate page (https://www.national.org.nz/donate); no MP-specific donation method listed."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/luxon-christopher/#mp-contact-details",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160) confirmed on Parliament contact details section."
     }
   ]
 }

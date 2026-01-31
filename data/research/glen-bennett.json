@@ -1,28 +1,47 @@
 {
   "slug": "glen-bennett",
   "name": "Glen Bennett",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T10:41:26.000Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Parliament Office, Private Bag 18888, Parliament Buildings, Wellington 6160",
+    "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/bennett-glen/",
+    "notes": "Parliament MP page Contact Details lists Parliament Office postal address."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://www.labour.org.nz/donate",
     "bankAccount": null,
-    "details": null,
-    "notes": null
+    "details": "Labour Party donation page linked from Labour profile.",
+    "notes": "No MP-specific donation method found; Labour profile links to party donation page."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of Parliament profile page did not show AI/technology keywords."
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/bennett-glen/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160) in Contact Details."
+    },
+    {
+      "source": "https://www.labour.org.nz/our-team/glen-bennett/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Donation link present but goes to party donate page: https://www.labour.org.nz/donate"
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/bennett-glen/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Quick scan for AI/technology keywords on Parliament profile; no relevant mentions found."
+    }
+  ]
 }

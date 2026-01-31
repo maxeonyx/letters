@@ -1,28 +1,53 @@
 {
   "slug": "lemauga-lydia-sosene",
   "name": "Lemauga Lydia Sosene",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-02-01T01:23:00.000Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Māngere Electorate Community Office: Shop 9, 93 Bader Drive, Māngere Town Centre; Parliamentary office: Freepost Parliament, Private Bag 18 888, Parliament Buildings, Wellington 6160",
+    "source": "https://www.labour.org.nz/our-team/lemauga-lydia-sosene/",
+    "notes": "Labour MP page lists electorate community office street address and parliamentary Freepost/Private Bag address."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.labour.org.nz/donate",
     "bankAccount": null,
-    "details": null,
-    "notes": null
+    "details": "Donate via Labour Party donation page",
+    "notes": "No MP-specific donation method found on Labour MP page; donation appears to be via party."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of Labour profile/contact page found no AI/technology mentions (aside from navigation)."
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www.labour.org.nz/our-team/lemauga-lydia-sosene/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found electorate community office address (Shop 9, 93 Bader Drive, Māngere Town Centre) and parliamentary Freepost/Private Bag address."
+    },
+    {
+      "source": "https://www.labour.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Labour Party donation page (party channel)."
+    },
+    {
+      "source": "https://www.labour.org.nz/our-team/lemauga-lydia-sosene/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "AI involvement scan (keywords: AI/artificial intelligence/technology/digital/etc.): no relevant mentions beyond site navigation."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/lemauga-lydia-sosene/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Playwright navigation failed with net::ERR_HTTP_RESPONSE_CODE_FAILURE (likely 5xx) on 2026-02-01."
+    }
+  ]
 }

@@ -1,27 +1,27 @@
 {
   "slug": "david-wilson",
   "name": "David Wilson",
-  "researchStatus": "partial",
-  "lastUpdated": "2026-01-31T09:53:45.100Z",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T10:39:28.000Z",
   "postalAddress": {
     "status": "found",
-    "value": "Attn: New Zealand First, Free Post Parliament, Private Bag 18 888, Parliament Buildings, Wellington 6160",
-    "source": "https://www.nzfirst.nz/contact",
-    "notes": "Party contact page lists a Free Post Parliament address (likely suitable for writing to NZ First MPs when individual office address not listed)."
+    "value": "Parliament Office, Private Bag 18888, Parliament Buildings, Wellington 6160",
+    "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/wilson-david/",
+    "notes": "Parliament MP page Contact Details lists Parliament Office postal address."
   },
   "donationMethod": {
-    "status": "found",
+    "status": "not-found",
     "method": "party-channel",
     "url": "https://www.nzfirst.nz/donate",
     "bankAccount": null,
-    "details": "Online donation form (party donation).",
-    "notes": "No obvious public method found for donating directly to David Wilson personally; NZ First has online donation page."
+    "details": "NZ First party donation page.",
+    "notes": "No obvious public method found for donating directly to David Wilson personally; only party donation page found."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of Parliament profile page did not show AI/technology keywords."
   },
   "personalizationNotes": null,
   "sourcesChecked": [
@@ -42,6 +42,18 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found NZ First online donation form (party donation channel)."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/wilson-david/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160) in Contact Details."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/wilson-david/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Quick scan for AI/technology keywords on Parliament profile; no relevant mentions found."
     }
   ]
 }

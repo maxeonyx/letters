@@ -1,28 +1,41 @@
 {
   "slug": "miles-anderson",
   "name": "Miles Anderson",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-02-01T00:32:30.4862638+13:00",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Waitaki Electorate Office: 127 Thames Street, Oamaru 9400",
+    "source": "https://www.national.org.nz/team/milesanderson/contact",
+    "notes": "National Party contact page lists Oamaru office address (also lists Wanaka office: Spencer House Mall, 12/31 Dunmore Street, Wanaka 9305)."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
     "bankAccount": null,
-    "details": null,
-    "notes": null
+    "details": "No public, MP-specific donation method found; National Party provides a party donation form.",
+    "notes": "Used party donation page as the only clear public donation path located."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of available public profile/contact pages did not mention AI or artificial intelligence."
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www.national.org.nz/team/milesanderson/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found electorate office street address (Oamaru) and an additional office (Wanaka)."
+    },
+    {
+      "source": "https://www.national.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "National Party donation form (party-channel)."
+    }
+  ]
 }

@@ -1,27 +1,27 @@
 {
   "slug": "andrew-hoggard",
   "name": "Andrew Hoggard",
-  "researchStatus": "in-progress",
-  "lastUpdated": "2026-01-31T09:36:11.2068906Z",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:41:24.364Z",
   "postalAddress": {
     "status": "found",
     "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
-    "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/hoggard-andrew/",
-    "notes": "Parliament site lists Parliament Office postal address (no separate electorate/community office address found in Parliament CSV list)."
+    "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/hoggard-andrew/#mp-contact-details",
+    "notes": "Parliament Office postal address listed on Parliament contact details section."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://action.act.org.nz/donate",
     "bankAccount": null,
     "details": null,
-    "notes": null
+    "notes": "No individual MP donation method found; ACT site only offers party donation page."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of Parliament MP page for AI/technology keywords found nothing obvious."
   },
   "personalizationNotes": null,
   "sourcesChecked": [
@@ -36,6 +36,12 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160). No electorate office listed on page."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/hoggard-andrew/#mp-contact-details",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Confirmed Parliament Office postal address in contact details section."
     },
     {
       "source": "https://www3.parliament.nz/media/11976/electorate-and-community-offices-address-as-at-25-september-2025.csv",

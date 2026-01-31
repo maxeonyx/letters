@@ -1,28 +1,47 @@
 {
   "slug": "kahurangi-carter",
   "name": "Kahurangi Carter",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:37:47.2344295Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
+    "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/carter-kahurangi/",
+    "notes": "Parliament Office postal address (from Contact Details section)"
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://www.greens.org.nz/donate",
     "bankAccount": null,
     "details": null,
-    "notes": null
+    "notes": "No MP-specific donation method found; Green Party MP bio links to party donation page"
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick keyword scan on Parliament profile (AI / artificial intelligence / machine learning / automation / digital) found no relevant mentions."
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/carter-kahurangi/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address: Private Bag 18888, Parliament Buildings, Wellington 6160"
+    },
+    {
+      "source": "https://www.greens.org.nz/kahurangi_carter",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Donation link present but goes to party donate page: https://www.greens.org.nz/donate"
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/carter-kahurangi/ (AI keyword scan)",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "No AI-related keyword hits found"
+    }
+  ]
 }

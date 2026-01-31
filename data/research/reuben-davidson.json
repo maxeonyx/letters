@@ -1,28 +1,66 @@
 {
   "slug": "reuben-davidson",
   "name": "Reuben Davidson",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:36:24.0335952Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Christchurch East electorate office, Level 1, 202 Marine Parade, New Brighton",
+    "source": "https://www.labour.org.nz/reubendavidson",
+    "notes": "Electorate office street address shown under 'Contact Reuben Davidson'"
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.labour.org.nz/donate",
     "bankAccount": null,
-    "details": null,
-    "notes": null
+    "details": "Donation page is for the New Zealand Labour Party (not specific to Reuben Davidson)",
+    "notes": "Labour MP bio page links to Labour donate page; no public direct-to-MP donation method found"
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
-    "evidence": [],
-    "notes": null
+    "status": "checked",
+    "level": "tangential",
+    "evidence": [
+      {
+        "type": "committee",
+        "summary": "Member of Economic Development, Science and Innovation Committee (mps.json)",
+        "url": null,
+        "date": null
+      },
+      {
+        "type": "other",
+        "summary": "Labour spokesperson roles include 'Science, Technology and Innovation' (mps.json)",
+        "url": null,
+        "date": null
+      }
+    ],
+    "notes": "No direct AI-specific statement found in quick scan; tech/science portfolio suggests tangential relevance"
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/davidson-reuben/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160)"
+    },
+    {
+      "source": "https://www.labour.org.nz/reubendavidson",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found electorate office street address (Level 1, 202 Marine Parade, New Brighton) and donation link to Labour donate page"
+    },
+    {
+      "source": "https://www.labour.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Donation page is Labour Party-level online form; not MP-specific"
+    },
+    {
+      "source": "data/mps.json",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "AI involvement: spokesperson for Science, Technology and Innovation; member of Economic Development, Science and Innovation Committee"
+    }
+  ]
 }

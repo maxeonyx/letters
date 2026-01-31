@@ -1,13 +1,13 @@
 {
   "slug": "takuta-ferris",
   "name": "Tākuta Ferris",
-  "researchStatus": "partial",
-  "lastUpdated": "2026-01-31T11:02:51.924Z",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:38:49.8685747Z",
   "postalAddress": {
     "status": "found",
-    "value": "Freepost Parliament, Private Bag 18 888, Parliament Buildings, Wellington 6160",
-    "source": "https://www.haveyoursay.org.nz/mp/takuta-ferris",
-    "notes": "Postal address listed on HaveYourSay MP page (not parliament.nz; parliament.nz blocked by captcha)."
+    "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
+    "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/ferris-t%C4%81kuta/",
+    "notes": "Parliament Office postal address listed under Contact Details"
   },
   "donationMethod": {
     "status": "not-found",
@@ -15,13 +15,13 @@
     "url": null,
     "bankAccount": null,
     "details": null,
-    "notes": "No public donation method found on sources checked (parliament.nz blocked by captcha in this environment)."
+    "notes": "No public donation method found on sources checked."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan only; no AI-specific evidence recorded"
   },
   "personalizationNotes": null,
   "sourcesChecked": [
@@ -34,14 +34,20 @@
     {
       "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/ferris-t%C4%81kuta/",
       "checked": true,
-      "foundUseful": false,
-      "notes": "Encountered Radware captcha / HTTP errors in browser context."
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160) and parliament email address"
     },
     {
       "source": "https://www.haveyoursay.org.nz/mp/takuta-ferris",
       "checked": true,
       "foundUseful": false,
       "notes": "Checked for donation links/keywords; none present on this page."
+    },
+    {
+      "source": "data/mps.json",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "AI involvement quick scan recorded as none (no AI/tech roles noted in scraped metadata)"
     }
   ]
 }

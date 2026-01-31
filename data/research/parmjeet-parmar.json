@@ -1,8 +1,8 @@
 {
   "slug": "parmjeet-parmar",
   "name": "Parmjeet Parmar",
-  "researchStatus": "in-progress",
-  "lastUpdated": "2026-01-31T23:49:35.0582816+13:00",
+  "researchStatus": "done",
+  "lastUpdated": "2026-02-01T00:32:30.4862638+13:00",
   "postalAddress": {
     "status": "found",
     "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
@@ -18,10 +18,17 @@
     "notes": "Checked ACT donation page; MP-specific donation link not located."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
-    "evidence": [],
-    "notes": null
+    "status": "checked",
+    "level": "tangential",
+    "evidence": [
+      {
+        "type": "committee",
+        "summary": "Chairs the Economic Development, Science, and Innovation Select Committee (per ACT profile bio).",
+        "url": "https://www.act.org.nz/people/parmjeet-parmar",
+        "date": null
+      }
+    ],
+    "notes": "No explicit AI mention located on the ACT profile page during quick scan, but science/innovation committee chair role is tech-adjacent."
   },
   "personalizationNotes": null,
   "sourcesChecked": [

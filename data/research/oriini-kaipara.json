@@ -1,16 +1,16 @@
 {
   "slug": "oriini-kaipara",
   "name": "Oriini Kaipara",
-  "researchStatus": "in-progress",
-  "lastUpdated": "2026-01-31T23:49:35.0582816+13:00",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:59:30.000Z",
   "postalAddress": {
     "status": "found",
-    "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
-    "source": "(project convention: Parliament Office postal address used across many MPs when electorate office address unavailable)",
-    "notes": "Parliament.nz MP contact page blocked by Radware captcha from this environment; Te Pāti Māori profile only references 'Parliament Buildings, Wellington' in authorisation line (no postal address). Using standard Parliament Office postal address as fallback."
+    "value": "Freepost Parliament, Private Bag 18 888, Parliament Buildings, Wellington 6160",
+    "source": "https://www.haveyoursay.org.nz/mp/oriini-kaipara",
+    "notes": "Have your say lists MP postal address as Freepost Parliament / Private Bag 18 888."
   },
   "donationMethod": {
-    "status": "not-found",
+    "status": "found",
     "method": "party-channel",
     "url": "https://www.maoriparty.org.nz/donate",
     "bankAccount": null,
@@ -18,10 +18,10 @@
     "notes": "Checked Te Pāti Māori koha/donation page."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of Te Pāti Māori profile page did not mention AI or artificial intelligence."
   },
   "personalizationNotes": null,
   "sourcesChecked": [
@@ -42,6 +42,12 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Te Pāti Māori party koha/donation form."
+    },
+    {
+      "source": "https://www.haveyoursay.org.nz/mp/oriini-kaipara",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found postal address (Freepost Parliament, Private Bag 18 888, Parliament Buildings, Wellington 6160)."
     }
   ]
 }

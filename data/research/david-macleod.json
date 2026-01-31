@@ -1,8 +1,8 @@
 {
   "slug": "david-macleod",
   "name": "David MacLeod",
-  "researchStatus": "partial",
-  "lastUpdated": "2026-01-31T09:54:14.000Z",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:41:24.369Z",
   "postalAddress": {
     "status": "found",
     "value": "New Plymouth Office, 37 Gill Street, New Plymouth; PO Box 8064, New Plymouth 4340",
@@ -10,7 +10,7 @@
     "notes": "Page lists both physical office address and postal PO Box."
   },
   "donationMethod": {
-    "status": "found",
+    "status": "not-found",
     "method": "party-channel",
     "url": "https://www.national.org.nz/donate",
     "bankAccount": null,
@@ -18,10 +18,10 @@
     "notes": "Only public donation link found is National Party donation page (not an MP-specific donation method)."
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Quick scan of Parliament MP page for AI/technology keywords found nothing obvious."
   },
   "personalizationNotes": null,
   "sourcesChecked": [
@@ -36,6 +36,12 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Donate link on MP page points to National Party donation page."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/macleod-david/#mp-contact-details",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160) available on Parliament contact details section (kept New Plymouth PO Box 8064, New Plymouth 4340 as best postal address)."
     }
   ]
 }
