@@ -19,13 +19,13 @@ As a Member of Parliament, anything you can do to ensure New Zealand contributes
 - If on Justice: "The legal frameworks we establish now..."
 - If electorate MP: "Your constituents need you to raise this..."}
 
-I have enclosed a small donation to your {electorate campaign / work} as a token of the seriousness with which I view this issue.
+I have enclosed $50 with this letter. I am sending the same letter and amount to every Member of Parliament - all 121 of you. This is not a small sum of money for me, but I believe this information is important enough to warrant it.
 
-{TODO: Reconsider this framing - see docs/DONATION-RULES.md section on bribery perception.
-Options:
-1. Decouple: "I support your work representing NZ" (separate paragraph, no connection to ask)
-2. Remove: Don't mention the donation in the letter at all
-3. Keep: Accept the "paying to be heard" perception risk}
+{TODO: Refine wording. Key points to convey:
+- $50 to all 121 MPs (transparency, non-partisan)
+- Significant personal cost (~$6,000 total)
+- Gesture of seriousness, not attempt to influence
+- They can keep it - it's a gift to support their work}
 
 Thank you for your service to New Zealand.
 
