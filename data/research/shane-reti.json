@@ -1,28 +1,54 @@
 {
   "slug": "shane-reti",
   "name": "Shane Reti",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:03:23.656Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
+    "status": "found",
+    "value": "Whangārei Electorate Office, 105 Cameron Street, Whangarei, Northland 0110",
+    "source": "https://www.national.org.nz/team/shanereti/contact",
     "notes": null
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
     "bankAccount": null,
     "details": null,
-    "notes": null
+    "notes": "No MP-specific donation method found; National has party donation page"
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
-    "evidence": [],
-    "notes": null
+    "status": "checked",
+    "level": "tangential",
+    "evidence": [
+      {
+        "type": "other",
+        "summary": "National profile includes a news item titled: New pilot helps small businesses harness AI (mentions artificial intelligence).",
+        "url": "https://www.national.org.nz/team/shanereti",
+        "date": "2026-01-13"
+      }
+    ],
+    "notes": "Minister for Science, Innovation and Technology; profile page references AI-related small business pilot"
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www.national.org.nz/team/shanereti/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Whangārei Electorate Office street address"
+    },
+    {
+      "source": "https://www.national.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "National party donation page (appears not MP-specific)"
+    },
+    {
+      "source": "https://www.national.org.nz/team/shanereti",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found AI mention in news item teaser on profile (AI keyword scan)"
+    }
+  ]
 }

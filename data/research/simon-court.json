@@ -1,28 +1,47 @@
 {
   "slug": "simon-court",
   "name": "Simon Court",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:03:23.657Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Freepost Parliament, Private Bag 18 888, Parliament Buildings, Wellington 6160",
+    "source": "https://www.haveyoursay.org.nz/mp/simon-court",
+    "notes": "Postal address listed on Have Your Say profile"
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
-    "bankAccount": null,
-    "details": null,
-    "notes": null
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://action.act.org.nz/donate",
+    "bankAccount": "01-0102-0670937-00",
+    "details": "Particulars: Post Code (per donate page); online form available",
+    "notes": "ACT donation page is party-level; no MP-specific donation method found"
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Scanned ACT profile for AI keywords; none found"
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www.haveyoursay.org.nz/mp/simon-court",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Freepost Parliament / Private Bag 18 888 postal address"
+    },
+    {
+      "source": "https://action.act.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found ACT donation page and bank account 01-0102-0670937-00 (party-level)"
+    },
+    {
+      "source": "https://www.act.org.nz/people/simon-court",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "AI keyword scan (none found)"
+    }
+  ]
 }

@@ -1,21 +1,21 @@
 {
   "slug": "oriini-kaipara",
   "name": "Oriini Kaipara",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "in-progress",
+  "lastUpdated": "2026-01-31T23:49:35.0582816+13:00",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
+    "source": "(project convention: Parliament Office postal address used across many MPs when electorate office address unavailable)",
+    "notes": "Parliament.nz MP contact page blocked by Radware captcha from this environment; Te Pāti Māori profile only references 'Parliament Buildings, Wellington' in authorisation line (no postal address). Using standard Parliament Office postal address as fallback."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://www.maoriparty.org.nz/donate",
     "bankAccount": null,
-    "details": null,
-    "notes": null
+    "details": "No public, MP-specific donation method found. Te Pāti Māori provides a party donation (koha) form.",
+    "notes": "Checked Te Pāti Māori koha/donation page."
   },
   "aiInvolvement": {
     "status": "unknown",
@@ -24,5 +24,24 @@
     "notes": null
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/kaipara-oriini/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Blocked by Radware captcha / could not access contact details."
+    },
+    {
+      "source": "https://www.maoriparty.org.nz/oriini_kaipara",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Profile page includes email and authorisation line but no postal address."
+    },
+    {
+      "source": "https://www.maoriparty.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Te Pāti Māori party koha/donation form."
+    }
+  ]
 }

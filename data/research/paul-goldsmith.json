@@ -1,21 +1,21 @@
 {
   "slug": "paul-goldsmith",
   "name": "Paul Goldsmith",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "in-progress",
+  "lastUpdated": "2026-01-31T23:49:25.4697423+13:00",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "107 Great South Road, Epsom, Auckland 1051",
+    "source": "https://www.national.org.nz/team/paulgoldsmith/contact",
+    "notes": "National Party contact page lists MP Office street address."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
     "bankAccount": null,
-    "details": null,
-    "notes": null
+    "details": "No public, MP-specific donation method found. National Party provides a party donation form.",
+    "notes": "Donate link present on MP contact page; it points to the National Party donation form."
   },
   "aiInvolvement": {
     "status": "unknown",
@@ -24,5 +24,18 @@
     "notes": null
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www.national.org.nz/team/paulgoldsmith/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found MP Office address and donate link (party donate page)."
+    },
+    {
+      "source": "https://www.national.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Party donation form exists; no MP-specific donation method identified."
+    }
+  ]
 }

@@ -1,21 +1,21 @@
 {
   "slug": "suze-redmayne",
   "name": "Suze Redmayne",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "partial",
+  "lastUpdated": "2026-01-31T11:02:51.924Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Feilding Electorate Office, 51 Fergusson Street, Feilding 4702; PO Box 335, Feilding 4740",
+    "source": "https://www.national.org.nz/team/suzeredmayne/contact",
+    "notes": "Electorate office address and PO Box listed on National Party contact page."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
     "bankAccount": null,
-    "details": null,
-    "notes": null
+    "details": "Donation appears to be via National Party donation form (not MP-specific).",
+    "notes": "No MP-specific donation method found; party donation page used."
   },
   "aiInvolvement": {
     "status": "unknown",
@@ -24,5 +24,18 @@
     "notes": null
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www.national.org.nz/team/suzeredmayne/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Feilding electorate office + PO Box: 51 Fergusson Street, Feilding 4702; PO Box 335, Feilding 4740."
+    },
+    {
+      "source": "https://www.national.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "National Party donation page (party-level donation form)."
+    }
+  ]
 }

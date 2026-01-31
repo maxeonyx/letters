@@ -1,28 +1,47 @@
 {
   "slug": "simeon-brown",
   "name": "Simeon Brown",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:03:23.656Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
+    "status": "found",
+    "value": "Pakuranga Electorate Office, 120A Pakuranga Road, Pakuranga, Auckland",
+    "source": "https://www.national.org.nz/team/simeonbrown/contact",
     "notes": null
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
     "bankAccount": null,
     "details": null,
-    "notes": null
+    "notes": "No MP-specific donation method found; National has party donation page"
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Scanned National profile for AI keywords; none found"
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www.national.org.nz/team/simeonbrown/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Pakuranga Electorate Office street address"
+    },
+    {
+      "source": "https://www.national.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "National party donation page (appears not MP-specific)"
+    },
+    {
+      "source": "https://www.national.org.nz/team/simeonbrown",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "AI keyword scan (none found)"
+    }
+  ]
 }

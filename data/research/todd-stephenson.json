@@ -1,21 +1,21 @@
 {
   "slug": "todd-stephenson",
   "name": "Todd Stephenson",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T10:59:04.2424099Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
+    "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/stephenson-todd/",
+    "notes": "Parliament Office postal address (contact details section)"
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://action.act.org.nz/donate",
     "bankAccount": null,
     "details": null,
-    "notes": null
+    "notes": "ACT party donation page linked from Todd Stephenson profile"
   },
   "aiInvolvement": {
     "status": "unknown",
@@ -24,5 +24,18 @@
     "notes": null
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/stephenson-todd/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160)."
+    },
+    {
+      "source": "https://www.act.org.nz/people/todd-stephenson",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Donate link pointing to https://action.act.org.nz/donate (party-level donation, not MP-specific)."
+    }
+  ]
 }

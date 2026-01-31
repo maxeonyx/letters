@@ -1,21 +1,21 @@
 {
   "slug": "paulo-garcia",
   "name": "Paulo Garcia",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "in-progress",
+  "lastUpdated": "2026-01-31T23:49:07.2543908+13:00",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "3069 Great North Road, New Lynn, Auckland",
+    "source": "https://www.national.org.nz/team/paulogarcia/contact",
+    "notes": "National Party contact page lists New Lynn Office address (hours shown; postcode not shown on page)."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
     "bankAccount": null,
-    "details": null,
-    "notes": null
+    "details": "No public, MP-specific donation method found. National Party provides a party donation form.",
+    "notes": "Donate link present on MP contact page; it points to the National Party donation form."
   },
   "aiInvolvement": {
     "status": "unknown",
@@ -24,5 +24,18 @@
     "notes": null
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www.national.org.nz/team/paulogarcia/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found New Lynn Office address and donate link (party donate page)."
+    },
+    {
+      "source": "https://www.national.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Party donation form exists; no MP-specific donation method identified."
+    }
+  ]
 }

@@ -1,21 +1,21 @@
 {
   "slug": "takuta-ferris",
   "name": "Tākuta Ferris",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "partial",
+  "lastUpdated": "2026-01-31T11:02:51.924Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Freepost Parliament, Private Bag 18 888, Parliament Buildings, Wellington 6160",
+    "source": "https://www.haveyoursay.org.nz/mp/takuta-ferris",
+    "notes": "Postal address listed on HaveYourSay MP page (not parliament.nz; parliament.nz blocked by captcha)."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
+    "status": "not-found",
+    "method": "none-found",
     "url": null,
     "bankAccount": null,
     "details": null,
-    "notes": null
+    "notes": "No public donation method found on sources checked (parliament.nz blocked by captcha in this environment)."
   },
   "aiInvolvement": {
     "status": "unknown",
@@ -24,5 +24,24 @@
     "notes": null
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www.haveyoursay.org.nz/mp/takuta-ferris",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found postal address: Freepost Parliament, Private Bag 18 888, Parliament Buildings, Wellington 6160."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/ferris-t%C4%81kuta/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Encountered Radware captcha / HTTP errors in browser context."
+    },
+    {
+      "source": "https://www.haveyoursay.org.nz/mp/takuta-ferris",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Checked for donation links/keywords; none present on this page."
+    }
+  ]
 }

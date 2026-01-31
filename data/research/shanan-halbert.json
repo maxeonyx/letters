@@ -1,28 +1,59 @@
 {
   "slug": "shanan-halbert",
   "name": "Shanan Halbert",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T11:03:23.648Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Freepost Parliament, Private Bag 18 888, Parliament Buildings, Wellington 6160",
+    "source": "https://www.haveyoursay.org.nz/mp/shanan-halbert",
+    "notes": "Postal address listed on Have Your Say profile (overrides earlier Labour page parliamentary office address)"
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://www.labour.org.nz/donate",
     "bankAccount": null,
     "details": null,
-    "notes": null
+    "notes": "No obvious MP-specific donation method found; Labour has party donation page"
   },
   "aiInvolvement": {
-    "status": "unknown",
-    "level": null,
+    "status": "checked",
+    "level": "none",
     "evidence": [],
-    "notes": null
+    "notes": "Scanned Labour profile and HaveYourSay summary for AI keywords; none found"
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www.labour.org.nz/our-team/shanan-halbert/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found parliamentary office postal address (Freepost Parliament / Private Bag 18 888)"
+    },
+    {
+      "source": "https://www.haveyoursay.org.nz/mp/shanan-halbert",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Freepost Parliament / Private Bag 18 888 postal address"
+    },
+    {
+      "source": "https://www.labour.org.nz/our-team/shanan-halbert/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "No MP-specific donate link found on profile (only party signup/donate)"
+    },
+    {
+      "source": "https://www.labour.org.nz/contact/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Labour party donation page; appears to be party-channel not MP-specific"
+    },
+    {
+      "source": "https://www.labour.org.nz/our-team/shanan-halbert/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "AI keyword scan (none found)"
+    }
+  ]
 }

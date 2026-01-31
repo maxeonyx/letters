@@ -1,21 +1,21 @@
 {
   "slug": "parmjeet-parmar",
   "name": "Parmjeet Parmar",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "in-progress",
+  "lastUpdated": "2026-01-31T23:49:35.0582816+13:00",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
+    "source": "(project convention: Parliament Office postal address used across many MPs when electorate office address unavailable)",
+    "notes": "Parliament.nz MP contact page blocked by Radware captcha from this environment; ACT profile/contact pages did not provide a specific electorate/parliament postal address for Parmjeet Parmar. Using standard Parliament Office postal address as fallback."
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://action.act.org.nz/donate",
     "bankAccount": null,
-    "details": null,
-    "notes": null
+    "details": "No public, MP-specific donation method found. ACT provides a party donation form.",
+    "notes": "Checked ACT donation page; MP-specific donation link not located."
   },
   "aiInvolvement": {
     "status": "unknown",
@@ -24,5 +24,30 @@
     "notes": null
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/parmar-parmjeet/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Blocked by Radware captcha / could not access contact details."
+    },
+    {
+      "source": "https://www.act.org.nz/people/parmjeet-parmar",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "ACT profile shows electorate office headings but no address; only party authorisation footer address."
+    },
+    {
+      "source": "https://action.act.org.nz/contact_parmjeet_parmar",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Contact form page does not list an electorate/parliament postal address for Parmjeet Parmar (only party authorisation footer address)."
+    },
+    {
+      "source": "https://action.act.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "ACT party donation form."
+    }
+  ]
 }
