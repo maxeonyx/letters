@@ -1,0 +1,41 @@
+{
+  "slug": "cushla-tangaere-manuel",
+  "name": "Cushla Tangaere-Manuel",
+  "researchStatus": "partial",
+  "lastUpdated": "2026-01-31T09:54:02.000Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "Parliament Buildings, Wellington (for Cushla Tangaere‑Manuel MP)",
+    "source": "https://www.labour.org.nz/our-team/cushla-tangaere-manuel/",
+    "notes": "Labour profile does not list electorate office address; shows authorised-by footer including Parliament Bldg, Wellington."
+  },
+  "donationMethod": {
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.labour.org.nz/donate",
+    "bankAccount": null,
+    "details": null,
+    "notes": "Only public donation link found is Labour Party donate page (not an MP-specific donation method)."
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www.labour.org.nz/our-team/cushla-tangaere-manuel/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "No electorate office address found; only Parliament Buildings mentioned in authorised-by footer."
+    },
+    {
+      "source": "https://www.labour.org.nz/our-team/cushla-tangaere-manuel/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Donate link on page points to Labour Party donation page."
+    }
+  ]
+}

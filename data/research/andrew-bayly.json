@@ -1,0 +1,53 @@
+{
+  "slug": "andrew-bayly",
+  "name": "Andrew Bayly",
+  "researchStatus": "in-progress",
+  "lastUpdated": "2026-01-31T09:35:32.3570950Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "PO Box 528, Pukekohe 2340",
+    "source": "https://www3.parliament.nz/media/11976/electorate-and-community-offices-address-as-at-25-september-2025.csv",
+    "notes": "Electorate/community office mailing address from Parliament office list CSV (Row: Andrew Bayly MP)."
+  },
+  "donationMethod": {
+    "status": "unknown",
+    "method": null,
+    "url": null,
+    "bankAccount": null,
+    "details": null,
+    "notes": null
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/andrew-bayly/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Webfetch blocked by Radware browser verification. Playwright browser tools unavailable (CDP connect timeout)."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/bayly-andrew/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160)."
+    },
+    {
+      "source": "https://www3.parliament.nz/media/11976/electorate-and-community-offices-address-as-at-25-september-2025.csv",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found electorate/community office mailing address for Andrew Bayly MP: PO Box 528, Pukekohe 2340."
+    },
+    {
+      "source": "https://www.national.org.nz/team/andrewbayly/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found electorate office street address (Port Waikato Electorate Office)."
+    }
+  ]
+}

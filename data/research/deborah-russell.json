@@ -1,0 +1,41 @@
+{
+  "slug": "deborah-russell",
+  "name": "Deborah Russell",
+  "researchStatus": "partial",
+  "lastUpdated": "2026-01-31T09:53:45.101Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "Freepost PO Box 18 888, Parliament Buildings, Wellington 6160",
+    "source": "https://www.labour.org.nz/our-team/hon-dr-deborah-russell/",
+    "notes": "Labour profile page contact section lists this postal address under 'Contact Deborah Russell'."
+  },
+  "donationMethod": {
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.labour.org.nz/donate",
+    "bankAccount": null,
+    "details": "Online donation form (party donation).",
+    "notes": "No obvious public method found for donating directly to Deborah Russell personally; Labour has online donation page."
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www.labour.org.nz/our-team/hon-dr-deborah-russell/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Freepost PO Box 18 888, Parliament Buildings, Wellington 6160 in contact section."
+    },
+    {
+      "source": "https://www.labour.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Labour online donation form (party donation channel)."
+    }
+  ]
+}

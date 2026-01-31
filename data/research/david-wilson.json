@@ -1,0 +1,47 @@
+{
+  "slug": "david-wilson",
+  "name": "David Wilson",
+  "researchStatus": "partial",
+  "lastUpdated": "2026-01-31T09:53:45.100Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "Attn: New Zealand First, Free Post Parliament, Private Bag 18 888, Parliament Buildings, Wellington 6160",
+    "source": "https://www.nzfirst.nz/contact",
+    "notes": "Party contact page lists a Free Post Parliament address (likely suitable for writing to NZ First MPs when individual office address not listed)."
+  },
+  "donationMethod": {
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.nzfirst.nz/donate",
+    "bankAccount": null,
+    "details": "Online donation form (party donation).",
+    "notes": "No obvious public method found for donating directly to David Wilson personally; NZ First has online donation page."
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www.nzfirst.nz/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found NZ First Free Post Parliament postal address."
+    },
+    {
+      "source": "https://www.nzfirst.nz/david-wilson",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Bio page did not list a personal postal address; linked to party contact page."
+    },
+    {
+      "source": "https://www.nzfirst.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found NZ First online donation form (party donation channel)."
+    }
+  ]
+}

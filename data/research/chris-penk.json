@@ -1,0 +1,41 @@
+{
+  "slug": "chris-penk",
+  "name": "Chris Penk",
+  "researchStatus": "in-progress",
+  "lastUpdated": "2026-01-31T09:49:15.7309665Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "134 Main Road, Kumeu, Auckland 0810",
+    "source": "https://www.national.org.nz/team/chrispenk/contact",
+    "notes": "Kaipara ki Mahurangi electorate office address listed on contact page."
+  },
+  "donationMethod": {
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
+    "bankAccount": null,
+    "details": null,
+    "notes": "No individual MP donation method found on contact page; only party donation page link present."
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www.national.org.nz/team/chrispenk/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found electorate office street address (134 Main Road, Kumeu, Auckland 0810)."
+    },
+    {
+      "source": "https://www.national.org.nz/team/chrispenk/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Donation link present but points to party-level donate page (https://www.national.org.nz/donate); no MP-specific donation method listed."
+    }
+  ]
+}

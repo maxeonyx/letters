@@ -1,0 +1,41 @@
+{
+  "slug": "damien-o-connor",
+  "name": "Damien O'Connor",
+  "researchStatus": "partial",
+  "lastUpdated": "2026-01-31T09:54:05.000Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "Freepost PO Box 18 888, Parliament Buildings, Wellington 6160",
+    "source": "https://www.labour.org.nz/our-team/hon-damien-oconnor/",
+    "notes": "Listed on Labour profile under Parliamentary office."
+  },
+  "donationMethod": {
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.labour.org.nz/donate",
+    "bankAccount": null,
+    "details": null,
+    "notes": "Only public donation link found is Labour Party donate page (not an MP-specific donation method)."
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www.labour.org.nz/our-team/hon-damien-oconnor/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found postal address: Freepost PO Box 18 888, Parliament Buildings, Wellington 6160."
+    },
+    {
+      "source": "https://www.labour.org.nz/our-team/hon-damien-oconnor/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Donate link on page points to Labour Party donation page."
+    }
+  ]
+}

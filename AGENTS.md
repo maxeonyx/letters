@@ -2,7 +2,59 @@
 
 This project sends personalized letters (with donations) to New Zealand MPs expressing concern about AI safety and the need for multilateral coordination.
 
-**If you're an AI assistant starting fresh, read this file first, then `docs/PLAN.md`.**
+**If you're an AI assistant starting fresh, read this file first.**
+
+## Current Task: Phase B Research
+
+We're researching 121 MPs to find postal addresses, donation methods, and AI involvement. 
+
+### How to Run Research
+
+Use the `researcher` subagent via the Task tool. Launch **5-10 in parallel** for speed:
+
+```
+Task(subagent_type="researcher", description="Research MPs batch 1", prompt="
+Research these MPs:
+1. slug-one (Full Name)
+2. slug-two (Full Name)
+...
+
+Find postal addresses first for ALL MPs, then donation methods.
+Update data/research/{slug}.json immediately after each finding.
+")
+```
+
+### Check Progress
+
+```bash
+node -e "
+const fs = require('fs');
+const files = fs.readdirSync('data/research').filter(f => f.endsWith('.json') && !f.startsWith('_'));
+const stats = {pending: 0, 'in-progress': 0, done: 0, partial: 0};
+for (const f of files) {
+  const d = JSON.parse(fs.readFileSync('data/research/' + f, 'utf8'));
+  stats[d.researchStatus] = (stats[d.researchStatus] || 0) + 1;
+}
+console.log(stats);
+"
+```
+
+### Get Next Batch
+
+```bash
+node -e "
+const fs = require('fs');
+const files = fs.readdirSync('data/research').filter(f => f.endsWith('.json') && !f.startsWith('_'));
+const pending = [];
+for (const f of files) {
+  const d = JSON.parse(fs.readFileSync('data/research/' + f, 'utf8'));
+  if (d.researchStatus === 'pending') pending.push(d.slug + ' (' + d.name + ')');
+}
+console.log('Next 10:', pending.slice(0, 10).join('\\n'));
+"
+```
+
+---
 
 ## Project Goal
 
@@ -15,7 +67,7 @@ Send letters to ~120 NZ MPs that:
 ## Key Design Decisions
 
 - **Non-partisan**: Target individual MPs, not parties. This should inform cross-party consensus.
-- **Target tangentially-involved MPs**: Not people who are already deep in AI policy, but people who have touched on it or related tech issues.
+- **Target tangentially-involved MPs**: Not people already deep in AI policy, but people who have touched on related tech issues.
 - **Donation is key**: The donation ensures attention. Physical letter is optional; email is fine if donation is handled separately.
 
 ## Directory Structure
@@ -23,60 +75,43 @@ Send letters to ~120 NZ MPs that:
 ```
 letters/
 ├── AGENTS.md              # You are here
-├── README.md              # Human-readable overview
 ├── data/
-│   ├── mps.json           # Master list of all MPs (source of truth)
-│   └── research/          # Per-MP research files
-│       └── {mp-slug}.md   # One file per MP
-├── letters/
-│   ├── _template.md       # Letter template
-│   └── drafts/            # Per-MP letter drafts
+│   ├── mps.json           # Master list of all MPs (source of truth, read-only)
+│   ├── SPECIAL-NOTES.md   # Greg O'Connor & Scott Willis (personal connections)
+│   └── research/          # Per-MP research JSON files
+│       ├── _schema.json   # JSON schema for research files
+│       └── {mp-slug}.json # One file per MP (121 total)
 ├── scripts/
-│   └── research-worker.md # Instructions for research agents
+│   ├── research-worker.md # Detailed instructions for researcher agent
+│   └── orchestration.md   # How to coordinate parallel research
+├── letters/
+│   └── _template.md       # Letter template
 └── docs/
     ├── PLAN.md            # Full project plan and context
-    ├── DONATION-RULES.md  # NZ electoral donation research
-    └── PHASE-2-IDEAS.md   # Post-letters action ideas
+    ├── DONATION-RULES.md  # NZ electoral donation research (important!)
+    └── CRITICAL-REVIEW.md # Known issues and risks
 ```
 
-## Information Priority (for research)
+## Research Priority Order
 
-**Tier 1 - Required to send:**
-- Name
-- Contact method (email or physical address)
-- Donation method (or fallback: cash in envelope)
+For each MP, gather in this order (breadth-first across all MPs):
 
-**Tier 2 - Needed for personalization:**
-- Party, Electorate
-- Select committee memberships
-- AI involvement level (none / tangential / deep)
+1. **Postal address** - Electorate office or parliament address
+2. **Donation method** - Bank account, donation page, or confirm none exists
+3. **AI involvement** - Quick scan for tech/AI statements (none/tangential/deep)
+4. **Personalization notes** - Useful hooks for the letter
 
-**Tier 3 - Nice to have:**
-- Voting history on conscience votes
-- Detailed background on tech positions
+## Special Cases
 
-## Research Approach
+Two MPs in `mps.json` are **strings instead of objects** - this is intentional. They have personal connections to Max:
+- **Greg O'Connor** - Max's actual MP
+- **Scott Willis** - Family friend
 
-1. **Phase A**: Bulk-scrape parliament.nz for all MPs' basic info → `data/mps.json`
-2. **Phase B**: Parallel agents do per-MP deep research (donation method, AI involvement)
+See `data/SPECIAL-NOTES.md` for their data. Scripts will crash on these entries, which is the point.
 
-See `scripts/research-worker.md` for agent instructions.
-
-## For Research Agents
-
-If you've been assigned to research a specific MP:
-1. Read `scripts/research-worker.md` for your exact task
-2. Write your findings to `data/research/{mp-slug}.md`
-3. Follow the template exactly
-4. Do NOT modify `mps.json` or other MPs' files
-
-## Current Status
+## Phase Status
 
 - [x] Phase A: Bulk data collection (123 MPs scraped from parliament.nz)
-- [ ] Phase B: Per-MP research (0/121 - see note below)
+- [ ] Phase B: Per-MP research (3/121 done)
 - [ ] Letter drafting
 - [ ] Sending
-
-## For Letter Drafting
-
-When processing `mps.json`, you will encounter two entries that are strings instead of objects. **This is intentional.** These MPs have personal connections to Max and need individual handling - see `data/SPECIAL-NOTES.md` for their data and approach notes.

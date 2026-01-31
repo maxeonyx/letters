@@ -1,0 +1,65 @@
+{
+  "slug": "andrew-hoggard",
+  "name": "Andrew Hoggard",
+  "researchStatus": "in-progress",
+  "lastUpdated": "2026-01-31T09:36:11.2068906Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
+    "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/hoggard-andrew/",
+    "notes": "Parliament site lists Parliament Office postal address (no separate electorate/community office address found in Parliament CSV list)."
+  },
+  "donationMethod": {
+    "status": "unknown",
+    "method": null,
+    "url": null,
+    "bankAccount": null,
+    "details": null,
+    "notes": null
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/andrew-hoggard/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Webfetch blocked by Radware browser verification. Playwright browser tools unavailable (CDP connect timeout)."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/hoggard-andrew/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160). No electorate office listed on page."
+    },
+    {
+      "source": "https://www3.parliament.nz/media/11976/electorate-and-community-offices-address-as-at-25-september-2025.csv",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Searched electorate/community office list CSV for 'Hoggard' and found no entries (may indicate no listed electorate/community office)."
+    },
+    {
+      "source": "https://www.act.org.nz/andrew-hoggard",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "ACT profile page does not include a postal address for an electorate/MP office; links to a contact form."
+    },
+    {
+      "source": "https://action.act.org.nz/contact_andrew_hoggard",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Contact form only; no postal address for Andrew Hoggard visible on page."
+    },
+    {
+      "source": "https://duckduckgo.com/html/?q=Andrew%20Hoggard%20electorate%20office%20address",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Search results indicate a Parliament page and a generic 'Freepost Parliament Private Bag 18 888' address via haveyoursay.org.nz (JS-required), but no electorate office address confirmed."
+    }
+  ]
+}

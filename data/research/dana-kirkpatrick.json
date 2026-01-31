@@ -1,0 +1,41 @@
+{
+  "slug": "dana-kirkpatrick",
+  "name": "Dana Kirkpatrick",
+  "researchStatus": "partial",
+  "lastUpdated": "2026-01-31T09:54:11.000Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "Whakatane Office, 73 The Strand, Whakatane; Gisborne Office, 60 Ballance Street, Gisborne",
+    "source": "https://www.national.org.nz/team/danakirkpatrick/contact",
+    "notes": "Two office addresses listed under Offices (postcodes not shown)."
+  },
+  "donationMethod": {
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
+    "bankAccount": null,
+    "details": null,
+    "notes": "Only public donation link found is National Party donation page (not an MP-specific donation method)."
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www.national.org.nz/team/danakirkpatrick/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Whakatane + Gisborne office street addresses (no postcodes on page)."
+    },
+    {
+      "source": "https://www.national.org.nz/team/danakirkpatrick",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Donate link on MP page points to National Party donation page."
+    }
+  ]
+}

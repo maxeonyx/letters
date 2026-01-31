@@ -1,0 +1,41 @@
+{
+  "slug": "cameron-luxton",
+  "name": "Cameron Luxton",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T09:51:11.514Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
+    "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/luxton-cameron/",
+    "notes": "Parliament Office postal address (from Parliament contact details)"
+  },
+  "donationMethod": {
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://action.act.org.nz/donate",
+    "bankAccount": null,
+    "details": null,
+    "notes": "ACT Party donation page linked from MP profile page; no MP-specific donation method found on that page."
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/luxton-cameron/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address (Private Bag 18888, Wellington 6160)."
+    },
+    {
+      "source": "https://www.act.org.nz/cameron-luxton",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Donate link to ACT donation page (action.act.org.nz/donate). No MP-specific donation option observed."
+    }
+  ]
+}

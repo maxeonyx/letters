@@ -1,0 +1,41 @@
+{
+  "slug": "david-macleod",
+  "name": "David MacLeod",
+  "researchStatus": "partial",
+  "lastUpdated": "2026-01-31T09:54:14.000Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "New Plymouth Office, 37 Gill Street, New Plymouth; PO Box 8064, New Plymouth 4340",
+    "source": "https://www.national.org.nz/team/davidmacleod/contact",
+    "notes": "Page lists both physical office address and postal PO Box."
+  },
+  "donationMethod": {
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
+    "bankAccount": null,
+    "details": null,
+    "notes": "Only public donation link found is National Party donation page (not an MP-specific donation method)."
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www.national.org.nz/team/davidmacleod/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found New Plymouth electorate office address and PO Box (includes postcode 4340)."
+    },
+    {
+      "source": "https://www.national.org.nz/team/davidmacleod",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Donate link on MP page points to National Party donation page."
+    }
+  ]
+}

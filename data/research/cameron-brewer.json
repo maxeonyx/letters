@@ -1,0 +1,47 @@
+{
+  "slug": "cameron-brewer",
+  "name": "Cameron Brewer",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T09:51:15.450Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "Upper Harbour Office, Unit 15/102c Hobsonville Road, Hobsonville",
+    "source": "https://www.national.org.nz/team/cameronbrewer/contact",
+    "notes": "Electorate office address on National Party contact page."
+  },
+  "donationMethod": {
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
+    "bankAccount": null,
+    "details": null,
+    "notes": "National Party donation page linked from MP profile page; no MP-specific donation method found on that page."
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/brewer-cameron/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address (Private Bag 18888, Wellington 6160)."
+    },
+    {
+      "source": "https://www.national.org.nz/cameronbrewer",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Donate link to National Party donation page (national.org.nz/donate). No MP-specific donation option observed."
+    },
+    {
+      "source": "https://www.national.org.nz/team/cameronbrewer/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found electorate office address: Unit 15/102c Hobsonville Road, Hobsonville (Upper Harbour Office)."
+    }
+  ]
+}

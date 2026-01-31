@@ -1,0 +1,41 @@
+{
+  "slug": "chris-hipkins",
+  "name": "Chris Hipkins",
+  "researchStatus": "in-progress",
+  "lastUpdated": "2026-01-31T09:48:55.1300938Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "Freepost PO Box 18 888, Parliament Buildings, Wellington 6160",
+    "source": "https://www.labour.org.nz/our-team/rt-hon-chris-hipkins/",
+    "notes": "Parliamentary office postal address listed on Labour profile page."
+  },
+  "donationMethod": {
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://www.labour.org.nz/donate",
+    "bankAccount": null,
+    "details": null,
+    "notes": "No individual MP donation method found; page links to Labour party donation page."
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www.labour.org.nz/our-team/rt-hon-chris-hipkins/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Freepost PO Box address for parliamentary mail."
+    },
+    {
+      "source": "https://www.labour.org.nz/our-team/rt-hon-chris-hipkins/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Donation link present but appears to be party-level donate page (https://www.labour.org.nz/donate); no MP-specific donation method listed."
+    }
+  ]
+}

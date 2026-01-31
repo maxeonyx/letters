@@ -1,0 +1,47 @@
+{
+  "slug": "carl-bates",
+  "name": "Carl Bates",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T09:51:19.439Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "Whanganui Office, 200B Victoria Avenue, Whanganui 4500",
+    "source": "https://www.national.org.nz/team/carlbates/contact",
+    "notes": "Electorate office address on National Party contact page (also lists Hawera Office: 44 Victoria Street, Hawera 4610)."
+  },
+  "donationMethod": {
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
+    "bankAccount": null,
+    "details": null,
+    "notes": "National Party donation page linked from MP profile page; no MP-specific donation method found on that page."
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/bates-carl/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address (Private Bag 18888, Wellington 6160)."
+    },
+    {
+      "source": "https://www.national.org.nz/carlbates",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Donate link to National Party donation page (national.org.nz/donate). No MP-specific donation option observed."
+    },
+    {
+      "source": "https://www.national.org.nz/team/carlbates/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found electorate office addresses: 200B Victoria Avenue, Whanganui 4500; also Hawera Office 44 Victoria Street, Hawera 4610."
+    }
+  ]
+}

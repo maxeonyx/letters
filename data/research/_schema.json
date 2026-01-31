@@ -1,0 +1,139 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MP Research File",
+  "description": "Per-MP research data for letters project. Updated incrementally by research agents.",
+  
+  "type": "object",
+  "required": ["slug", "name", "researchStatus"],
+  
+  "properties": {
+    "slug": {
+      "type": "string",
+      "description": "MP slug from mps.json (immutable)"
+    },
+    "name": {
+      "type": "string", 
+      "description": "MP full name from mps.json (immutable)"
+    },
+    "researchStatus": {
+      "type": "string",
+      "enum": ["pending", "in-progress", "done", "partial"],
+      "description": "Overall research status. 'partial' = some info found before timeout/cutoff"
+    },
+    "lastUpdated": {
+      "type": ["string", "null"],
+      "format": "date-time",
+      "description": "ISO timestamp of last update"
+    },
+    
+    "postalAddress": {
+      "type": "object",
+      "description": "Electorate office or other postal address for physical letters",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["unknown", "found", "not-found"],
+          "description": "unknown = not yet checked, not-found = checked but none available"
+        },
+        "value": {
+          "type": ["string", "null"],
+          "description": "The actual address if found"
+        },
+        "source": {
+          "type": ["string", "null"],
+          "description": "URL or description of where this was found"
+        },
+        "notes": {
+          "type": ["string", "null"],
+          "description": "Any relevant context (e.g., 'electorate office, open Mon-Fri')"
+        }
+      }
+    },
+    
+    "donationMethod": {
+      "type": "object",
+      "description": "How to donate directly to this MP (not party)",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["unknown", "found", "not-found"],
+          "description": "unknown = not yet checked"
+        },
+        "method": {
+          "type": ["string", "null"],
+          "enum": [null, "bank-transfer", "website", "party-channel", "none-found"],
+          "description": "bank-transfer = direct deposit, website = online form, party-channel = must go via party, none-found = no public method"
+        },
+        "url": {
+          "type": ["string", "null"],
+          "description": "Donation page URL if applicable"
+        },
+        "bankAccount": {
+          "type": ["string", "null"],
+          "description": "Bank account number if publicly listed"
+        },
+        "details": {
+          "type": ["string", "null"],
+          "description": "Instructions or other relevant info"
+        },
+        "notes": {
+          "type": ["string", "null"],
+          "description": "Context, caveats, or observations"
+        }
+      }
+    },
+    
+    "aiInvolvement": {
+      "type": "object",
+      "description": "Has this MP engaged with AI/tech regulation topics?",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["unknown", "checked"],
+          "description": "unknown = not yet searched"
+        },
+        "level": {
+          "type": ["string", "null"],
+          "enum": [null, "none", "tangential", "deep"],
+          "description": "none = no evidence found after searching, tangential = mentioned AI/tech in passing, deep = actively engaged"
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {"type": "string", "enum": ["speech", "article", "committee", "social", "other"]},
+              "summary": {"type": "string"},
+              "url": {"type": ["string", "null"]},
+              "date": {"type": ["string", "null"]}
+            }
+          },
+          "description": "Links and summaries of AI-related statements/actions"
+        },
+        "notes": {
+          "type": ["string", "null"],
+          "description": "Context or observations about their tech stance"
+        }
+      }
+    },
+    
+    "personalizationNotes": {
+      "type": ["string", "null"],
+      "description": "Useful hooks for writing a compelling personalized letter (e.g., 'former teacher - frame AI as education issue')"
+    },
+    
+    "sourcesChecked": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source": {"type": "string", "description": "Name or URL of source"},
+          "checked": {"type": "boolean"},
+          "foundUseful": {"type": "boolean"},
+          "notes": {"type": ["string", "null"]}
+        }
+      },
+      "description": "Audit trail of what was searched - important for distinguishing 'not found' from 'not checked'"
+    }
+  }
+}

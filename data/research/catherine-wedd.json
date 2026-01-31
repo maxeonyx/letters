@@ -1,0 +1,41 @@
+{
+  "slug": "catherine-wedd",
+  "name": "Catherine Wedd",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T10:24:33.000Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
+    "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/wedd-catherine/",
+    "notes": "Parliament Office postal address"
+  },
+  "donationMethod": {
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
+    "bankAccount": null,
+    "details": null,
+    "notes": "National Party donation page linked from National Party profile page for Catherine Wedd; no individual MP donation mechanism found"
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/wedd-catherine/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160)"
+    },
+    {
+      "source": "https://www.national.org.nz/team/catherinewedd",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found donation link to National Party donation page (https://www.national.org.nz/donate); no electorate office postal address found on page"
+    }
+  ]
+}

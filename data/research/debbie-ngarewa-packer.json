@@ -1,0 +1,53 @@
+{
+  "slug": "debbie-ngarewa-packer",
+  "name": "Debbie Ngarewa-Packer",
+  "researchStatus": "partial",
+  "lastUpdated": "2026-01-31T09:53:45.100Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "Parliament Office, Private Bag 18888, Parliament Buildings, Wellington 6160",
+    "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/ngarewa-packer-debbie/",
+    "notes": "Parliament MP page contact details list Parliament Office postal address."
+  },
+  "donationMethod": {
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.maoriparty.org.nz/donate",
+    "bankAccount": null,
+    "details": "Koha / online donation form (party donation).",
+    "notes": "No obvious public method found for donating directly to Debbie Ngarewa-Packer personally; Te Pāti Māori has a Koha (donation) page."
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/ngarewa-packer-debbie/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address (Private Bag 18888, Wellington 6160)."
+    },
+    {
+      "source": "https://www.maoriparty.org.nz/debbie_ngarewa_packer",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Bio page did not list a specific postal address (only authorisation line referencing Parliament Buildings, Wellington)."
+    },
+    {
+      "source": "https://www.maoriparty.org.nz/contact",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Contact page did not show a dedicated postal address (only authorisation line)."
+    },
+    {
+      "source": "https://www.maoriparty.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Te Pāti Māori Koha (donation) page with online donation form (party donation channel)."
+    }
+  ]
+}

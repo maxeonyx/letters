@@ -1,0 +1,59 @@
+{
+  "slug": "adrian-rurawhe",
+  "name": "Adrian Rurawhe",
+  "researchStatus": "in-progress",
+  "lastUpdated": "2026-01-31T09:36:11.2068906Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
+    "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/rurawhe-adrian/",
+    "notes": "Parliament site lists Parliament Office postal address (no electorate/community office address found in Parliament CSV list)."
+  },
+  "donationMethod": {
+    "status": "unknown",
+    "method": null,
+    "url": null,
+    "bankAccount": null,
+    "details": null,
+    "notes": null
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/adrian-rurawhe/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Webfetch blocked by Radware browser verification. Playwright browser tools unavailable (CDP connect timeout)."
+    },
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/rurawhe-adrian/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160). No electorate office listed on page."
+    },
+    {
+      "source": "https://www3.parliament.nz/media/11976/electorate-and-community-offices-address-as-at-25-september-2025.csv",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Searched electorate/community office list CSV for 'Rurawhe' and found no entries (may indicate no listed electorate/community office)."
+    },
+    {
+      "source": "https://www.labour.org.nz/our-team/rt-hon-adrian-rurawhe/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found postal address (Parliament Buildings Freepost PO Box)."
+    },
+    {
+      "source": "https://duckduckgo.com/html/?q=Adrian%20Rurawhe%20electorate%20office%20address",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Search results suggested older electorate offices (Tokoroa/Whanganui) via Facebook post but no address visible in results snippet; not opened."
+    }
+  ]
+}

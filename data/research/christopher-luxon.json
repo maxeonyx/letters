@@ -1,0 +1,41 @@
+{
+  "slug": "christopher-luxon",
+  "name": "Christopher Luxon",
+  "researchStatus": "in-progress",
+  "lastUpdated": "2026-01-31T09:49:37.6553136Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
+    "source": "https://www.national.org.nz/team/christopherluxon/contact",
+    "notes": "Postal address listed on National contact page (Parliament Office)."
+  },
+  "donationMethod": {
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
+    "bankAccount": null,
+    "details": null,
+    "notes": "No individual MP donation method found on contact page; only party donation page link present."
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www.national.org.nz/team/christopherluxon/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Private Bag 18888, Parliament Buildings, Wellington 6160 on contact page."
+    },
+    {
+      "source": "https://www.national.org.nz/team/christopherluxon/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Donation link present but points to party-level donate page (https://www.national.org.nz/donate); no MP-specific donation method listed."
+    }
+  ]
+}

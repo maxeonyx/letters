@@ -1,0 +1,41 @@
+{
+  "slug": "chris-bishop",
+  "name": "Chris Bishop",
+  "researchStatus": "in-progress",
+  "lastUpdated": "2026-01-31T09:48:21.1827291Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "PO Box 30450, Lower Hutt 5040",
+    "source": "https://www.national.org.nz/team/chrisbishop/contact",
+    "notes": "Lower Hutt electorate office (postal address listed on contact page)."
+  },
+  "donationMethod": {
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
+    "bankAccount": null,
+    "details": null,
+    "notes": "No individual MP donation method found on contact page; only party donation page link present."
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www.national.org.nz/team/chrisbishop/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found electorate office postal address (PO Box 30450, Lower Hutt 5040)."
+    },
+    {
+      "source": "https://www.national.org.nz/team/chrisbishop/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Donation link present but points to party-level donate page (https://www.national.org.nz/donate); no MP-specific donation method listed."
+    }
+  ]
+}

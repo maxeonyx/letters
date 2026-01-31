@@ -1,0 +1,41 @@
+{
+  "slug": "celia-wade-brown",
+  "name": "Celia Wade-Brown",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T10:16:55.000Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
+    "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/wade-brown-celia/",
+    "notes": "Parliament Office postal address"
+  },
+  "donationMethod": {
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.greens.org.nz/donate",
+    "bankAccount": null,
+    "details": null,
+    "notes": "Green Party donation page linked from Green Party profile page for Celia Wade-Brown; no individual MP donation mechanism found"
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/wade-brown-celia/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160)"
+    },
+    {
+      "source": "https://www.greens.org.nz/celia_wade_brown",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found donation link to Green Party donation page (https://www.greens.org.nz/donate)"
+    }
+  ]
+}

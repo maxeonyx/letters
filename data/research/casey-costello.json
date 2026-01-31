@@ -1,0 +1,47 @@
+{
+  "slug": "casey-costello",
+  "name": "Casey Costello",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T10:21:28.000Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
+    "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/costello-casey/",
+    "notes": "Parliament Office postal address"
+  },
+  "donationMethod": {
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.nzfirst.nz/donate",
+    "bankAccount": null,
+    "details": null,
+    "notes": "NZ First donation page linked from NZ First profile page for Casey Costello; no individual MP donation mechanism found"
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/costello-casey/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160)"
+    },
+    {
+      "source": "https://www.nzfirst.nz/casey-costello",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found donation link to NZ First donation page (https://www.nzfirst.nz/donate)"
+    },
+    {
+      "source": "https://www.beehive.govt.nz/minister/hon-casey-costello",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Checked for contact/postal address; page lists ministerial email but no postal address"
+    }
+  ]
+}

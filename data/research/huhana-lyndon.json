@@ -1,0 +1,28 @@
+{
+  "slug": "huhana-lyndon",
+  "name": "Hūhana Lyndon",
+  "researchStatus": "pending",
+  "lastUpdated": null,
+  "postalAddress": {
+    "status": "unknown",
+    "value": null,
+    "source": null,
+    "notes": null
+  },
+  "donationMethod": {
+    "status": "unknown",
+    "method": null,
+    "url": null,
+    "bankAccount": null,
+    "details": null,
+    "notes": null
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": []
+}

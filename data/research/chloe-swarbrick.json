@@ -1,0 +1,41 @@
+{
+  "slug": "chloe-swarbrick",
+  "name": "Chlöe Swarbrick",
+  "researchStatus": "in-progress",
+  "lastUpdated": "2026-01-31T00:00:00.000Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
+    "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/swarbrick-chloe/#mp-contact-details",
+    "notes": "Parliament Office"
+  },
+  "donationMethod": {
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://www.greens.org.nz/donate",
+    "bankAccount": null,
+    "details": null,
+    "notes": "No individual MP donation method found; only party donation page identified."
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/swarbrick-chloe/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address in Contact Details section"
+    },
+    {
+      "source": "https://www.greens.org.nz/chloe_swarbrick",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found only party-level DONATE link (https://www.greens.org.nz/donate); no MP-specific donation method on this page."
+    }
+  ]
+}

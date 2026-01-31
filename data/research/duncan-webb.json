@@ -1,0 +1,41 @@
+{
+  "slug": "duncan-webb",
+  "name": "Duncan Webb",
+  "researchStatus": "partial",
+  "lastUpdated": "2026-01-31T09:53:45.101Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "Christchurch Central electorate office, 132b Victoria St, Christchurch Central",
+    "source": "https://www.labour.org.nz/our-team/hon-dr-duncan-webb/",
+    "notes": "Labour profile page lists electorate office street address; also lists Wellington postal address: Freepost PO Box 18 888, Parliament Buildings, Wellington 6160."
+  },
+  "donationMethod": {
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.labour.org.nz/donate",
+    "bankAccount": null,
+    "details": "Online donation form (party donation).",
+    "notes": "No obvious public method found for donating directly to Duncan Webb personally; Labour has online donation page."
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www.labour.org.nz/our-team/hon-dr-duncan-webb/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Christchurch Central electorate office address (132b Victoria St, Christchurch Central) and Wellington Freepost PO Box 18 888."
+    },
+    {
+      "source": "https://www.labour.org.nz/donate",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Labour online donation form (party donation channel)."
+    }
+  ]
+}

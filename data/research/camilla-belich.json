@@ -1,0 +1,47 @@
+{
+  "slug": "camilla-belich",
+  "name": "Camilla Belich",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T09:51:02.617Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "Dominion Road Office, 973 Dominion Road, Mount Roskill, Auckland 1041",
+    "source": "https://www.labour.org.nz/our-team/camilla-belich/",
+    "notes": "Listed as local office address on Labour profile page (by appointment only)."
+  },
+  "donationMethod": {
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.labour.org.nz/donate",
+    "bankAccount": null,
+    "details": null,
+    "notes": "Labour Party donation page linked from MP profile page; no MP-specific donation method found on that page."
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/belich-camilla/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address (Private Bag 18888, Wellington 6160)."
+    },
+    {
+      "source": "https://www.labour.org.nz/our-team/camilla-belich/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Donate link to Labour donation page (labour.org.nz/donate). Also page lists a local office address but donation appears party-level."
+    },
+    {
+      "source": "https://www.labour.org.nz/our-team/camilla-belich/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found local office postal address: Dominion Road Office, 973 Dominion Road, Mount Roskill, Auckland 1041."
+    }
+  ]
+}

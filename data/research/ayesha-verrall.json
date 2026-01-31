@@ -1,0 +1,49 @@
+{
+    "slug":  "ayesha-verrall",
+    "name":  "Ayesha Verrall",
+    "researchStatus":  "done",
+    "lastUpdated":  "2026-01-31T09:51:52.032Z",
+    "postalAddress":  {
+                          "status":  "found",
+                          "value":  "Parliament Office, Private Bag 18888, Parliament Buildings, Wellington 6160",
+                          "source":  "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/verrall-ayesha/",
+                          "notes":  "Postal address listed under Contact Details (Parliament Office)"
+                      },
+    "donationMethod":  {
+                           "status":  "found",
+                           "method":  "party-channel",
+                           "url":  "https://www.labour.org.nz/donate",
+                           "bankAccount":  null,
+                           "details":  "Donation page appears to be Labour Party donation page (not an MP-specific donation method)",
+                           "notes":  "No direct MP donation method found; Labour site provides party donation link"
+                       },
+    "aiInvolvement":  {
+                          "status":  "unknown",
+                          "level":  null,
+                          "evidence":  [
+
+                                       ],
+                          "notes":  null
+                      },
+    "personalizationNotes":  null,
+    "sourcesChecked":  [
+                           {
+                               "source":  "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/verrall-ayesha/",
+                               "checked":  true,
+                               "foundUseful":  true,
+                               "notes":  "Found Parliament Office postal address"
+                           },
+                           {
+                               "source":  "https://www.labour.org.nz/our-team/hon-dr-ayesha-verrall/",
+                               "checked":  true,
+                               "foundUseful":  true,
+                               "notes":  "Page includes DONATE link to Labour party donate page"
+                           },
+                           {
+                               "source":  "https://www.labour.org.nz/donate",
+                               "checked":  true,
+                               "foundUseful":  true,
+                               "notes":  "Party donation page (no MP-specific donation method found)"
+                           }
+                       ]
+}

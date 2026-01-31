@@ -1,0 +1,53 @@
+{
+  "slug": "brooke-van-velden",
+  "name": "Brooke van Velden",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T09:51:07.284Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "Tāmaki Electorate Office, Level 1, Meadowbank Mall, 35 Saint Johns Road, Meadowbank, Auckland 1072",
+    "source": "https://action.act.org.nz/contact",
+    "notes": "Electorate office address (ACT contact page). Mail option listed there: PO Box 87515, Meadowbank, Auckland 1742."
+  },
+  "donationMethod": {
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://action.act.org.nz/donate",
+    "bankAccount": null,
+    "details": null,
+    "notes": "ACT Party donation page linked from MP profile page; no MP-specific donation method found on that page."
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/van-velden-brooke/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address (Private Bag 18888, Wellington 6160)."
+    },
+    {
+      "source": "https://www.act.org.nz/brooke-van-velden",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Donate link to ACT donation page (action.act.org.nz/donate). No MP-specific donation option observed."
+    },
+    {
+      "source": "https://action.act.org.nz/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Tāmaki Electorate Office address: Level 1, Meadowbank Mall, 35 Saint Johns Road, Auckland 1072. Also lists mail PO Box 87515, Auckland 1742."
+    },
+    {
+      "source": "https://action.act.org.nz/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Confirmed address block for Tāmaki Electorate Office including suburb Meadowbank and mail PO Box 87515, Meadowbank, Auckland 1742."
+    }
+  ]
+}

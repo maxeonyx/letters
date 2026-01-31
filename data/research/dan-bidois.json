@@ -1,0 +1,41 @@
+{
+  "slug": "dan-bidois",
+  "name": "Dan Bidois",
+  "researchStatus": "partial",
+  "lastUpdated": "2026-01-31T09:54:08.000Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "Birkenhead Office, 7 Birkenhead Ave, Birkenhead",
+    "source": "https://www.national.org.nz/team/danbidois/contact",
+    "notes": "Electorate office address listed under Offices."
+  },
+  "donationMethod": {
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
+    "bankAccount": null,
+    "details": null,
+    "notes": "Only public donation link found is National Party donation page (not an MP-specific donation method)."
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www.national.org.nz/team/danbidois/contact",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found office address (street/suburb); postcode not shown on page."
+    },
+    {
+      "source": "https://www.national.org.nz/team/danbidois",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Donate link on MP page points to National Party donation page."
+    }
+  ]
+}

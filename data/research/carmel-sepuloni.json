@@ -1,0 +1,41 @@
+{
+  "slug": "carmel-sepuloni",
+  "name": "Carmel Sepuloni",
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T10:19:17.000Z",
+  "postalAddress": {
+    "status": "found",
+    "value": "200C West Coast Rd, Glen Eden, Auckland",
+    "source": "https://www.labour.org.nz/our-team/hon-carmel-sepuloni/",
+    "notes": "Kelston electorate office street address"
+  },
+  "donationMethod": {
+    "status": "found",
+    "method": "party-channel",
+    "url": "https://www.labour.org.nz/donate",
+    "bankAccount": null,
+    "details": null,
+    "notes": "Labour Party donation page linked from Labour profile page for Carmel Sepuloni; no individual MP donation mechanism found"
+  },
+  "aiInvolvement": {
+    "status": "unknown",
+    "level": null,
+    "evidence": [],
+    "notes": null
+  },
+  "personalizationNotes": null,
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/sepuloni-carmel/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160)"
+    },
+    {
+      "source": "https://www.labour.org.nz/our-team/hon-carmel-sepuloni/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found donation link to Labour Party donation page (https://www.labour.org.nz/donate) and electorate office street address (200C West Coast Rd, Glen Eden, Auckland)"
+    }
+  ]
+}

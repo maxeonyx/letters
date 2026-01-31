@@ -1,0 +1,49 @@
+{
+    "slug":  "andy-foster",
+    "name":  "Andy Foster",
+    "researchStatus":  "done",
+    "lastUpdated":  "2026-01-31T09:51:52.032Z",
+    "postalAddress":  {
+                          "status":  "found",
+                          "value":  "Parliament Office, Private Bag 18888, Parliament Buildings, Wellington 6160",
+                          "source":  "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/foster-andy/",
+                          "notes":  "Postal address listed under Contact Details (Parliament Office)"
+                      },
+    "donationMethod":  {
+                           "status":  "found",
+                           "method":  "party-channel",
+                           "url":  "https://www.nzfirst.nz/donate",
+                           "bankAccount":  null,
+                           "details":  "Donation page appears to be NZ First Party donation form (not an MP-specific donation method)",
+                           "notes":  "MP page did not list a direct donation method; party donation link found on NZ First bio page"
+                       },
+    "aiInvolvement":  {
+                          "status":  "unknown",
+                          "level":  null,
+                          "evidence":  [
+
+                                       ],
+                          "notes":  null
+                      },
+    "personalizationNotes":  null,
+    "sourcesChecked":  [
+                           {
+                               "source":  "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/foster-andy/",
+                               "checked":  true,
+                               "foundUseful":  true,
+                               "notes":  "Found Parliament Office postal address"
+                           },
+                           {
+                               "source":  "https://www.nzfirst.nz/andy-foster",
+                               "checked":  true,
+                               "foundUseful":  true,
+                               "notes":  "Found link to NZ First donation page"
+                           },
+                           {
+                               "source":  "https://www.nzfirst.nz/donate",
+                               "checked":  true,
+                               "foundUseful":  true,
+                               "notes":  "Party donation form (no MP-specific donation method found)"
+                           }
+                       ]
+}

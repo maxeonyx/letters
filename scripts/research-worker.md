@@ -1,81 +1,161 @@
 # Research Worker Instructions
 
-You are a research agent assigned to gather information about ONE New Zealand MP.
+**Note:** This file is detailed reference for the `researcher` subagent. The agent has its own instructions in `~/.config/opencode/agents/researcher.md`. This file provides additional context on priorities and JSON schema.
+
+---
 
 ## Your Assignment
 
-You have been assigned a specific MP. Your job is to find:
-
-1. **Donation method** - How can someone donate to this MP directly (not to their party)?
-2. **AI involvement** - Has this MP spoken about AI, technology regulation, or related topics?
-
-## Where to Look
-
-### For donation info:
-1. The MP's personal website (if they have one)
-2. Their electorate office website
-3. Their social media profiles
-4. Google search: `"{MP name}" donate OR donation site:nz`
-
-### For AI involvement:
-1. Parliament Hansard: Search for speeches mentioning AI, artificial intelligence, technology
-2. News search: `"{MP name}" AI OR "artificial intelligence" site:stuff.co.nz OR site:nzherald.co.nz OR site:rnz.co.nz`
-3. Their select committee work (if on a relevant committee)
-
-## Output Format
-
-Write your findings to `data/research/{mp-slug}.md` using this exact format:
-
-```markdown
-# {MP Full Name}
-
-## Basic Info
-- **Party:** {from mps.json}
-- **Electorate:** {from mps.json, or "List" if list MP}
-- **Parliament page:** {url}
-
-## Donation Method
-
-{Describe what you found, or "No public donation method found"}
-
-If found:
-- **Method:** {bank transfer / website / other}
-- **URL:** {if applicable}
-- **Notes:** {any relevant details}
-
-## AI Involvement
-
-**Level:** {none / tangential / deep}
-
-**Evidence:**
-- {bullet points with links to speeches, articles, etc.}
-- {or "No evidence found" if none}
-
-## Personalization Notes
-
-{Any observations useful for writing a personalized letter}
-{e.g., "Member of Justice Committee - could frame AI as justice issue"}
-{e.g., "Former tech entrepreneur - understands the industry"}
-
-## Research Notes
-
-- **Sources checked:** {list what you searched}
-- **Confidence:** {high / medium / low}
-- **Time spent:** {approximate}
+You have been assigned a batch of MPs. For each MP, you will update their research file at:
+```
+data/research/{mp-slug}.json
 ```
 
-## Constraints
+The file already exists with a pending status. Your job is to fill in the fields.
 
-- Use only ONE browser tab
-- Do not modify any files except your assigned MP's research file
-- Do not modify `mps.json`
-- If you hit rate limits or errors, note them and stop gracefully
-- Timeout: 10 minutes max per MP
+## Priority Order
 
-## Success Criteria
+Work through MPs in this order of priority for EACH MP before moving to the next priority:
 
-Your research is complete when you have:
-- [ ] Checked for donation method (found or confirmed not available)
-- [ ] Searched for AI involvement (found evidence or confirmed none)
-- [ ] Written findings to the correct file
-- [ ] Followed the output format exactly
+### Priority 1: Postal Address (do this for ALL MPs first)
+Find their electorate office or other postal address for physical letters.
+
+**Where to look:**
+1. Their parliament page (usually has contact details)
+2. Their party bio page 
+3. Their personal/electorate website
+4. Google: `"{MP name}" electorate office address site:nz`
+
+**Update the file:**
+```json
+"postalAddress": {
+  "status": "found",  // or "not-found" if genuinely unavailable
+  "value": "123 Main St, Wellington 6011",
+  "source": "https://example.nz/contact",
+  "notes": "Electorate office, open Mon-Fri 9-5"
+}
+```
+
+### Priority 2: Donation Method (do this for ALL MPs second)
+Find how to donate directly to this MP (not their party).
+
+**Where to look:**
+1. Their personal website "Support" or "Donate" page
+2. Their electorate campaign site
+3. Google: `"{MP name}" donate OR donation site:nz`
+
+**Important:** Read `docs/DONATION-RULES.md` for legal context. We're looking for:
+- Bank account for direct deposit
+- Online donation form
+- Or confirmation that no public method exists
+
+Most MPs will NOT have a public donation method. That's expected - record "not-found" after checking.
+
+**Update the file:**
+```json
+"donationMethod": {
+  "status": "found",  // or "not-found"
+  "method": "bank-transfer",  // bank-transfer | website | party-channel | none-found
+  "url": null,
+  "bankAccount": "12-3456-7890123-00",
+  "details": "Reference: [Your Name]",
+  "notes": "Found on electorate campaign page"
+}
+```
+
+### Priority 3: AI Involvement (quick scan only - don't spend long on this)
+Has this MP spoken about AI, technology regulation, or related topics?
+
+**Quick checks only:**
+1. Search their parliament page for keywords: AI, artificial intelligence, technology, digital
+2. Quick Google: `"{MP name}" AI OR "artificial intelligence" site:parliament.nz`
+3. Check their spokesperson roles (in mps.json) - are they spokesperson for tech/innovation/digital?
+
+**Level definitions:**
+- `none`: Searched but found nothing AI-related
+- `tangential`: Mentioned AI/tech in passing, or has a tech-adjacent portfolio
+- `deep`: Actively engaged (speeches about AI, tech committee member, etc.)
+
+**Update the file:**
+```json
+"aiInvolvement": {
+  "status": "checked",
+  "level": "tangential",
+  "evidence": [
+    {
+      "type": "committee",
+      "summary": "Member of Economic Development, Science and Innovation Committee",
+      "url": null,
+      "date": null
+    }
+  ],
+  "notes": "Has science portfolio but no direct AI statements found"
+}
+```
+
+### Priority 4: Personalization Notes (only if something obvious)
+If you notice something useful for writing a compelling letter, note it:
+- Former occupation (teacher, business owner, etc.)
+- Relevant committee memberships
+- Known positions on related issues
+
+```json
+"personalizationNotes": "Former software developer - could frame AI as industry insider issue. On Justice Committee - could frame as governance/regulation angle."
+```
+
+## How to Update Files
+
+Read the current file, update the relevant fields, write it back. Example:
+
+```javascript
+// Read current
+const data = JSON.parse(fs.readFileSync('data/research/chloe-swarbrick.json', 'utf8'));
+
+// Update fields
+data.researchStatus = 'in-progress';
+data.lastUpdated = new Date().toISOString();
+data.postalAddress = {
+  status: 'found',
+  value: '123 Example St, Auckland 1010',
+  source: 'https://greens.org.nz/chloe_swarbrick',
+  notes: null
+};
+data.sourcesChecked.push({
+  source: 'https://greens.org.nz/chloe_swarbrick',
+  checked: true,
+  foundUseful: true,
+  notes: 'Found postal address'
+});
+
+// Write back
+fs.writeFileSync('data/research/chloe-swarbrick.json', JSON.stringify(data, null, 2));
+```
+
+**Always update `lastUpdated` when you modify a file.**
+
+## Status Values
+
+Set `researchStatus` as you work:
+- `pending`: Not started (initial state)
+- `in-progress`: Currently working on this MP
+- `done`: All priorities checked
+- `partial`: Started but didn't finish (use if you run out of time)
+
+## When You're Done
+
+1. Ensure all files have been updated with findings (even if "not-found")
+2. Set `researchStatus` to `done` for completed MPs, `partial` for incomplete
+3. Your work is saved in the files - no final report needed
+
+## Error Handling
+
+- If a website is blocked or times out, note it in `sourcesChecked` and move on
+- If you hit rate limits, stop gracefully - your incremental saves mean nothing is lost
+- If you run out of time, that's fine - set incomplete MPs to `partial` status
+
+## Reference Links
+
+- Parliament MP pages: `https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/{slug}/`
+- Master MP data: `data/mps.json` (read-only, contains emails, parties, committees, etc.)
+- Donation rules: `docs/DONATION-RULES.md`
+- Research schema: `data/research/_schema.json`
