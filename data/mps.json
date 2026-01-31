@@ -1,0 +1,9 @@
+{
+  "_meta": {
+    "description": "Master list of NZ MPs - source of truth for this project",
+    "last_updated": null,
+    "source": "https://www.parliament.nz/en/mps-and-wards/current-mps/",
+    "total_count": 0
+  },
+  "mps": []
+}
