@@ -1,21 +1,21 @@
 {
   "slug": "hamish-campbell",
   "name": "Hamish Campbell",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "done",
+  "lastUpdated": "2026-01-31T10:34:23.4491790Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
+    "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/campbell-hamish/",
+    "notes": "Parliament Office (Contact Details section)"
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
     "bankAccount": null,
     "details": null,
-    "notes": null
+    "notes": "National Party profile page links to party donation page; no MP-specific donation method found."
   },
   "aiInvolvement": {
     "status": "unknown",
@@ -24,5 +24,24 @@
     "notes": null
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/campbell-hamish/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160)."
+    },
+    {
+      "source": "https://www.national.org.nz/team/hamishcampbell",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Checked for MP-specific donation details; page links to party donate page."
+    },
+    {
+      "source": "https://www.national.org.nz/donate",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "Donation form appears to be general party donation; no MP/candidate/electorate earmark field spotted."
+    }
+  ]
 }
