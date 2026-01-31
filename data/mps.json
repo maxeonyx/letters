@@ -2586,7 +2586,11 @@
           "platform": "Instagram",
           "url": "https://www.instagram.com/gregohariu/"
         }
-      ]
+      ],
+      "specialNotes": {
+        "relationship": "Max's actual MP - they have met before",
+        "approach": "Personal tone, can reference being a constituent"
+      }
     },
     {
       "slug": "parmjeet-parmar",
@@ -4315,7 +4319,11 @@
           "platform": "Instagram",
           "url": "https://www.instagram.com/scottwillisnz"
         }
-      ]
+      ],
+      "specialNotes": {
+        "relationship": "Family friend - Max knows him personally",
+        "approach": "Personal letter, not formal template"
+      }
     },
     {
       "slug": "david-wilson",
