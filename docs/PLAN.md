@@ -26,7 +26,9 @@ The letter should convey:
 
 The donation is the key mechanism for ensuring attention. Physical letters are not required - email works if the donation is handled separately. However, physical letters make cash donations operationally easy.
 
-**NZ donation rules:** Donating directly to individual MPs (not parties) is inconsistently possible. Some electorate MPs have public donation info, most don't. This requires per-MP research.
+**NZ donation rules:** Donating directly to individual MPs (not parties) is inconsistently possible. Some electorate MPs have public donation info, most don't. This requires per-MP research. See `docs/DONATION-RULES.md` for full legal research.
+
+**Donor identity:** Max will use his real name on donations. This avoids anonymous-donation complications and is simpler. Anonymity would only be considered if there were a strong reason (e.g., if the act were somehow illegal but still worth doing).
 
 ## Target Selection
 
@@ -129,3 +131,22 @@ See `docs/PHASE-2-IDEAS.md` for details.
 - Agents write to separate files (`data/research/{mp-slug}.md`)
 - Agents do NOT modify `mps.json` (only read from it)
 - Each agent opens only ONE browser tab
+
+### Model Selection Notes
+
+**GPT-5.2** is extremely capable for research and analysis, but has a recognizable, somewhat unpleasant writing style. When using GPT-5.2:
+- Use it for research, planning, and critical review
+- Do NOT leave its prose in final artifacts (letters, committed docs)
+- Have another model (e.g., `grok-code-fast-1`) rewrite any user-facing text
+
+### Running Agents via CLI
+
+To run a research agent from the command line:
+```bash
+opencode run -m github-copilot-max/gpt-5.2 "Your prompt here"
+```
+
+Options:
+- `-m provider/model` - specify the model
+- `-c` or `-s session-id` - continue an existing session
+- `--title "..."` - name the session
