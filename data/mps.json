@@ -2537,61 +2537,7 @@
         }
       ]
     },
-    {
-      "slug": "greg-o-connor",
-      "name": "Greg O'Connor",
-      "lastName": "O'Connor",
-      "firstName": "Greg",
-      "party": "Labour Party",
-      "electorate": "Ōhāriu",
-      "isList": false,
-      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/oconnor-greg/",
-      "researchStatus": "parliament-scraped",
-      "email": "greg.o'connor@parliament.govt.nz",
-      "selectCommittees": [
-        {
-          "committee": "Officers of Parliament",
-          "role": "Deputy Chairperson"
-        },
-        {
-          "committee": "Petitions",
-          "role": "Chairperson"
-        }
-      ],
-      "spokespersonRoles": [
-        {
-          "portfolio": "Courts"
-        },
-        {
-          "portfolio": "Veterans"
-        }
-      ],
-      "parliamentaryRoles": [
-        {
-          "role": "Assistant Speaker",
-          "since": "06/12/2023"
-        }
-      ],
-      "partyBioUrl": "https://www.labour.org.nz/our-team/greg-oconnor/",
-      "socialLinks": [
-        {
-          "platform": "Facebook",
-          "url": "https://www.facebook.com/GregOhariu/"
-        },
-        {
-          "platform": "X (Formerly Twitter)",
-          "url": "https://twitter.com/gregohariu"
-        },
-        {
-          "platform": "Instagram",
-          "url": "https://www.instagram.com/gregohariu/"
-        }
-      ],
-      "specialNotes": {
-        "relationship": "Max's actual MP - they have met before",
-        "approach": "Personal tone, can reference being a constituent"
-      }
-    },
+    "SPECIAL HANDLING: Greg O'Connor - Max's actual MP, they have met. See data/SPECIAL-NOTES.md",
     {
       "slug": "parmjeet-parmar",
       "name": "Parmjeet Parmar",
@@ -4268,63 +4214,7 @@
         }
       ]
     },
-    {
-      "slug": "scott-willis",
-      "name": "Scott Willis",
-      "lastName": "Willis",
-      "firstName": "Scott",
-      "party": "Green Party",
-      "electorate": null,
-      "isList": true,
-      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/willis-scott/",
-      "researchStatus": "parliament-scraped",
-      "email": "Scott.Willis@parliament.govt.nz",
-      "selectCommittees": [
-        {
-          "committee": "Economic Development, Science and Innovation",
-          "role": "Member"
-        }
-      ],
-      "spokespersonRoles": [
-        {
-          "portfolio": "Dunedin Issues"
-        },
-        {
-          "portfolio": "Energy"
-        },
-        {
-          "portfolio": "Hunting and Fishing"
-        },
-        {
-          "portfolio": "Regional Development"
-        },
-        {
-          "portfolio": "Rural Communities"
-        },
-        {
-          "portfolio": "Small Business and Manufacturing"
-        },
-        {
-          "portfolio": "Sports and Recreation"
-        }
-      ],
-      "parliamentaryRoles": [],
-      "partyBioUrl": "https://www.greens.org.nz/scott_willis",
-      "socialLinks": [
-        {
-          "platform": "Facebook",
-          "url": "https://www.facebook.com/ScottWillisforTaieri"
-        },
-        {
-          "platform": "Instagram",
-          "url": "https://www.instagram.com/scottwillisnz"
-        }
-      ],
-      "specialNotes": {
-        "relationship": "Family friend - Max knows him personally",
-        "approach": "Personal letter, not formal template"
-      }
-    },
+    "SPECIAL HANDLING: Scott Willis - Family friend. See data/SPECIAL-NOTES.md",
     {
       "slug": "david-wilson",
       "name": "David Wilson",

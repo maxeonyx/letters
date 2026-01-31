@@ -72,7 +72,11 @@ If you've been assigned to research a specific MP:
 
 ## Current Status
 
-- [ ] Phase A: Bulk data collection
-- [ ] Phase B: Per-MP research (0/120)
+- [x] Phase A: Bulk data collection (123 MPs scraped from parliament.nz)
+- [ ] Phase B: Per-MP research (0/121 - see note below)
 - [ ] Letter drafting
 - [ ] Sending
+
+## For Letter Drafting
+
+When processing `mps.json`, you will encounter two entries that are strings instead of objects. **This is intentional.** These MPs have personal connections to Max and need individual handling - see `data/SPECIAL-NOTES.md` for their data and approach notes.
