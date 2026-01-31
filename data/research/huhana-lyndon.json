@@ -1,21 +1,21 @@
 {
   "slug": "huhana-lyndon",
   "name": "Hūhana Lyndon",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "in-progress",
+  "lastUpdated": "2026-01-31T10:07:40.8695460Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Level 5, 108 The Terrace, Wellington",
+    "source": "https://www.greens.org.nz/huhana_lyndon",
+    "notes": "Green Party bio page footer address (party headquarters)"
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://www.greens.org.nz/donate",
     "bankAccount": null,
     "details": null,
-    "notes": null
+    "notes": "No MP-specific donation method found; only Green Party donation page linked from MP bio"
   },
   "aiInvolvement": {
     "status": "unknown",
@@ -24,5 +24,24 @@
     "notes": null
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/lyndon-huhana/",
+      "checked": true,
+      "foundUseful": false,
+      "notes": "HTTP 500 error when loading MP page (2026-01-31)"
+    },
+    {
+      "source": "https://www.greens.org.nz/huhana_lyndon",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found address in footer: Level 5, 108 The Terrace, Wellington"
+    },
+    {
+      "source": "https://www.greens.org.nz/huhana_lyndon",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Donation link present but goes to party donate page: https://www.greens.org.nz/donate"
+    }
+  ]
 }

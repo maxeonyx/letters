@@ -1,21 +1,21 @@
 {
   "slug": "james-meager",
   "name": "James Meager",
-  "researchStatus": "pending",
-  "lastUpdated": null,
+  "researchStatus": "in-progress",
+  "lastUpdated": "2026-01-31T10:08:02.0492012Z",
   "postalAddress": {
-    "status": "unknown",
-    "value": null,
-    "source": null,
-    "notes": null
+    "status": "found",
+    "value": "Private Bag 18888, Parliament Buildings, Wellington 6160",
+    "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/meager-james/",
+    "notes": "Parliament Office postal address (from Contact Details section)"
   },
   "donationMethod": {
-    "status": "unknown",
-    "method": null,
-    "url": null,
+    "status": "not-found",
+    "method": "party-channel",
+    "url": "https://www.national.org.nz/donate",
     "bankAccount": null,
     "details": null,
-    "notes": null
+    "notes": "No MP-specific donation method found; National MP page links to party donation page"
   },
   "aiInvolvement": {
     "status": "unknown",
@@ -24,5 +24,18 @@
     "notes": null
   },
   "personalizationNotes": null,
-  "sourcesChecked": []
+  "sourcesChecked": [
+    {
+      "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/meager-james/",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Found Parliament Office postal address: Private Bag 18888, Parliament Buildings, Wellington 6160"
+    },
+    {
+      "source": "https://www.national.org.nz/jamesmeager",
+      "checked": true,
+      "foundUseful": true,
+      "notes": "Donation link present but goes to party donate page: https://www.national.org.nz/donate"
+    }
+  ]
 }
