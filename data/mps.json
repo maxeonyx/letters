@@ -4,131 +4,4443 @@
     "last_updated": "2026-01-31",
     "source": "https://www.parliament.nz/en/mps-and-electorates/members-of-parliament/",
     "total_count": 123,
-    "parliament": "54th"
+    "parliament": "54th",
+    "scrape_status": "parliament.nz scraped 2026-01-31"
   },
   "mps": [
-    {"slug": "steve-abel", "name": "Steve Abel", "lastName": "Abel", "firstName": "Steve", "party": "Green Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/abel-steve/", "researchStatus": "pending"},
-    {"slug": "ginny-andersen", "name": "Ginny Andersen", "lastName": "Andersen", "firstName": "Ginny", "party": "Labour Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/andersen-ginny/", "researchStatus": "pending"},
-    {"slug": "miles-anderson", "name": "Miles Anderson", "lastName": "Anderson", "firstName": "Miles", "party": "National Party", "electorate": "Waitaki", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/anderson-miles/", "researchStatus": "pending"},
-    {"slug": "jamie-arbuckle", "name": "Jamie Arbuckle", "lastName": "Arbuckle", "firstName": "Jamie", "party": "NZ First Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/arbuckle-jamie/", "researchStatus": "pending"},
-    {"slug": "carl-bates", "name": "Carl Bates", "lastName": "Bates", "firstName": "Carl", "party": "National Party", "electorate": "Whanganui", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/bates-carl/", "researchStatus": "pending"},
-    {"slug": "andrew-bayly", "name": "Andrew Bayly", "lastName": "Bayly", "firstName": "Andrew", "party": "National Party", "electorate": "Port Waikato", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/bayly-andrew/", "researchStatus": "pending"},
-    {"slug": "camilla-belich", "name": "Camilla Belich", "lastName": "Belich", "firstName": "Camilla", "party": "Labour Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/belich-camilla/", "researchStatus": "pending"},
-    {"slug": "glen-bennett", "name": "Glen Bennett", "lastName": "Bennett", "firstName": "Glen", "party": "Labour Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/bennett-glen/", "researchStatus": "pending"},
-    {"slug": "dan-bidois", "name": "Dan Bidois", "lastName": "Bidois", "firstName": "Dan", "party": "National Party", "electorate": "Northcote", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/bidois-dan/", "researchStatus": "pending"},
-    {"slug": "chris-bishop", "name": "Chris Bishop", "lastName": "Bishop", "firstName": "Chris", "party": "National Party", "electorate": "Hutt South", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/bishop-chris/", "researchStatus": "pending"},
-    {"slug": "rachel-boyack", "name": "Rachel Boyack", "lastName": "Boyack", "firstName": "Rachel", "party": "Labour Party", "electorate": "Nelson", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/boyack-rachel/", "researchStatus": "pending"},
-    {"slug": "cameron-brewer", "name": "Cameron Brewer", "lastName": "Brewer", "firstName": "Cameron", "party": "National Party", "electorate": "Upper Harbour", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/brewer-cameron/", "researchStatus": "pending"},
-    {"slug": "rachel-brooking", "name": "Rachel Brooking", "lastName": "Brooking", "firstName": "Rachel", "party": "Labour Party", "electorate": "Dunedin", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/brooking-rachel/", "researchStatus": "pending"},
-    {"slug": "simeon-brown", "name": "Simeon Brown", "lastName": "Brown", "firstName": "Simeon", "party": "National Party", "electorate": "Pakuranga", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/brown-simeon/", "researchStatus": "pending"},
-    {"slug": "gerry-brownlee", "name": "Gerry Brownlee", "lastName": "Brownlee", "firstName": "Gerry", "party": "National Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/brownlee-gerry/", "researchStatus": "pending"},
-    {"slug": "mike-butterick", "name": "Mike Butterick", "lastName": "Butterick", "firstName": "Mike", "party": "National Party", "electorate": "Wairarapa", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/butterick-mike/", "researchStatus": "pending"},
-    {"slug": "mark-cameron", "name": "Mark Cameron", "lastName": "Cameron", "firstName": "Mark", "party": "ACT Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/cameron-mark/", "researchStatus": "pending"},
-    {"slug": "hamish-campbell", "name": "Hamish Campbell", "lastName": "Campbell", "firstName": "Hamish", "party": "National Party", "electorate": "Ilam", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/campbell-hamish/", "researchStatus": "pending"},
-    {"slug": "kahurangi-carter", "name": "Kahurangi Carter", "lastName": "Carter", "firstName": "Kahurangi", "party": "Green Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/carter-kahurangi/", "researchStatus": "pending"},
-    {"slug": "carlos-cheung", "name": "Carlos Cheung", "lastName": "Cheung", "firstName": "Carlos", "party": "National Party", "electorate": "Mt Roskill", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/cheung-carlos/", "researchStatus": "pending"},
-    {"slug": "karen-chhour", "name": "Karen Chhour", "lastName": "Chhour", "firstName": "Karen", "party": "ACT Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/chhour-karen/", "researchStatus": "pending"},
-    {"slug": "judith-collins", "name": "Judith Collins", "lastName": "Collins", "firstName": "Judith", "party": "National Party", "electorate": "Papakura", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/collins-judith/", "researchStatus": "pending"},
-    {"slug": "casey-costello", "name": "Casey Costello", "lastName": "Costello", "firstName": "Casey", "party": "NZ First Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/costello-casey/", "researchStatus": "pending"},
-    {"slug": "tim-costley", "name": "Tim Costley", "lastName": "Costley", "firstName": "Tim", "party": "National Party", "electorate": "Ōtaki", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/costley-tim/", "researchStatus": "pending"},
-    {"slug": "simon-court", "name": "Simon Court", "lastName": "Court", "firstName": "Simon", "party": "ACT Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/court-simon/", "researchStatus": "pending"},
-    {"slug": "marama-davidson", "name": "Marama Davidson", "lastName": "Davidson", "firstName": "Marama", "party": "Green Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/davidson-marama/", "researchStatus": "pending"},
-    {"slug": "mike-davidson", "name": "Mike Davidson", "lastName": "Davidson", "firstName": "Mike", "party": "Green Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/davidson-mike/", "researchStatus": "pending"},
-    {"slug": "reuben-davidson", "name": "Reuben Davidson", "lastName": "Davidson", "firstName": "Reuben", "party": "Labour Party", "electorate": "Christchurch East", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/davidson-reuben/", "researchStatus": "pending"},
-    {"slug": "matt-doocey", "name": "Matt Doocey", "lastName": "Doocey", "firstName": "Matt", "party": "National Party", "electorate": "Waimakariri", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/doocey-matt/", "researchStatus": "pending"},
-    {"slug": "barbara-edmonds", "name": "Barbara Edmonds", "lastName": "Edmonds", "firstName": "Barbara", "party": "Labour Party", "electorate": "Mana", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/edmonds-barbara/", "researchStatus": "pending"},
-    {"slug": "takuta-ferris", "name": "Tākuta Ferris", "lastName": "Ferris", "firstName": "Tākuta", "party": "Independent - not party affiliated", "electorate": "Te Tai Tonga", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/ferris-takuta/", "researchStatus": "pending"},
-    {"slug": "greg-fleming", "name": "Greg Fleming", "lastName": "Fleming", "firstName": "Greg", "party": "National Party", "electorate": "Maungakiekie", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/fleming-greg/", "researchStatus": "pending"},
-    {"slug": "andy-foster", "name": "Andy Foster", "lastName": "Foster", "firstName": "Andy", "party": "NZ First Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/foster-andy/", "researchStatus": "pending"},
-    {"slug": "paulo-garcia", "name": "Paulo Garcia", "lastName": "Garcia", "firstName": "Paulo", "party": "National Party", "electorate": "New Lynn", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/garcia-paulo/", "researchStatus": "pending"},
-    {"slug": "julie-anne-genter", "name": "Julie Anne Genter", "lastName": "Genter", "firstName": "Julie Anne", "party": "Green Party", "electorate": "Rongotai", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/genter-julie-anne/", "researchStatus": "pending"},
-    {"slug": "paul-goldsmith", "name": "Paul Goldsmith", "lastName": "Goldsmith", "firstName": "Paul", "party": "National Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/goldsmith-paul/", "researchStatus": "pending"},
-    {"slug": "nicola-grigg", "name": "Nicola Grigg", "lastName": "Grigg", "firstName": "Nicola", "party": "National Party", "electorate": "Selwyn", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/grigg-nicola/", "researchStatus": "pending"},
-    {"slug": "shanan-halbert", "name": "Shanan Halbert", "lastName": "Halbert", "firstName": "Shanan", "party": "Labour Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/halbert-shanan/", "researchStatus": "pending"},
-    {"slug": "ryan-hamilton", "name": "Ryan Hamilton", "lastName": "Hamilton", "firstName": "Ryan", "party": "National Party", "electorate": "Hamilton East", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/hamilton-ryan/", "researchStatus": "pending"},
-    {"slug": "peeni-henare", "name": "Peeni Henare", "lastName": "Henare", "firstName": "Peeni", "party": "Labour Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/henare-peeni/", "researchStatus": "pending"},
-    {"slug": "francisco-hernandez", "name": "Francisco Hernandez", "lastName": "Hernandez", "firstName": "Francisco", "party": "Green Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/hernandez-francisco/", "researchStatus": "pending"},
-    {"slug": "chris-hipkins", "name": "Chris Hipkins", "lastName": "Hipkins", "firstName": "Chris", "party": "Labour Party", "electorate": "Remutaka", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/hipkins-chris/", "researchStatus": "pending"},
-    {"slug": "andrew-hoggard", "name": "Andrew Hoggard", "lastName": "Hoggard", "firstName": "Andrew", "party": "ACT Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/hoggard-andrew/", "researchStatus": "pending"},
-    {"slug": "willie-jackson", "name": "Willie Jackson", "lastName": "Jackson", "firstName": "Willie", "party": "Labour Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/jackson-willie/", "researchStatus": "pending"},
-    {"slug": "shane-jones", "name": "Shane Jones", "lastName": "Jones", "firstName": "Shane", "party": "NZ First Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/jones-shane/", "researchStatus": "pending"},
-    {"slug": "oriini-kaipara", "name": "Oriini Kaipara", "lastName": "Kaipara", "firstName": "Oriini", "party": "Te Pāti Māori", "electorate": "Tāmaki Makaurau", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/kaipara-oriini/", "researchStatus": "pending"},
-    {"slug": "mariameno-kapa-kingi", "name": "Mariameno Kapa-Kingi", "lastName": "Kapa-Kingi", "firstName": "Mariameno", "party": "Independent - not party affiliated", "electorate": "Te Tai Tokerau", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/kapa-kingi-mariameno/", "researchStatus": "pending"},
-    {"slug": "dana-kirkpatrick", "name": "Dana Kirkpatrick", "lastName": "Kirkpatrick", "firstName": "Dana", "party": "National Party", "electorate": "East Coast", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/kirkpatrick-dana/", "researchStatus": "pending"},
-    {"slug": "barbara-kuriger", "name": "Barbara Kuriger", "lastName": "Kuriger", "firstName": "Barbara", "party": "National Party", "electorate": "Taranaki-King Country", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/kuriger-barbara/", "researchStatus": "pending"},
-    {"slug": "ingrid-leary", "name": "Ingrid Leary", "lastName": "Leary", "firstName": "Ingrid", "party": "Labour Party", "electorate": "Taieri", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/leary-ingrid/", "researchStatus": "pending"},
-    {"slug": "melissa-lee", "name": "Melissa Lee", "lastName": "Lee", "firstName": "Melissa", "party": "National Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/lee-melissa/", "researchStatus": "pending"},
-    {"slug": "nancy-lu", "name": "Nancy Lu", "lastName": "Lu", "firstName": "Nancy", "party": "National Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/lu-nancy/", "researchStatus": "pending"},
-    {"slug": "christopher-luxon", "name": "Christopher Luxon", "lastName": "Luxon", "firstName": "Christopher", "party": "National Party", "electorate": "Botany", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/luxon-christopher/", "researchStatus": "pending"},
-    {"slug": "cameron-luxton", "name": "Cameron Luxton", "lastName": "Luxton", "firstName": "Cameron", "party": "ACT Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/luxton-cameron/", "researchStatus": "pending"},
-    {"slug": "jo-luxton", "name": "Jo Luxton", "lastName": "Luxton", "firstName": "Jo", "party": "Labour Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/luxton-jo/", "researchStatus": "pending"},
-    {"slug": "huhana-lyndon", "name": "Hūhana Lyndon", "lastName": "Lyndon", "firstName": "Hūhana", "party": "Green Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/lyndon-huhana/", "researchStatus": "pending"},
-    {"slug": "david-macleod", "name": "David MacLeod", "lastName": "MacLeod", "firstName": "David", "party": "National Party", "electorate": "New Plymouth", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/macleod-david/", "researchStatus": "pending"},
-    {"slug": "hana-rawhiti-maipi-clarke", "name": "Hana-Rawhiti Maipi-Clarke", "lastName": "Maipi-Clarke", "firstName": "Hana-Rawhiti", "party": "Te Pāti Māori", "electorate": "Hauraki-Waikato", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/maipi-clarke-hana-rawhiti/", "researchStatus": "pending"},
-    {"slug": "jenny-marcroft", "name": "Jenny Marcroft", "lastName": "Marcroft", "firstName": "Jenny", "party": "NZ First Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/marcroft-jenny/", "researchStatus": "pending"},
-    {"slug": "kieran-mcanulty", "name": "Kieran McAnulty", "lastName": "McAnulty", "firstName": "Kieran", "party": "Labour Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/mcanulty-kieran/", "researchStatus": "pending"},
-    {"slug": "grant-mccallum", "name": "Grant McCallum", "lastName": "McCallum", "firstName": "Grant", "party": "National Party", "electorate": "Northland", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/mccallum-grant/", "researchStatus": "pending"},
-    {"slug": "todd-mcclay", "name": "Todd McClay", "lastName": "McClay", "firstName": "Todd", "party": "National Party", "electorate": "Rotorua", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/mcclay-todd/", "researchStatus": "pending"},
-    {"slug": "laura-mcclure", "name": "Laura McClure", "lastName": "McClure", "firstName": "Laura", "party": "ACT Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/mcclure-laura/", "researchStatus": "pending"},
-    {"slug": "nicole-mckee", "name": "Nicole McKee", "lastName": "McKee", "firstName": "Nicole", "party": "ACT Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/mckee-nicole/", "researchStatus": "pending"},
-    {"slug": "tracey-mclellan", "name": "Tracey McLellan", "lastName": "McLellan", "firstName": "Tracey", "party": "Labour Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/mclellan-tracey/", "researchStatus": "pending"},
-    {"slug": "james-meager", "name": "James Meager", "lastName": "Meager", "firstName": "James", "party": "National Party", "electorate": "Rangitata", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/meager-james/", "researchStatus": "pending"},
-    {"slug": "ricardo-menendez-march", "name": "Ricardo Menéndez March", "lastName": "Menéndez March", "firstName": "Ricardo", "party": "Green Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/menendez-march-ricardo/", "researchStatus": "pending"},
-    {"slug": "mark-mitchell", "name": "Mark Mitchell", "lastName": "Mitchell", "firstName": "Mark", "party": "National Party", "electorate": "Whangaparāoa", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/mitchell-mark/", "researchStatus": "pending"},
-    {"slug": "joseph-mooney", "name": "Joseph Mooney", "lastName": "Mooney", "firstName": "Joseph", "party": "National Party", "electorate": "Southland", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/mooney-joseph/", "researchStatus": "pending"},
-    {"slug": "rima-nakhle", "name": "Rima Nakhle", "lastName": "Nakhle", "firstName": "Rima", "party": "National Party", "electorate": "Takanini", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/nakhle-rima/", "researchStatus": "pending"},
-    {"slug": "debbie-ngarewa-packer", "name": "Debbie Ngarewa-Packer", "lastName": "Ngarewa-Packer", "firstName": "Debbie", "party": "Te Pāti Māori", "electorate": "Te Tai Hauāuru", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/ngarewa-packer-debbie/", "researchStatus": "pending"},
-    {"slug": "katie-nimon", "name": "Katie Nimon", "lastName": "Nimon", "firstName": "Katie", "party": "National Party", "electorate": "Napier", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/nimon-katie/", "researchStatus": "pending"},
-    {"slug": "damien-o-connor", "name": "Damien O'Connor", "lastName": "O'Connor", "firstName": "Damien", "party": "Labour Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/oconnor-damien/", "researchStatus": "pending"},
-    {"slug": "greg-o-connor", "name": "Greg O'Connor", "lastName": "O'Connor", "firstName": "Greg", "party": "Labour Party", "electorate": "Ōhāriu", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/oconnor-greg/", "researchStatus": "pending"},
-    {"slug": "parmjeet-parmar", "name": "Parmjeet Parmar", "lastName": "Parmar", "firstName": "Parmjeet", "party": "ACT Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/parmar-parmjeet/", "researchStatus": "pending"},
-    {"slug": "mark-patterson", "name": "Mark Patterson", "lastName": "Patterson", "firstName": "Mark", "party": "NZ First Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/patterson-mark/", "researchStatus": "pending"},
-    {"slug": "tamatha-paul", "name": "Tamatha Paul", "lastName": "Paul", "firstName": "Tamatha", "party": "Green Party", "electorate": "Wellington Central", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/paul-tamatha/", "researchStatus": "pending"},
-    {"slug": "chris-penk", "name": "Chris Penk", "lastName": "Penk", "firstName": "Chris", "party": "National Party", "electorate": "Kaipara ki Mahurangi", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/penk-chris/", "researchStatus": "pending"},
-    {"slug": "winston-peters", "name": "Winston Peters", "lastName": "Peters", "firstName": "Winston", "party": "NZ First Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/peters-winston/", "researchStatus": "pending"},
-    {"slug": "lan-pham", "name": "Lan Pham", "lastName": "Pham", "firstName": "Lan", "party": "Green Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/pham-lan/", "researchStatus": "pending"},
-    {"slug": "tama-potaka", "name": "Tama Potaka", "lastName": "Potaka", "firstName": "Tama", "party": "National Party", "electorate": "Hamilton West", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/potaka-tama/", "researchStatus": "pending"},
-    {"slug": "willow-jean-prime", "name": "Willow-Jean Prime", "lastName": "Prime", "firstName": "Willow-Jean", "party": "Labour Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/prime-willow-jean/", "researchStatus": "pending"},
-    {"slug": "maureen-pugh", "name": "Maureen Pugh", "lastName": "Pugh", "firstName": "Maureen", "party": "National Party", "electorate": "West Coast-Tasman", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/pugh-maureen/", "researchStatus": "pending"},
-    {"slug": "priyanca-radhakrishnan", "name": "Priyanca Radhakrishnan", "lastName": "Radhakrishnan", "firstName": "Priyanca", "party": "Labour Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/radhakrishnan-priyanca/", "researchStatus": "pending"},
-    {"slug": "suze-redmayne", "name": "Suze Redmayne", "lastName": "Redmayne", "firstName": "Suze", "party": "National Party", "electorate": "Rangitīkei", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/redmayne-suze/", "researchStatus": "pending"},
-    {"slug": "shane-reti", "name": "Shane Reti", "lastName": "Reti", "firstName": "Shane", "party": "National Party", "electorate": "Whangārei", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/reti-shane/", "researchStatus": "pending"},
-    {"slug": "adrian-rurawhe", "name": "Adrian Rurawhe", "lastName": "Rurawhe", "firstName": "Adrian", "party": "Labour Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/rurawhe-adrian/", "researchStatus": "pending"},
-    {"slug": "deborah-russell", "name": "Deborah Russell", "lastName": "Russell", "firstName": "Deborah", "party": "Labour Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/russell-deborah/", "researchStatus": "pending"},
-    {"slug": "tom-rutherford", "name": "Tom Rutherford", "lastName": "Rutherford", "firstName": "Tom", "party": "National Party", "electorate": "Bay of Plenty", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/rutherford-tom/", "researchStatus": "pending"},
-    {"slug": "jenny-salesa", "name": "Jenny Salesa", "lastName": "Salesa", "firstName": "Jenny", "party": "Labour Party", "electorate": "Panmure-Ōtāhuhu", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/salesa-jenny/", "researchStatus": "pending"},
-    {"slug": "carmel-sepuloni", "name": "Carmel Sepuloni", "lastName": "Sepuloni", "firstName": "Carmel", "party": "Labour Party", "electorate": "Kelston", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/sepuloni-carmel/", "researchStatus": "pending"},
-    {"slug": "david-seymour", "name": "David Seymour", "lastName": "Seymour", "firstName": "David", "party": "ACT Party", "electorate": "Epsom", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/seymour-david/", "researchStatus": "pending"},
-    {"slug": "penny-simmonds", "name": "Penny Simmonds", "lastName": "Simmonds", "firstName": "Penny", "party": "National Party", "electorate": "Invercargill", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/simmonds-penny/", "researchStatus": "pending"},
-    {"slug": "scott-simpson", "name": "Scott Simpson", "lastName": "Simpson", "firstName": "Scott", "party": "National Party", "electorate": "Coromandel", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/simpson-scott/", "researchStatus": "pending"},
-    {"slug": "stuart-smith", "name": "Stuart Smith", "lastName": "Smith", "firstName": "Stuart", "party": "National Party", "electorate": "Kaikōura", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/smith-stuart/", "researchStatus": "pending"},
-    {"slug": "lemauga-lydia-sosene", "name": "Lemauga Lydia Sosene", "lastName": "Sosene", "firstName": "Lemauga Lydia", "party": "Labour Party", "electorate": "Māngere", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/sosene-lemauga-lydia/", "researchStatus": "pending"},
-    {"slug": "erica-stanford", "name": "Erica Stanford", "lastName": "Stanford", "firstName": "Erica", "party": "National Party", "electorate": "East Coast Bays", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/stanford-erica/", "researchStatus": "pending"},
-    {"slug": "todd-stephenson", "name": "Todd Stephenson", "lastName": "Stephenson", "firstName": "Todd", "party": "ACT Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/stephenson-todd/", "researchStatus": "pending"},
-    {"slug": "chloe-swarbrick", "name": "Chlöe Swarbrick", "lastName": "Swarbrick", "firstName": "Chlöe", "party": "Green Party", "electorate": "Auckland Central", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/swarbrick-chloe/", "researchStatus": "pending"},
-    {"slug": "cushla-tangaere-manuel", "name": "Cushla Tangaere-Manuel", "lastName": "Tangaere-Manuel", "firstName": "Cushla", "party": "Labour Party", "electorate": "Ikaroa-Rāwhiti", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/tangaere-manuel-cushla/", "researchStatus": "pending"},
-    {"slug": "jan-tinetti", "name": "Jan Tinetti", "lastName": "Tinetti", "firstName": "Jan", "party": "Labour Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/tinetti-jan/", "researchStatus": "pending"},
-    {"slug": "teanau-tuiono", "name": "Teanau Tuiono", "lastName": "Tuiono", "firstName": "Teanau", "party": "Green Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/tuiono-teanau/", "researchStatus": "pending"},
-    {"slug": "phil-twyford", "name": "Phil Twyford", "lastName": "Twyford", "firstName": "Phil", "party": "Labour Party", "electorate": "Te Atatū", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/twyford-phil/", "researchStatus": "pending"},
-    {"slug": "sam-uffindell", "name": "Sam Uffindell", "lastName": "Uffindell", "firstName": "Sam", "party": "National Party", "electorate": "Tauranga", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/uffindell-sam/", "researchStatus": "pending"},
-    {"slug": "louise-upston", "name": "Louise Upston", "lastName": "Upston", "firstName": "Louise", "party": "National Party", "electorate": "Taupō", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/upston-louise/", "researchStatus": "pending"},
-    {"slug": "tangi-utikere", "name": "Tangi Utikere", "lastName": "Utikere", "firstName": "Tangi", "party": "Labour Party", "electorate": "Palmerston North", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/utikere-tangi/", "researchStatus": "pending"},
-    {"slug": "tim-van-de-molen", "name": "Tim van de Molen", "lastName": "van de Molen", "firstName": "Tim", "party": "National Party", "electorate": "Waikato", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/van-de-molen-tim/", "researchStatus": "pending"},
-    {"slug": "brooke-van-velden", "name": "Brooke van Velden", "lastName": "van Velden", "firstName": "Brooke", "party": "ACT Party", "electorate": "Tāmaki", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/van-velden-brooke/", "researchStatus": "pending"},
-    {"slug": "ayesha-verrall", "name": "Ayesha Verrall", "lastName": "Verrall", "firstName": "Ayesha", "party": "Labour Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/verrall-ayesha/", "researchStatus": "pending"},
-    {"slug": "celia-wade-brown", "name": "Celia Wade-Brown", "lastName": "Wade-Brown", "firstName": "Celia", "party": "Green Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/wade-brown-celia/", "researchStatus": "pending"},
-    {"slug": "rawiri-waititi", "name": "Rawiri Waititi", "lastName": "Waititi", "firstName": "Rawiri", "party": "Te Pāti Māori", "electorate": "Waiariki", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/waititi-rawiri/", "researchStatus": "pending"},
-    {"slug": "vanushi-walters", "name": "Vanushi Walters", "lastName": "Walters", "firstName": "Vanushi", "party": "Labour Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/walters-vanushi/", "researchStatus": "pending"},
-    {"slug": "simon-watts", "name": "Simon Watts", "lastName": "Watts", "firstName": "Simon", "party": "National Party", "electorate": "North Shore", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/watts-simon/", "researchStatus": "pending"},
-    {"slug": "duncan-webb", "name": "Duncan Webb", "lastName": "Webb", "firstName": "Duncan", "party": "Labour Party", "electorate": "Christchurch Central", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/webb-duncan/", "researchStatus": "pending"},
-    {"slug": "catherine-wedd", "name": "Catherine Wedd", "lastName": "Wedd", "firstName": "Catherine", "party": "National Party", "electorate": "Tukituki", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/wedd-catherine/", "researchStatus": "pending"},
-    {"slug": "vanessa-weenink", "name": "Vanessa Weenink", "lastName": "Weenink", "firstName": "Vanessa", "party": "National Party", "electorate": "Banks Peninsula", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/weenink-vanessa/", "researchStatus": "pending"},
-    {"slug": "helen-white", "name": "Helen White", "lastName": "White", "firstName": "Helen", "party": "Labour Party", "electorate": "Mt Albert", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/white-helen/", "researchStatus": "pending"},
-    {"slug": "arena-williams", "name": "Arena Williams", "lastName": "Williams", "firstName": "Arena", "party": "Labour Party", "electorate": "Manurewa", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/williams-arena/", "researchStatus": "pending"},
-    {"slug": "nicola-willis", "name": "Nicola Willis", "lastName": "Willis", "firstName": "Nicola", "party": "National Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/willis-nicola/", "researchStatus": "pending"},
-    {"slug": "scott-willis", "name": "Scott Willis", "lastName": "Willis", "firstName": "Scott", "party": "Green Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/willis-scott/", "researchStatus": "pending"},
-    {"slug": "david-wilson", "name": "David Wilson", "lastName": "Wilson", "firstName": "David", "party": "NZ First Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/wilson-david/", "researchStatus": "pending"},
-    {"slug": "megan-woods", "name": "Megan Woods", "lastName": "Woods", "firstName": "Megan", "party": "Labour Party", "electorate": "Wigram", "isList": false, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/woods-megan/", "researchStatus": "pending"},
-    {"slug": "lawrence-xu-nan", "name": "Lawrence Xu-Nan", "lastName": "Xu-Nan", "firstName": "Lawrence", "party": "Green Party", "electorate": null, "isList": true, "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/xu-nan-lawrence/", "researchStatus": "pending"}
+    {
+      "slug": "steve-abel",
+      "name": "Steve Abel",
+      "lastName": "Abel",
+      "firstName": "Steve",
+      "party": "Green Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/abel-steve/",
+      "researchStatus": "parliament-scraped",
+      "email": "Steve.Abel@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Māori Affairs",
+          "role": "Member"
+        },
+        {
+          "committee": "Primary Production",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Agriculture"
+        },
+        {
+          "portfolio": "Animal Welfare"
+        },
+        {
+          "portfolio": "Food Safety"
+        },
+        {
+          "portfolio": "Just Transitions"
+        },
+        {
+          "portfolio": "Māori Crown Relations: Te Arawhiti"
+        },
+        {
+          "portfolio": "Racing"
+        },
+        {
+          "portfolio": "Resources"
+        },
+        {
+          "portfolio": "Treaty of Waitangi Negotiations"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.greens.org.nz/steve_abel",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/SteveAbelGreens"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/abelsteve"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/steveabelthereal"
+        }
+      ]
+    },
+    {
+      "slug": "ginny-andersen",
+      "name": "Ginny Andersen",
+      "lastName": "Andersen",
+      "firstName": "Ginny",
+      "party": "Labour Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/andersen-ginny/",
+      "researchStatus": "parliament-scraped",
+      "email": "Virginia.Andersen@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Justice",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Jobs and Incomes"
+        },
+        {
+          "portfolio": "Police"
+        },
+        {
+          "portfolio": "Treaty of Waitangi Negotiations"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/ginny-andersen/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/GinnyAndersenHuttSouth"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/ginnyandersen"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/ginny_andersen/"
+        }
+      ]
+    },
+    {
+      "slug": "miles-anderson",
+      "name": "Miles Anderson",
+      "lastName": "Anderson",
+      "firstName": "Miles",
+      "party": "National Party",
+      "electorate": "Waitaki",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/anderson-miles/",
+      "researchStatus": "parliament-scraped",
+      "email": "Miles.Anderson@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Primary Production",
+          "role": "Deputy Chairperson"
+        },
+        {
+          "committee": "Regulations Review",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.national.org.nz/milesanderson",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/MilesAndersonWaitaki"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/milesandersonforwaitaki"
+        }
+      ]
+    },
+    {
+      "slug": "jamie-arbuckle",
+      "name": "Jamie Arbuckle",
+      "lastName": "Arbuckle",
+      "firstName": "Jamie",
+      "party": "NZ First Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/arbuckle-jamie/",
+      "researchStatus": "parliament-scraped",
+      "email": "Jamie.Arbuckle@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Business",
+          "role": "Member"
+        },
+        {
+          "committee": "Justice",
+          "role": "Deputy Chairperson"
+        },
+        {
+          "committee": "Officers of Parliament",
+          "role": "Member"
+        },
+        {
+          "committee": "Social Services and Community",
+          "role": "Member"
+        },
+        {
+          "committee": "Standing Orders",
+          "role": "Member"
+        },
+        {
+          "committee": "PSC Committee",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.nzfirst.nz/jamie_arbuckle",
+      "socialLinks": []
+    },
+    {
+      "slug": "carl-bates",
+      "name": "Carl Bates",
+      "lastName": "Bates",
+      "firstName": "Carl",
+      "party": "National Party",
+      "electorate": "Whanganui",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/bates-carl/",
+      "researchStatus": "parliament-scraped",
+      "email": "Carl.Bates@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Education and Workforce",
+          "role": "Deputy Chairperson"
+        },
+        {
+          "committee": "Justice",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.national.org.nz/carlbates",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/CarlBatesWhanganui"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/carlbateswhanganui"
+        }
+      ]
+    },
+    {
+      "slug": "andrew-bayly",
+      "name": "Andrew Bayly",
+      "lastName": "Bayly",
+      "firstName": "Andrew",
+      "party": "National Party",
+      "electorate": "Port Waikato",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/bayly-andrew/",
+      "researchStatus": "parliament-scraped",
+      "email": "Andrew.Bayly@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Justice",
+          "role": "Chairperson"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://andrewbayly.national.org.nz/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/AndrewBaylyMP/"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/bayly_andrew"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/andrewbaylymp/"
+        }
+      ]
+    },
+    {
+      "slug": "camilla-belich",
+      "name": "Camilla Belich",
+      "lastName": "Belich",
+      "firstName": "Camilla",
+      "party": "Labour Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/belich-camilla/",
+      "researchStatus": "parliament-scraped",
+      "email": "Camilla.Belich@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Governance and Administration",
+          "role": "Chairperson"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "ACC"
+        },
+        {
+          "portfolio": "Emergency Management"
+        },
+        {
+          "portfolio": "Public Services"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/camilla-belich/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/CamillaBelichLabour/"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/Camilla_Belich"
+        }
+      ]
+    },
+    {
+      "slug": "glen-bennett",
+      "name": "Glen Bennett",
+      "lastName": "Bennett",
+      "firstName": "Glen",
+      "party": "Labour Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/bennett-glen/",
+      "researchStatus": "parliament-scraped",
+      "email": "Glen.Bennett@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Business",
+          "role": "Member"
+        },
+        {
+          "committee": "Privileges",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Tourism and Hospitality"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/glen-bennett/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/glenbennettlabour"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/glen.bennettmp/"
+        }
+      ]
+    },
+    {
+      "slug": "dan-bidois",
+      "name": "Dan Bidois",
+      "lastName": "Bidois",
+      "firstName": "Dan",
+      "party": "National Party",
+      "electorate": "Northcote",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/bidois-dan/",
+      "researchStatus": "parliament-scraped",
+      "email": "Dan.Bidois@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Finance and Expenditure",
+          "role": "Member"
+        },
+        {
+          "committee": "Transport and Infrastructure",
+          "role": "Deputy Chairperson"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.national.org.nz/danbidois",
+      "socialLinks": [
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/danbidoismp"
+        }
+      ]
+    },
+    {
+      "slug": "chris-bishop",
+      "name": "Chris Bishop",
+      "lastName": "Bishop",
+      "firstName": "Chris",
+      "party": "National Party",
+      "electorate": "Hutt South",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/bishop-chris/",
+      "researchStatus": "parliament-scraped",
+      "email": "Chris.Bishop@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Business",
+          "role": "Member"
+        },
+        {
+          "committee": "Privileges",
+          "role": "Member"
+        },
+        {
+          "committee": "Standing Orders",
+          "role": "Member"
+        },
+        {
+          "committee": "Parliamentary Corporation",
+          "role": "Member"
+        },
+        {
+          "committee": "PSC Committee",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [
+        {
+          "role": "Leader of the House",
+          "since": "27/11/2023"
+        }
+      ],
+      "partyBioUrl": "https://chrisbishop.national.org.nz/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/chrisbishopmp"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/cjsbishop"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/cjsbishop/"
+        }
+      ]
+    },
+    {
+      "slug": "rachel-boyack",
+      "name": "Rachel Boyack",
+      "lastName": "Boyack",
+      "firstName": "Rachel",
+      "party": "Labour Party",
+      "electorate": "Nelson",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/boyack-rachel/",
+      "researchStatus": "parliament-scraped",
+      "email": "Rachel.Boyack@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Primary Production",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Animal Welfare"
+        },
+        {
+          "portfolio": "Arts Culture, and Heritage"
+        },
+        {
+          "portfolio": "Oceans and Fisheries"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/rachel-boyack/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/RachelBoyackNelson/"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/rachelboyack"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/rachelboyack/"
+        }
+      ]
+    },
+    {
+      "slug": "cameron-brewer",
+      "name": "Cameron Brewer",
+      "lastName": "Brewer",
+      "firstName": "Cameron",
+      "party": "National Party",
+      "electorate": "Upper Harbour",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/brewer-cameron/",
+      "researchStatus": "parliament-scraped",
+      "email": "Cameron.Brewer@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Finance and Expenditure",
+          "role": "Chairperson"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.national.org.nz/cameronbrewer",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/CameronBrewerUpperHarbour"
+        }
+      ]
+    },
+    {
+      "slug": "rachel-brooking",
+      "name": "Rachel Brooking",
+      "lastName": "Brooking",
+      "firstName": "Rachel",
+      "party": "Labour Party",
+      "electorate": "Dunedin",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/brooking-rachel/",
+      "researchStatus": "parliament-scraped",
+      "email": "Rachel.Brooking@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Environment",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Environment"
+        },
+        {
+          "portfolio": "Food Safety"
+        },
+        {
+          "portfolio": "RMA Reform"
+        },
+        {
+          "portfolio": "Space"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/rachel-brooking/",
+      "socialLinks": [
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/brookingrachel"
+        }
+      ]
+    },
+    {
+      "slug": "simeon-brown",
+      "name": "Simeon Brown",
+      "lastName": "Brown",
+      "firstName": "Simeon",
+      "party": "National Party",
+      "electorate": "Pakuranga",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/brown-simeon/",
+      "researchStatus": "parliament-scraped",
+      "email": "Simeon.Brown@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://simeonbrown.national.org.nz/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/SimeonBrownMP"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/SimeonBrownMP"
+        }
+      ]
+    },
+    {
+      "slug": "gerry-brownlee",
+      "name": "Gerry Brownlee",
+      "lastName": "Brownlee",
+      "firstName": "Gerry",
+      "party": "National Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/brownlee-gerry/",
+      "researchStatus": "parliament-scraped",
+      "email": "Gerry.Brownlee@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Business",
+          "role": "Chairperson"
+        },
+        {
+          "committee": "Officers of Parliament",
+          "role": "Chairperson"
+        },
+        {
+          "committee": "Standing Orders",
+          "role": "Chairperson"
+        },
+        {
+          "committee": "Parliamentary Corporation",
+          "role": "Member"
+        },
+        {
+          "committee": "PSC Committee",
+          "role": "Chairperson"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [
+        {
+          "role": "Speaker",
+          "since": "05/12/2023"
+        }
+      ],
+      "partyBioUrl": "https://gerrybrownlee.national.org.nz/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/gerrybrownleemp"
+        }
+      ]
+    },
+    {
+      "slug": "mike-butterick",
+      "name": "Mike Butterick",
+      "lastName": "Butterick",
+      "firstName": "Mike",
+      "party": "National Party",
+      "electorate": "Wairarapa",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/butterick-mike/",
+      "researchStatus": "parliament-scraped",
+      "email": "Mike.Butterick@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Primary Production",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.national.org.nz/mikebutterick",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/nzmikebutterick"
+        }
+      ]
+    },
+    {
+      "slug": "mark-cameron",
+      "name": "Mark Cameron",
+      "lastName": "Cameron",
+      "firstName": "Mark",
+      "party": "ACT Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/cameron-mark/",
+      "researchStatus": "parliament-scraped",
+      "email": "Mark.Cameron@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Primary Production",
+          "role": "Chairperson"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Agriculture"
+        },
+        {
+          "portfolio": "Defence"
+        },
+        {
+          "portfolio": "Fisheries"
+        },
+        {
+          "portfolio": "Forestry"
+        },
+        {
+          "portfolio": "Hunting and Fishing"
+        },
+        {
+          "portfolio": "Rural Communities"
+        },
+        {
+          "portfolio": "Veterans"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.act.org.nz/mark-cameron",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/MarkCameronACTNZ"
+        }
+      ]
+    },
+    {
+      "slug": "hamish-campbell",
+      "name": "Hamish Campbell",
+      "lastName": "Campbell",
+      "firstName": "Hamish",
+      "party": "National Party",
+      "electorate": "Ilam",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/campbell-hamish/",
+      "researchStatus": "parliament-scraped",
+      "email": "Hamish.Campbell@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Economic Development, Science and Innovation",
+          "role": "Member"
+        },
+        {
+          "committee": "Health",
+          "role": "Deputy Chairperson"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.national.org.nz/hamishcampbell",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/hamishcampbellforilam"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/hamishcampbellforilam"
+        }
+      ]
+    },
+    {
+      "slug": "kahurangi-carter",
+      "name": "Kahurangi Carter",
+      "lastName": "Carter",
+      "firstName": "Kahurangi",
+      "party": "Green Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/carter-kahurangi/",
+      "researchStatus": "parliament-scraped",
+      "email": "Kahurangi.Carter@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Petitions",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Arts, Culture and Heritage"
+        },
+        {
+          "portfolio": "Children"
+        },
+        {
+          "portfolio": "Community and Voluntary Sector"
+        },
+        {
+          "portfolio": "Disability"
+        },
+        {
+          "portfolio": "Women"
+        },
+        {
+          "portfolio": "Zero Waste"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.greens.org.nz/kahurangi_carter",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/KahuCarter"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/KahurangiMP"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/kahurangicarter"
+        }
+      ]
+    },
+    {
+      "slug": "carlos-cheung",
+      "name": "Carlos Cheung",
+      "lastName": "Cheung",
+      "firstName": "Carlos",
+      "party": "National Party",
+      "electorate": "Mt Roskill",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/cheung-carlos/",
+      "researchStatus": "parliament-scraped",
+      "email": "Carlos.Cheung@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Health",
+          "role": "Member"
+        },
+        {
+          "committee": "Transport and Infrastructure",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.national.org.nz/carloscheung",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/CarlosCheungMtRoskill"
+        }
+      ]
+    },
+    {
+      "slug": "karen-chhour",
+      "name": "Karen Chhour",
+      "lastName": "Chhour",
+      "firstName": "Karen",
+      "party": "ACT Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/chhour-karen/",
+      "researchStatus": "parliament-scraped",
+      "email": "Karen.Chhour@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.act.org.nz/karen-chhour",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/karenchhourACTlistmemberofparliament/"
+        }
+      ]
+    },
+    {
+      "slug": "judith-collins",
+      "name": "Judith Collins",
+      "lastName": "Collins",
+      "firstName": "Judith",
+      "party": "National Party",
+      "electorate": "Papakura",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/collins-judith/",
+      "researchStatus": "parliament-scraped",
+      "email": "Judith.Collins@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Intelligence and Security",
+          "role": "Member"
+        },
+        {
+          "committee": "Privileges",
+          "role": "Chairperson"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [
+        {
+          "role": "Attorney General",
+          "since": "27/11/2023"
+        }
+      ],
+      "partyBioUrl": "https://judithcollins.national.org.nz/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/judithcollinsmp"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/judithcollinsmp"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/judithcollinsmp/"
+        }
+      ]
+    },
+    {
+      "slug": "casey-costello",
+      "name": "Casey Costello",
+      "lastName": "Costello",
+      "firstName": "Casey",
+      "party": "NZ First Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/costello-casey/",
+      "researchStatus": "parliament-scraped",
+      "email": "Casey.Costello@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.nzfirst.nz/casey-costello",
+      "socialLinks": []
+    },
+    {
+      "slug": "tim-costley",
+      "name": "Tim Costley",
+      "lastName": "Costley",
+      "firstName": "Tim",
+      "party": "National Party",
+      "electorate": "Ōtaki",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/costley-tim/",
+      "researchStatus": "parliament-scraped",
+      "email": "Tim.CostleyMP@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Foreign Affairs, Defence and Trade",
+          "role": "Member"
+        },
+        {
+          "committee": "Governance and Administration",
+          "role": "Deputy Chairperson"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.national.org.nz/timcostley",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/timcostleynz"
+        }
+      ]
+    },
+    {
+      "slug": "simon-court",
+      "name": "Simon Court",
+      "lastName": "Court",
+      "firstName": "Simon",
+      "party": "ACT Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/court-simon/",
+      "researchStatus": "parliament-scraped",
+      "email": "Simon.Court@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Transport and Infrastructure",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Climate Change"
+        },
+        {
+          "portfolio": "Energy and Resources"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.act.org.nz/simon-court",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/simoncourtact/"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/SimonCourtACT"
+        }
+      ]
+    },
+    {
+      "slug": "marama-davidson",
+      "name": "Marama Davidson",
+      "lastName": "Davidson",
+      "firstName": "Marama",
+      "party": "Green Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/davidson-marama/",
+      "researchStatus": "parliament-scraped",
+      "email": "Marama.Davidson@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Environment",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Child Poverty Reduction"
+        },
+        {
+          "portfolio": "Conservation"
+        },
+        {
+          "portfolio": "Prevention of Family and Sexual Violence"
+        },
+        {
+          "portfolio": "Social Investment"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.greens.org.nz/marama_davidson",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/maramadavidsonmp/"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/MaramaDavidson"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/maramadavidson/"
+        }
+      ]
+    },
+    {
+      "slug": "mike-davidson",
+      "name": "Mike Davidson",
+      "lastName": "Davidson",
+      "firstName": "Mike",
+      "party": "Green Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/davidson-mike/",
+      "researchStatus": "parliament-scraped",
+      "email": "Mike.Davidson@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.greens.org.nz/mike_davidson",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/OtautahiMike"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/otautahimike/#"
+        }
+      ]
+    },
+    {
+      "slug": "reuben-davidson",
+      "name": "Reuben Davidson",
+      "lastName": "Davidson",
+      "firstName": "Reuben",
+      "party": "Labour Party",
+      "electorate": "Christchurch East",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/davidson-reuben/",
+      "researchStatus": "parliament-scraped",
+      "email": "Reuben.Davidson@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Economic Development, Science and Innovation",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Broadcasting, Media and Creative Economy"
+        },
+        {
+          "portfolio": "Science, Technology and Innovation"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/reuben-davidson/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/ReubenDavidsonLabour"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/reuben4east"
+        }
+      ]
+    },
+    {
+      "slug": "matt-doocey",
+      "name": "Matt Doocey",
+      "lastName": "Doocey",
+      "firstName": "Matt",
+      "party": "National Party",
+      "electorate": "Waimakariri",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/doocey-matt/",
+      "researchStatus": "parliament-scraped",
+      "email": "Matt.Doocey@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://mattdoocey.national.org.nz/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/MattDoocey.Waimakariri/"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/matt.dooceymp/"
+        }
+      ]
+    },
+    {
+      "slug": "barbara-edmonds",
+      "name": "Barbara Edmonds",
+      "lastName": "Edmonds",
+      "firstName": "Barbara",
+      "party": "Labour Party",
+      "electorate": "Mana",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/edmonds-barbara/",
+      "researchStatus": "parliament-scraped",
+      "email": "Barbara.Edmonds@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Finance and Expenditure",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Economic Development"
+        },
+        {
+          "portfolio": "Finance"
+        },
+        {
+          "portfolio": "Savings and Investment"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/barbara-edmonds/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/BarbaraEdmondsMP/"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/BarbEdmondsMana"
+        }
+      ]
+    },
+    {
+      "slug": "takuta-ferris",
+      "name": "Tākuta Ferris",
+      "lastName": "Ferris",
+      "firstName": "Tākuta",
+      "party": "Independent - not party affiliated",
+      "electorate": "Te Tai Tonga",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/ferris-takuta/",
+      "researchStatus": "parliament-scraped",
+      "email": null,
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": null,
+      "socialLinks": []
+    },
+    {
+      "slug": "greg-fleming",
+      "name": "Greg Fleming",
+      "lastName": "Fleming",
+      "firstName": "Greg",
+      "party": "National Party",
+      "electorate": "Maungakiekie",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/fleming-greg/",
+      "researchStatus": "parliament-scraped",
+      "email": "Greg.Fleming@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Māori Affairs",
+          "role": "Member"
+        },
+        {
+          "committee": "Petitions",
+          "role": "Deputy Chairperson"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.national.org.nz/gregfleming",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/GregFlemingMaungakiekie"
+        }
+      ]
+    },
+    {
+      "slug": "andy-foster",
+      "name": "Andy Foster",
+      "lastName": "Foster",
+      "firstName": "Andy",
+      "party": "NZ First Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/foster-andy/",
+      "researchStatus": "parliament-scraped",
+      "email": "Andy.Foster@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Governance and Administration",
+          "role": "Member"
+        },
+        {
+          "committee": "Transport and Infrastructure",
+          "role": "Chairperson"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.nzfirst.nz/andy-foster",
+      "socialLinks": []
+    },
+    {
+      "slug": "paulo-garcia",
+      "name": "Paulo Garcia",
+      "lastName": "Garcia",
+      "firstName": "Paulo",
+      "party": "National Party",
+      "electorate": "New Lynn",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/garcia-paulo/",
+      "researchStatus": "parliament-scraped",
+      "email": "Paulo.Garcia@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Petitions",
+          "role": "Member"
+        },
+        {
+          "committee": "Social Services and Community",
+          "role": "Deputy Chairperson"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.national.org.nz/paulogarcia",
+      "socialLinks": []
+    },
+    {
+      "slug": "julie-anne-genter",
+      "name": "Julie Anne Genter",
+      "lastName": "Genter",
+      "firstName": "Julie Anne",
+      "party": "Green Party",
+      "electorate": "Rongotai",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/genter-julie-anne/",
+      "researchStatus": "parliament-scraped",
+      "email": "Julieanne.Genter@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Transport and Infrastructure",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Building and Construction"
+        },
+        {
+          "portfolio": "Economic Development"
+        },
+        {
+          "portfolio": "Infrastructure"
+        },
+        {
+          "portfolio": "RMA Reform (Built Environment)"
+        },
+        {
+          "portfolio": "State Owned Enterprises"
+        },
+        {
+          "portfolio": "Transport"
+        },
+        {
+          "portfolio": "Urban Development"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.greens.org.nz/julie_anne_genter",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/JulieAnneGenter"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/julieannegenter"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/julieannegenter/"
+        }
+      ]
+    },
+    {
+      "slug": "paul-goldsmith",
+      "name": "Paul Goldsmith",
+      "lastName": "Goldsmith",
+      "firstName": "Paul",
+      "party": "National Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/goldsmith-paul/",
+      "researchStatus": "parliament-scraped",
+      "email": "Paul.Goldsmith@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://paulgoldsmith.national.org.nz/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/paulgoldsmithmp/"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/PaulGoldsmithMP"
+        }
+      ]
+    },
+    {
+      "slug": "nicola-grigg",
+      "name": "Nicola Grigg",
+      "lastName": "Grigg",
+      "firstName": "Nicola",
+      "party": "National Party",
+      "electorate": "Selwyn",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/grigg-nicola/",
+      "researchStatus": "parliament-scraped",
+      "email": "Nicola.Grigg@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://nicolagrigg.national.org.nz/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/NicolaGriggSelwyn/"
+        }
+      ]
+    },
+    {
+      "slug": "shanan-halbert",
+      "name": "Shanan Halbert",
+      "lastName": "Halbert",
+      "firstName": "Shanan",
+      "party": "Labour Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/halbert-shanan/",
+      "researchStatus": "parliament-scraped",
+      "email": "Shanan.Halbert@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Education and Workforce",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Rainbow Issues"
+        },
+        {
+          "portfolio": "Tertiary Education"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/shanan-halbert/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/shananhalbertMP"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/shananhalbert"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/shanan.halbert/"
+        }
+      ]
+    },
+    {
+      "slug": "ryan-hamilton",
+      "name": "Ryan Hamilton",
+      "lastName": "Hamilton",
+      "firstName": "Ryan",
+      "party": "National Party",
+      "electorate": "Hamilton East",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/hamilton-ryan/",
+      "researchStatus": "parliament-scraped",
+      "email": "Ryan.Hamilton@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Environment",
+          "role": "Member"
+        },
+        {
+          "committee": "Finance and Expenditure",
+          "role": "Deputy Chairperson"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.national.org.nz/ryanhamilton",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/Hamilton4HamiltonEast"
+        }
+      ]
+    },
+    {
+      "slug": "peeni-henare",
+      "name": "Peeni Henare",
+      "lastName": "Henare",
+      "firstName": "Peeni",
+      "party": "Labour Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/henare-peeni/",
+      "researchStatus": "parliament-scraped",
+      "email": "Peeni.Henare@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Foreign Affairs, Defence and Trade",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Defence"
+        },
+        {
+          "portfolio": "Economic Development"
+        },
+        {
+          "portfolio": "Foreign Affairs"
+        },
+        {
+          "portfolio": "Māori Crown Relations: Te Arawhiti"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/peeni-henare/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/PeeniHenareLabour"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/PeeniHenare"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/peenihenare/"
+        }
+      ]
+    },
+    {
+      "slug": "francisco-hernandez",
+      "name": "Francisco Hernandez",
+      "lastName": "Hernandez",
+      "firstName": "Francisco",
+      "party": "Green Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/hernandez-francisco/",
+      "researchStatus": "parliament-scraped",
+      "email": "Francisco.Hernandez@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Education and Workforce",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Emergency Management and Recovery"
+        },
+        {
+          "portfolio": "Regulation"
+        },
+        {
+          "portfolio": "Science Innovation and Technology"
+        },
+        {
+          "portfolio": "Statistics"
+        },
+        {
+          "portfolio": "Public Services"
+        },
+        {
+          "portfolio": "Tertiary Education"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.greens.org.nz/francisco_hernandez",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/FranciscoHernandezforDunedin"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/fran4dunedin"
+        }
+      ]
+    },
+    {
+      "slug": "chris-hipkins",
+      "name": "Chris Hipkins",
+      "lastName": "Hipkins",
+      "firstName": "Chris",
+      "party": "Labour Party",
+      "electorate": "Remutaka",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/hipkins-chris/",
+      "researchStatus": "parliament-scraped",
+      "email": "Chris.Hipkins@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Intelligence and Security",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Ministerial Services"
+        },
+        {
+          "portfolio": "National Security and Intelligence"
+        }
+      ],
+      "parliamentaryRoles": [
+        {
+          "role": "Leader of the Opposition",
+          "since": "27/11/2023"
+        }
+      ],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/rt-hon-chris-hipkins/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/chrishipkinsmp"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/chrishipkins"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/chrishipkinsmp/"
+        }
+      ]
+    },
+    {
+      "slug": "andrew-hoggard",
+      "name": "Andrew Hoggard",
+      "lastName": "Hoggard",
+      "firstName": "Andrew",
+      "party": "ACT Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/hoggard-andrew/",
+      "researchStatus": "parliament-scraped",
+      "email": "Andrew.Hoggard@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.act.org.nz/andrew-hoggard",
+      "socialLinks": []
+    },
+    {
+      "slug": "willie-jackson",
+      "name": "Willie Jackson",
+      "lastName": "Jackson",
+      "firstName": "Willie",
+      "party": "Labour Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/jackson-willie/",
+      "researchStatus": "parliament-scraped",
+      "email": "Willie.Jackson@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Social Services and Community",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Māori Development"
+        },
+        {
+          "portfolio": "Social Development"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/willie-jackson/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/WillieJacksonLabour/"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/WillieJLabour"
+        }
+      ]
+    },
+    {
+      "slug": "shane-jones",
+      "name": "Shane Jones",
+      "lastName": "Jones",
+      "firstName": "Shane",
+      "party": "NZ First Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/jones-shane/",
+      "researchStatus": "parliament-scraped",
+      "email": "Shane.Jones@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.nzfirst.nz/shane-jones",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/ShaneJones.nz"
+        }
+      ]
+    },
+    {
+      "slug": "oriini-kaipara",
+      "name": "Oriini Kaipara",
+      "lastName": "Kaipara",
+      "firstName": "Oriini",
+      "party": "Te Pāti Māori",
+      "electorate": "Tāmaki Makaurau",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/kaipara-oriini/",
+      "researchStatus": "parliament-scraped",
+      "email": "Oriini.Kaipara@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Māori Affairs",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.maoriparty.org.nz/oriini_kaipara",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/profile.php?id=61578317851789"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/oriini_kaipara/"
+        }
+      ]
+    },
+    {
+      "slug": "mariameno-kapa-kingi",
+      "name": "Mariameno Kapa-Kingi",
+      "lastName": "Kapa-Kingi",
+      "firstName": "Mariameno",
+      "party": "Independent - not party affiliated",
+      "electorate": "Te Tai Tokerau",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/kapa-kingi-mariameno/",
+      "researchStatus": "parliament-scraped",
+      "email": "Mariameno.Kapa-Kingi@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Business",
+          "role": "Member"
+        },
+        {
+          "committee": "Officers of Parliament",
+          "role": "Member"
+        },
+        {
+          "committee": "Privileges",
+          "role": "Member"
+        },
+        {
+          "committee": "Standing Orders",
+          "role": "Member"
+        },
+        {
+          "committee": "Transport and Infrastructure",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": null,
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/KapaKingi"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/mariameno.kapakingi/"
+        }
+      ]
+    },
+    {
+      "slug": "dana-kirkpatrick",
+      "name": "Dana Kirkpatrick",
+      "lastName": "Kirkpatrick",
+      "firstName": "Dana",
+      "party": "National Party",
+      "electorate": "East Coast",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/kirkpatrick-dana/",
+      "researchStatus": "parliament-scraped",
+      "email": "Dana.Kirkpatrick@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Foreign Affairs, Defence and Trade",
+          "role": "Member"
+        },
+        {
+          "committee": "Māori Affairs",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.national.org.nz/danakirkpatrick",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/DanaKirkpatrickEastCoast"
+        }
+      ]
+    },
+    {
+      "slug": "barbara-kuriger",
+      "name": "Barbara Kuriger",
+      "lastName": "Kuriger",
+      "firstName": "Barbara",
+      "party": "National Party",
+      "electorate": "Taranaki-King Country",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/kuriger-barbara/",
+      "researchStatus": "parliament-scraped",
+      "email": "Barbara.Kuriger@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Officers of Parliament",
+          "role": "Member"
+        },
+        {
+          "committee": "PSC Committee",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [
+        {
+          "role": "Deputy Speaker",
+          "since": "06/12/2023"
+        }
+      ],
+      "partyBioUrl": "https://barbarakuriger.national.org.nz/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/BarbaraKurigerMP"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/BarbaraKuriger"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/BarbaraKurigerMP/"
+        }
+      ]
+    },
+    {
+      "slug": "ingrid-leary",
+      "name": "Ingrid Leary",
+      "lastName": "Leary",
+      "firstName": "Ingrid",
+      "party": "Labour Party",
+      "electorate": "Taieri",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/leary-ingrid/",
+      "researchStatus": "parliament-scraped",
+      "email": "Ingrid.Leary@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Health",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Mental Health"
+        },
+        {
+          "portfolio": "Seniors"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/ingrid-leary/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/IngridLearyMP"
+        }
+      ]
+    },
+    {
+      "slug": "melissa-lee",
+      "name": "Melissa Lee",
+      "lastName": "Lee",
+      "firstName": "Melissa",
+      "party": "National Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/lee-melissa/",
+      "researchStatus": "parliament-scraped",
+      "email": "Melissa.Lee@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Governance and Administration",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://melissalee.national.org.nz/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/mpmelissalee"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/melissaleemp"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/melissaleemp/"
+        }
+      ]
+    },
+    {
+      "slug": "nancy-lu",
+      "name": "Nancy Lu",
+      "lastName": "Lu",
+      "firstName": "Nancy",
+      "party": "National Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/lu-nancy/",
+      "researchStatus": "parliament-scraped",
+      "email": "Nancy.Lu@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Finance and Expenditure",
+          "role": "Member"
+        },
+        {
+          "committee": "Regulations Review",
+          "role": "Deputy Chairperson"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.national.org.nz/nancylu",
+      "socialLinks": []
+    },
+    {
+      "slug": "christopher-luxon",
+      "name": "Christopher Luxon",
+      "lastName": "Luxon",
+      "firstName": "Christopher",
+      "party": "National Party",
+      "electorate": "Botany",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/luxon-christopher/",
+      "researchStatus": "parliament-scraped",
+      "email": "Christopher.Luxon@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Intelligence and Security",
+          "role": "Chairperson"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [
+        {
+          "role": "Prime Minister",
+          "since": "27/11/2023"
+        }
+      ],
+      "partyBioUrl": "https://www.national.org.nz/leader",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/christopherluxon"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/chrisluxonmp"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/christopherluxon/"
+        }
+      ]
+    },
+    {
+      "slug": "cameron-luxton",
+      "name": "Cameron Luxton",
+      "lastName": "Luxton",
+      "firstName": "Cameron",
+      "party": "ACT Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/luxton-cameron/",
+      "researchStatus": "parliament-scraped",
+      "email": "Cameron.Luxton@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Environment",
+          "role": "Member"
+        },
+        {
+          "committee": "Health",
+          "role": "Member"
+        },
+        {
+          "committee": "MP Parliamentary Engagement Committee",
+          "role": "Deputy Chairperson"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Conservation"
+        },
+        {
+          "portfolio": "Housing Building Construction"
+        },
+        {
+          "portfolio": "Infrastructure"
+        },
+        {
+          "portfolio": "Local Government"
+        },
+        {
+          "portfolio": "Transport"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.act.org.nz/cameron-luxton",
+      "socialLinks": []
+    },
+    {
+      "slug": "jo-luxton",
+      "name": "Jo Luxton",
+      "lastName": "Luxton",
+      "firstName": "Jo",
+      "party": "Labour Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/luxton-jo/",
+      "researchStatus": "parliament-scraped",
+      "email": "Jo.Luxton@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Primary Production",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Agriculture"
+        },
+        {
+          "portfolio": "Biosecurity"
+        },
+        {
+          "portfolio": "Rural Communities"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/jo-luxton/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/JoLuxtonLabour/"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/joluxx"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/joluxton_mp/"
+        }
+      ]
+    },
+    {
+      "slug": "huhana-lyndon",
+      "name": "Hūhana Lyndon",
+      "lastName": "Lyndon",
+      "firstName": "Hūhana",
+      "party": "Green Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/lyndon-huhana/",
+      "researchStatus": "parliament-scraped",
+      "email": "Huhana.Lyndon@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.greens.org.nz/huhana_lyndon",
+      "socialLinks": []
+    },
+    {
+      "slug": "david-macleod",
+      "name": "David MacLeod",
+      "lastName": "MacLeod",
+      "firstName": "David",
+      "party": "National Party",
+      "electorate": "New Plymouth",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/macleod-david/",
+      "researchStatus": "parliament-scraped",
+      "email": "David.MacLeod@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Māori Affairs",
+          "role": "Chairperson"
+        },
+        {
+          "committee": "Environment",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.national.org.nz/davidmacleod",
+      "socialLinks": []
+    },
+    {
+      "slug": "hana-rawhiti-maipi-clarke",
+      "name": "Hana-Rawhiti Maipi-Clarke",
+      "lastName": "Maipi-Clarke",
+      "firstName": "Hana-Rawhiti",
+      "party": "Te Pāti Māori",
+      "electorate": "Hauraki-Waikato",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/maipi-clarke-hana-rawhiti/",
+      "researchStatus": "parliament-scraped",
+      "email": "Hana-Rawhiti.Maipi-Clarke@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.maoriparty.org.nz/hana_rawhiti_maipi_clarke",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/profile.php?id=100094003368223"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/hana_rawhiti/"
+        }
+      ]
+    },
+    {
+      "slug": "jenny-marcroft",
+      "name": "Jenny Marcroft",
+      "lastName": "Marcroft",
+      "firstName": "Jenny",
+      "party": "NZ First Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/marcroft-jenny/",
+      "researchStatus": "parliament-scraped",
+      "email": "Jenny.Marcroft@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Health",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.nzfirst.nz/jenny-marcroft",
+      "socialLinks": []
+    },
+    {
+      "slug": "kieran-mcanulty",
+      "name": "Kieran McAnulty",
+      "lastName": "McAnulty",
+      "firstName": "Kieran",
+      "party": "Labour Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/mcanulty-kieran/",
+      "researchStatus": "parliament-scraped",
+      "email": "Kieran.Mcanulty@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Business",
+          "role": "Member"
+        },
+        {
+          "committee": "Standing Orders",
+          "role": "Deputy Chairperson"
+        },
+        {
+          "committee": "PSC Committee",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Housing"
+        },
+        {
+          "portfolio": "Infrastructure and Public Investment"
+        }
+      ],
+      "parliamentaryRoles": [
+        {
+          "role": "Shadow Leader of the House",
+          "since": "30/11/2023"
+        }
+      ],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/kieran-mcanulty/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/Kieran-McAnulty-for-Wairarapa-432190196924346/"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/Kieran_McAnulty"
+        }
+      ]
+    },
+    {
+      "slug": "grant-mccallum",
+      "name": "Grant McCallum",
+      "lastName": "McCallum",
+      "firstName": "Grant",
+      "party": "National Party",
+      "electorate": "Northland",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/mccallum-grant/",
+      "researchStatus": "parliament-scraped",
+      "email": "Grant.McCallum@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Education and Workforce",
+          "role": "Member"
+        },
+        {
+          "committee": "Environment",
+          "role": "Deputy Chairperson"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.national.org.nz/grantmccallum",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/grantmccallumnz"
+        }
+      ]
+    },
+    {
+      "slug": "todd-mcclay",
+      "name": "Todd McClay",
+      "lastName": "McClay",
+      "firstName": "Todd",
+      "party": "National Party",
+      "electorate": "Rotorua",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/mcclay-todd/",
+      "researchStatus": "parliament-scraped",
+      "email": "Todd.McClay@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://toddmcclay.national.org.nz/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/ToddMcClayMPforRotorua"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/toddmcclaymp"
+        }
+      ]
+    },
+    {
+      "slug": "laura-mcclure",
+      "name": "Laura McClure",
+      "lastName": "McClure",
+      "firstName": "Laura",
+      "party": "ACT Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/mcclure-laura/",
+      "researchStatus": "parliament-scraped",
+      "email": "Laura.McClure@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.act.org.nz/people/laura-mcclure",
+      "socialLinks": []
+    },
+    {
+      "slug": "nicole-mckee",
+      "name": "Nicole McKee",
+      "lastName": "McKee",
+      "firstName": "Nicole",
+      "party": "ACT Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/mckee-nicole/",
+      "researchStatus": "parliament-scraped",
+      "email": "Nicole.McKee@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.act.org.nz/nicole-mckee",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/nicolemckeeact"
+        }
+      ]
+    },
+    {
+      "slug": "tracey-mclellan",
+      "name": "Tracey McLellan",
+      "lastName": "McLellan",
+      "firstName": "Tracey",
+      "party": "Labour Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/mclellan-tracey/",
+      "researchStatus": "parliament-scraped",
+      "email": "Tracey.McLellan@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Standing Orders",
+          "role": "Member"
+        },
+        {
+          "committee": "Transport and Infrastructure",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Christchurch Issues"
+        },
+        {
+          "portfolio": "Corrections"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/tracey-mclellan/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/traceymclellanlabour"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/traceymclellan"
+        }
+      ]
+    },
+    {
+      "slug": "james-meager",
+      "name": "James Meager",
+      "lastName": "Meager",
+      "firstName": "James",
+      "party": "National Party",
+      "electorate": "Rangitata",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/meager-james/",
+      "researchStatus": "parliament-scraped",
+      "email": "James.MeagerMP@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.national.org.nz/jamesmeager",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/JamesMeagerMP"
+        }
+      ]
+    },
+    {
+      "slug": "ricardo-menendez-march",
+      "name": "Ricardo Menéndez March",
+      "lastName": "Menéndez March",
+      "firstName": "Ricardo",
+      "party": "Green Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/menendez-march-ricardo/",
+      "researchStatus": "parliament-scraped",
+      "email": "ricardo.march@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.greens.org.nz/ricardo_menendez_march",
+      "socialLinks": []
+    },
+    {
+      "slug": "mark-mitchell",
+      "name": "Mark Mitchell",
+      "lastName": "Mitchell",
+      "firstName": "Mark",
+      "party": "National Party",
+      "electorate": "Whangaparāoa",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/mitchell-mark/",
+      "researchStatus": "parliament-scraped",
+      "email": "Mark.Mitchell@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://markmitchell.national.org.nz/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/markmitchellmp"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/MarkMitchellMP"
+        }
+      ]
+    },
+    {
+      "slug": "joseph-mooney",
+      "name": "Joseph Mooney",
+      "lastName": "Mooney",
+      "firstName": "Joseph",
+      "party": "National Party",
+      "electorate": "Southland",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/mooney-joseph/",
+      "researchStatus": "parliament-scraped",
+      "email": "Joseph.Mooney@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Regulations",
+          "role": "Member"
+        },
+        {
+          "committee": "Social Services and Community",
+          "role": "Chairperson"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://josephmooney.national.org.nz/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/josephmooneynz"
+        }
+      ]
+    },
+    {
+      "slug": "rima-nakhle",
+      "name": "Rima Nakhle",
+      "lastName": "Nakhle",
+      "firstName": "Rima",
+      "party": "National Party",
+      "electorate": "Takanini",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/nakhle-rima/",
+      "researchStatus": "parliament-scraped",
+      "email": "Rima.Nakhle@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Māori Affairs",
+          "role": "Deputy Chairperson"
+        },
+        {
+          "committee": "Justice",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.national.org.nz/rimanakhle",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/RimaNakhleTakanini"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/rimanakhlenz"
+        }
+      ]
+    },
+    {
+      "slug": "debbie-ngarewa-packer",
+      "name": "Debbie Ngarewa-Packer",
+      "lastName": "Ngarewa-Packer",
+      "firstName": "Debbie",
+      "party": "Te Pāti Māori",
+      "electorate": "Te Tai Hauāuru",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/ngarewa-packer-debbie/",
+      "researchStatus": "parliament-scraped",
+      "email": "Debbie.Ngarewa-Packer@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Health",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.maoriparty.org.nz/debbie_ngarewa_packer",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/debbiengarewapacker"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/debbiengarewapacker/"
+        }
+      ]
+    },
+    {
+      "slug": "katie-nimon",
+      "name": "Katie Nimon",
+      "lastName": "Nimon",
+      "firstName": "Katie",
+      "party": "National Party",
+      "electorate": "Napier",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/nimon-katie/",
+      "researchStatus": "parliament-scraped",
+      "email": "Katie.Nimon@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Education and Workforce",
+          "role": "Chairperson"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.national.org.nz/katienimon",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/KatieNimonforNapier"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/nzkatienimon/"
+        }
+      ]
+    },
+    {
+      "slug": "damien-o-connor",
+      "name": "Damien O'Connor",
+      "lastName": "O'Connor",
+      "firstName": "Damien",
+      "party": "Labour Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/oconnor-damien/",
+      "researchStatus": "parliament-scraped",
+      "email": "Damien.O'Connor@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Foreign Affairs, Defence and Trade",
+          "role": "Deputy Chairperson"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Land Information"
+        },
+        {
+          "portfolio": "Regional Development"
+        },
+        {
+          "portfolio": "Trade"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/damien-oconnor/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/damienoconnormp"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/DamienOConnorMP"
+        }
+      ]
+    },
+    {
+      "slug": "greg-o-connor",
+      "name": "Greg O'Connor",
+      "lastName": "O'Connor",
+      "firstName": "Greg",
+      "party": "Labour Party",
+      "electorate": "Ōhāriu",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/oconnor-greg/",
+      "researchStatus": "parliament-scraped",
+      "email": "greg.o'connor@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Officers of Parliament",
+          "role": "Deputy Chairperson"
+        },
+        {
+          "committee": "Petitions",
+          "role": "Chairperson"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Courts"
+        },
+        {
+          "portfolio": "Veterans"
+        }
+      ],
+      "parliamentaryRoles": [
+        {
+          "role": "Assistant Speaker",
+          "since": "06/12/2023"
+        }
+      ],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/greg-oconnor/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/GregOhariu/"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/gregohariu"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/gregohariu/"
+        }
+      ]
+    },
+    {
+      "slug": "parmjeet-parmar",
+      "name": "Parmjeet Parmar",
+      "lastName": "Parmar",
+      "firstName": "Parmjeet",
+      "party": "ACT Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/parmar-parmjeet/",
+      "researchStatus": "parliament-scraped",
+      "email": "Parmjeet.Parmar@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Economic Development, Science and Innovation",
+          "role": "Chairperson"
+        },
+        {
+          "committee": "Education and Workforce",
+          "role": "Member"
+        },
+        {
+          "committee": "Privileges",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Commerce and Consumer Affairs"
+        },
+        {
+          "portfolio": "Ethnic Communities"
+        },
+        {
+          "portfolio": "Immigration"
+        },
+        {
+          "portfolio": "Research"
+        },
+        {
+          "portfolio": "Social Development"
+        },
+        {
+          "portfolio": "Tertiary Education and Skills"
+        },
+        {
+          "portfolio": "Trade"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.act.org.nz/parmjeet-parmar",
+      "socialLinks": []
+    },
+    {
+      "slug": "mark-patterson",
+      "name": "Mark Patterson",
+      "lastName": "Patterson",
+      "firstName": "Mark",
+      "party": "NZ First Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/patterson-mark/",
+      "researchStatus": "parliament-scraped",
+      "email": "Mark.Patterson@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.nzfirst.nz/mark-patterson",
+      "socialLinks": []
+    },
+    {
+      "slug": "tamatha-paul",
+      "name": "Tamatha Paul",
+      "lastName": "Paul",
+      "firstName": "Tamatha",
+      "party": "Green Party",
+      "electorate": "Wellington Central",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/paul-tamatha/",
+      "researchStatus": "parliament-scraped",
+      "email": "Tamatha.Paul@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Corrections"
+        },
+        {
+          "portfolio": "Government Response to March 15th"
+        },
+        {
+          "portfolio": "Housing"
+        },
+        {
+          "portfolio": "Police"
+        },
+        {
+          "portfolio": "Youth"
+        },
+        {
+          "portfolio": "Youth Justice"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.greens.org.nz/tamatha_paul",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/tamathapaul1"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/tamathapaul"
+        }
+      ]
+    },
+    {
+      "slug": "chris-penk",
+      "name": "Chris Penk",
+      "lastName": "Penk",
+      "firstName": "Chris",
+      "party": "National Party",
+      "electorate": "Kaipara ki Mahurangi",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/penk-chris/",
+      "researchStatus": "parliament-scraped",
+      "email": "Chris.Penk@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://chrispenk.national.org.nz/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/christopherpenk/"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/chris_penk_nz/"
+        }
+      ]
+    },
+    {
+      "slug": "winston-peters",
+      "name": "Winston Peters",
+      "lastName": "Peters",
+      "firstName": "Winston",
+      "party": "NZ First Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/peters-winston/",
+      "researchStatus": "parliament-scraped",
+      "email": "Winston.Peters@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Intelligence and Security",
+          "role": "Member"
+        },
+        {
+          "committee": "Privileges",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.nzfirst.nz/winston-peters",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/winstonpeters"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/winstonpeters"
+        }
+      ]
+    },
+    {
+      "slug": "lan-pham",
+      "name": "Lan Pham",
+      "lastName": "Pham",
+      "firstName": "Lan",
+      "party": "Green Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/pham-lan/",
+      "researchStatus": "parliament-scraped",
+      "email": "Lan.Pham@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Environment",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Biosecurity and Customs"
+        },
+        {
+          "portfolio": "Environment"
+        },
+        {
+          "portfolio": "Land Information"
+        },
+        {
+          "portfolio": "RMA Reform (Environment)"
+        },
+        {
+          "portfolio": "Statistics"
+        },
+        {
+          "portfolio": "Water Services"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.greens.org.nz/lan_pham",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/LanPham.nz"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/lanpham.nz"
+        }
+      ]
+    },
+    {
+      "slug": "tama-potaka",
+      "name": "Tama Potaka",
+      "lastName": "Potaka",
+      "firstName": "Tama",
+      "party": "National Party",
+      "electorate": "Hamilton West",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/potaka-tama/",
+      "researchStatus": "parliament-scraped",
+      "email": "Tama.Potaka@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.national.org.nz/tamapotaka",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/TamaPotakaHamiltonWest"
+        }
+      ]
+    },
+    {
+      "slug": "willow-jean-prime",
+      "name": "Willow-Jean Prime",
+      "lastName": "Prime",
+      "firstName": "Willow-Jean",
+      "party": "Labour Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/prime-willow-jean/",
+      "researchStatus": "parliament-scraped",
+      "email": "Willow-Jean.Prime@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Education and Workforce",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Children"
+        },
+        {
+          "portfolio": "Education"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/willow-jean-prime/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/willowprime/"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/willowprime"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/willowjeanprime/"
+        }
+      ]
+    },
+    {
+      "slug": "maureen-pugh",
+      "name": "Maureen Pugh",
+      "lastName": "Pugh",
+      "firstName": "Maureen",
+      "party": "National Party",
+      "electorate": "West Coast-Tasman",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/pugh-maureen/",
+      "researchStatus": "parliament-scraped",
+      "email": "Maureen.Pugh@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Social Services and Community",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [
+        {
+          "role": "Assistant Speaker",
+          "since": "06/12/2023"
+        }
+      ],
+      "partyBioUrl": "https://maureenpugh.national.org.nz/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/wct.maureenpugh/"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/MaureenPughNat"
+        }
+      ]
+    },
+    {
+      "slug": "priyanca-radhakrishnan",
+      "name": "Priyanca Radhakrishnan",
+      "lastName": "Radhakrishnan",
+      "firstName": "Priyanca",
+      "party": "Labour Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/radhakrishnan-priyanca/",
+      "researchStatus": "parliament-scraped",
+      "email": "Priyanca.Radhakrishnan@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Environment",
+          "role": "Member"
+        },
+        {
+          "committee": "Intelligence and Security",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Conservation"
+        },
+        {
+          "portfolio": "Disability Issues"
+        },
+        {
+          "portfolio": "GCSB"
+        },
+        {
+          "portfolio": "NZSIS"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/priyanca-radhakrishnan/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/priyancanzlp/"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/priyancanzlp"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/priyancanzlp/"
+        }
+      ]
+    },
+    {
+      "slug": "suze-redmayne",
+      "name": "Suze Redmayne",
+      "lastName": "Redmayne",
+      "firstName": "Suze",
+      "party": "National Party",
+      "electorate": "Rangitīkei",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/redmayne-suze/",
+      "researchStatus": "parliament-scraped",
+      "email": "Suze.Redmayne@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Officers of Parliament",
+          "role": "Member"
+        },
+        {
+          "committee": "Primary Production",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.national.org.nz/suzeredmayne",
+      "socialLinks": [
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/suzeredmaynerangitikei"
+        }
+      ]
+    },
+    {
+      "slug": "shane-reti",
+      "name": "Shane Reti",
+      "lastName": "Reti",
+      "firstName": "Shane",
+      "party": "National Party",
+      "electorate": "Whangārei",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/reti-shane/",
+      "researchStatus": "parliament-scraped",
+      "email": "s.reti@ministers.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://shanereti.national.org.nz/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/DrShaneRetiMP"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/DrShaneRetiMP"
+        }
+      ]
+    },
+    {
+      "slug": "adrian-rurawhe",
+      "name": "Adrian Rurawhe",
+      "lastName": "Rurawhe",
+      "firstName": "Adrian",
+      "party": "Labour Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/rurawhe-adrian/",
+      "researchStatus": "parliament-scraped",
+      "email": "Adrian.Rurawhe@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Māori Affairs",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Whānau Ora"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/rt-hon-adrian-rurawhe/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/RurawheAdrian"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/adrianrurawhe"
+        }
+      ]
+    },
+    {
+      "slug": "deborah-russell",
+      "name": "Deborah Russell",
+      "lastName": "Russell",
+      "firstName": "Deborah",
+      "party": "Labour Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/russell-deborah/",
+      "researchStatus": "parliament-scraped",
+      "email": "Deborah.Russell@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Finance and Expenditure",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Climate Change"
+        },
+        {
+          "portfolio": "Revenue"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/hon-dr-deborah-russell/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/deborahrusselllabour/"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/BeeFaerie"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/deb_russell_mp/"
+        }
+      ]
+    },
+    {
+      "slug": "tom-rutherford",
+      "name": "Tom Rutherford",
+      "lastName": "Rutherford",
+      "firstName": "Tom",
+      "party": "National Party",
+      "electorate": "Bay of Plenty",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/rutherford-tom/",
+      "researchStatus": "parliament-scraped",
+      "email": "Tom.Rutherford@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Governance and Administration",
+          "role": "Member"
+        },
+        {
+          "committee": "Justice",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.national.org.nz/tomrutherford",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/TomRutherfordBOP"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/tomrutherford_bop"
+        }
+      ]
+    },
+    {
+      "slug": "jenny-salesa",
+      "name": "Jenny Salesa",
+      "lastName": "Salesa",
+      "firstName": "Jenny",
+      "party": "Labour Party",
+      "electorate": "Panmure-Ōtāhuhu",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/salesa-jenny/",
+      "researchStatus": "parliament-scraped",
+      "email": "Jenny.Salesa@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Regulations Review",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Customs"
+        },
+        {
+          "portfolio": "Ethnic Communities"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/hon-jenny-salesa/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/jenny.salesa.labour"
+        }
+      ]
+    },
+    {
+      "slug": "carmel-sepuloni",
+      "name": "Carmel Sepuloni",
+      "lastName": "Sepuloni",
+      "firstName": "Carmel",
+      "party": "Labour Party",
+      "electorate": "Kelston",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/sepuloni-carmel/",
+      "researchStatus": "parliament-scraped",
+      "email": "Carmel.Sepuloni@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Commonwealth Parliamentary Association, New Zealand Group",
+          "role": "Chairperson"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Auckland Issues"
+        },
+        {
+          "portfolio": "Pacific Peoples"
+        },
+        {
+          "portfolio": "Women"
+        }
+      ],
+      "parliamentaryRoles": [
+        {
+          "role": "Deputy Leader of the Opposition",
+          "since": "27/11/2023"
+        }
+      ],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/hon-carmel-sepuloni/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/CarmelSepuloniLabour/"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/CarmelSepuloni"
+        }
+      ]
+    },
+    {
+      "slug": "david-seymour",
+      "name": "David Seymour",
+      "lastName": "Seymour",
+      "firstName": "David",
+      "party": "ACT Party",
+      "electorate": "Epsom",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/seymour-david/",
+      "researchStatus": "parliament-scraped",
+      "email": "David.Seymour@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [
+        {
+          "role": "Deputy Prime Minister",
+          "since": "31/05/2025"
+        }
+      ],
+      "partyBioUrl": "https://www.act.org.nz/david-seymour",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/davidseymourACT"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/dbseymour"
+        }
+      ]
+    },
+    {
+      "slug": "penny-simmonds",
+      "name": "Penny Simmonds",
+      "lastName": "Simmonds",
+      "firstName": "Penny",
+      "party": "National Party",
+      "electorate": "Invercargill",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/simmonds-penny/",
+      "researchStatus": "parliament-scraped",
+      "email": "Penny.Simmonds@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://pennysimmonds.national.org.nz/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/nzpennysimmonds"
+        }
+      ]
+    },
+    {
+      "slug": "scott-simpson",
+      "name": "Scott Simpson",
+      "lastName": "Simpson",
+      "firstName": "Scott",
+      "party": "National Party",
+      "electorate": "Coromandel",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/simpson-scott/",
+      "researchStatus": "parliament-scraped",
+      "email": "Scott.Simpson@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Privileges",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://scottsimpson.national.org.nz/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/scottsimpsonmp"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/ScottSimpsonMP"
+        }
+      ]
+    },
+    {
+      "slug": "stuart-smith",
+      "name": "Stuart Smith",
+      "lastName": "Smith",
+      "firstName": "Stuart",
+      "party": "National Party",
+      "electorate": "Kaikōura",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/smith-stuart/",
+      "researchStatus": "parliament-scraped",
+      "email": "Stuart.Smith@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Business",
+          "role": "Member"
+        },
+        {
+          "committee": "Standing Orders",
+          "role": "Member"
+        },
+        {
+          "committee": "Inter-Parliamentary Union, New Zealand Group",
+          "role": "Chairperson"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://stuartsmith.national.org.nz/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/stuartsmith.national"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/stuartsmithmp"
+        }
+      ]
+    },
+    {
+      "slug": "lemauga-lydia-sosene",
+      "name": "Lemauga Lydia Sosene",
+      "lastName": "Sosene",
+      "firstName": "Lemauga Lydia",
+      "party": "Labour Party",
+      "electorate": "Māngere",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/sosene-lemauga-lydia/",
+      "researchStatus": "parliament-scraped",
+      "email": "Lemauga.Lydia.Sosene@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Governance and Administration",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Internal Affairs"
+        },
+        {
+          "portfolio": "Statistics"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/lemauga-lydia-sosene/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/lemaugalydiasosenemp"
+        }
+      ]
+    },
+    {
+      "slug": "erica-stanford",
+      "name": "Erica Stanford",
+      "lastName": "Stanford",
+      "firstName": "Erica",
+      "party": "National Party",
+      "electorate": "East Coast Bays",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/stanford-erica/",
+      "researchStatus": "parliament-scraped",
+      "email": "Erica.Stanford@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://ericastanford.national.org.nz/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/EricaStanfordECB/"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/ericastanfordecb/"
+        }
+      ]
+    },
+    {
+      "slug": "todd-stephenson",
+      "name": "Todd Stephenson",
+      "lastName": "Stephenson",
+      "firstName": "Todd",
+      "party": "ACT Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/stephenson-todd/",
+      "researchStatus": "parliament-scraped",
+      "email": "Todd.Stephenson@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Business",
+          "role": "Member"
+        },
+        {
+          "committee": "Finance and Expenditure",
+          "role": "Member"
+        },
+        {
+          "committee": "Justice",
+          "role": "Member"
+        },
+        {
+          "committee": "Officers of Parliament",
+          "role": "Member"
+        },
+        {
+          "committee": "Standing Orders",
+          "role": "Member"
+        },
+        {
+          "committee": "PSC Committee",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Arts Culture and Heritage"
+        },
+        {
+          "portfolio": "Corrections"
+        },
+        {
+          "portfolio": "Finance"
+        },
+        {
+          "portfolio": "Health"
+        },
+        {
+          "portfolio": "Justice"
+        },
+        {
+          "portfolio": "Police"
+        },
+        {
+          "portfolio": "Public Service"
+        },
+        {
+          "portfolio": "Tourism"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.act.org.nz/todd-stephenson",
+      "socialLinks": []
+    },
+    {
+      "slug": "chloe-swarbrick",
+      "name": "Chlöe Swarbrick",
+      "lastName": "Swarbrick",
+      "firstName": "Chlöe",
+      "party": "Green Party",
+      "electorate": "Auckland Central",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/swarbrick-chloe/",
+      "researchStatus": "parliament-scraped",
+      "email": "Chloe.Swarbrick@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Finance and Expenditure",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Climate Change"
+        },
+        {
+          "portfolio": "Drug Law Reform"
+        },
+        {
+          "portfolio": "Finance"
+        },
+        {
+          "portfolio": "Mental Health"
+        },
+        {
+          "portfolio": "Revenue"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.greens.org.nz/chloe_swarbrick",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/chloeNZgreens"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/_chloeswarbrick"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/chloe.swarbrick/"
+        }
+      ]
+    },
+    {
+      "slug": "cushla-tangaere-manuel",
+      "name": "Cushla Tangaere-Manuel",
+      "lastName": "Tangaere-Manuel",
+      "firstName": "Cushla",
+      "party": "Labour Party",
+      "electorate": "Ikaroa-Rāwhiti",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/tangaere-manuel-cushla/",
+      "researchStatus": "parliament-scraped",
+      "email": "Cushla.Tangaere-Manuel@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Economic Development, Science and Innovation",
+          "role": "Member"
+        },
+        {
+          "committee": "Officers of Parliament",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Forestry"
+        },
+        {
+          "portfolio": "Māori Economy"
+        },
+        {
+          "portfolio": "Sport and Recreation"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/cushla-tangaere-manuel/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/CushlaNZLabour/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/cushlatangaeremanuel"
+        }
+      ]
+    },
+    {
+      "slug": "jan-tinetti",
+      "name": "Jan Tinetti",
+      "lastName": "Tinetti",
+      "firstName": "Jan",
+      "party": "Labour Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/tinetti-jan/",
+      "researchStatus": "parliament-scraped",
+      "email": "Jan.Tinetti@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Māori Affairs",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Early Childhood Education"
+        },
+        {
+          "portfolio": "Child Poverty Reduction"
+        },
+        {
+          "portfolio": "Social Investment"
+        },
+        {
+          "portfolio": "Workplace Relations and Safety"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/jan-tinetti/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/JanTinettiMP"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/jan.tinetti/"
+        }
+      ]
+    },
+    {
+      "slug": "teanau-tuiono",
+      "name": "Teanau Tuiono",
+      "lastName": "Tuiono",
+      "firstName": "Teanau",
+      "party": "Green Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/tuiono-teanau/",
+      "researchStatus": "parliament-scraped",
+      "email": "Teanau.Tuiono@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Foreign Affairs, Defence and Trade",
+          "role": "Member"
+        },
+        {
+          "committee": "Intelligence and Security",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Defence & Disarmament"
+        },
+        {
+          "portfolio": "Foreign Affairs"
+        },
+        {
+          "portfolio": "National Security and Intelligence"
+        },
+        {
+          "portfolio": "Ocean and Fisheries"
+        },
+        {
+          "portfolio": "Pacific Peoples"
+        },
+        {
+          "portfolio": "Space"
+        },
+        {
+          "portfolio": "Veterans"
+        },
+        {
+          "portfolio": "Workplace Relations and Safety"
+        }
+      ],
+      "parliamentaryRoles": [
+        {
+          "role": "Assistant Speaker",
+          "since": "07/12/2023"
+        }
+      ],
+      "partyBioUrl": "https://www.greens.org.nz/teanau_tuiono_mp",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/TeanauTalks"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/teanau_tuiono"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/teanau_tuiono"
+        }
+      ]
+    },
+    {
+      "slug": "phil-twyford",
+      "name": "Phil Twyford",
+      "lastName": "Twyford",
+      "firstName": "Phil",
+      "party": "Labour Party",
+      "electorate": "Te Atatū",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/twyford-phil/",
+      "researchStatus": "parliament-scraped",
+      "email": "Phil.Twyford@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Education and Workforce",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Disarmament and Arms Control"
+        },
+        {
+          "portfolio": "Immigration"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/phil-twyford/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/phil.twyford.mp"
+        }
+      ]
+    },
+    {
+      "slug": "sam-uffindell",
+      "name": "Sam Uffindell",
+      "lastName": "Uffindell",
+      "firstName": "Sam",
+      "party": "National Party",
+      "electorate": "Tauranga",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/uffindell-sam/",
+      "researchStatus": "parliament-scraped",
+      "email": "Sam.Uffindell@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Health",
+          "role": "Chairperson"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://samuffindell.national.org.nz/",
+      "socialLinks": []
+    },
+    {
+      "slug": "louise-upston",
+      "name": "Louise Upston",
+      "lastName": "Upston",
+      "firstName": "Louise",
+      "party": "National Party",
+      "electorate": "Taupō",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/upston-louise/",
+      "researchStatus": "parliament-scraped",
+      "email": "Louise.Upston@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [
+        {
+          "role": "Deputy Leader of the House",
+          "since": "24/01/2025"
+        }
+      ],
+      "partyBioUrl": "https://louiseupston.national.org.nz/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/louiseupstonmp/"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/LouiseUpston"
+        }
+      ]
+    },
+    {
+      "slug": "tangi-utikere",
+      "name": "Tangi Utikere",
+      "lastName": "Utikere",
+      "firstName": "Tangi",
+      "party": "Labour Party",
+      "electorate": "Palmerston North",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/utikere-tangi/",
+      "researchStatus": "parliament-scraped",
+      "email": "Tangi.Utikere@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Transport and Infrastructure",
+          "role": "Member"
+        },
+        {
+          "committee": "Parliamentary Corporation",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Local Government"
+        },
+        {
+          "portfolio": "Racing"
+        },
+        {
+          "portfolio": "Small Business"
+        },
+        {
+          "portfolio": "Transport"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/tangi-utikere/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/tangi.utikere.nz"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/TangiU"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/tangiutikere/"
+        }
+      ]
+    },
+    {
+      "slug": "tim-van-de-molen",
+      "name": "Tim van de Molen",
+      "lastName": "van de Molen",
+      "firstName": "Tim",
+      "party": "National Party",
+      "electorate": "Waikato",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/van-de-molen-tim/",
+      "researchStatus": "parliament-scraped",
+      "email": "Tim.vandemolen@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Foreign Affairs, Defence and Trade",
+          "role": "Chairperson"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://timvandemolen.national.org.nz/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/TimvandeMolenWaikato/"
+        }
+      ]
+    },
+    {
+      "slug": "brooke-van-velden",
+      "name": "Brooke van Velden",
+      "lastName": "van Velden",
+      "firstName": "Brooke",
+      "party": "ACT Party",
+      "electorate": "Tāmaki",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/van-velden-brooke/",
+      "researchStatus": "parliament-scraped",
+      "email": "Brooke.Vanvelden@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Intelligence and Security",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.act.org.nz/brooke-van-velden",
+      "socialLinks": [
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/BrookevanVelden"
+        }
+      ]
+    },
+    {
+      "slug": "ayesha-verrall",
+      "name": "Ayesha Verrall",
+      "lastName": "Verrall",
+      "firstName": "Ayesha",
+      "party": "Labour Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/verrall-ayesha/",
+      "researchStatus": "parliament-scraped",
+      "email": "Ayesha.Verrall@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Health",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Health"
+        },
+        {
+          "portfolio": "Wellington Issues"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/ayesha-verrall/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/drayeshaverrall/"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/drayeshaverrall"
+        }
+      ]
+    },
+    {
+      "slug": "celia-wade-brown",
+      "name": "Celia Wade-Brown",
+      "lastName": "Wade-Brown",
+      "firstName": "Celia",
+      "party": "Green Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/wade-brown-celia/",
+      "researchStatus": "parliament-scraped",
+      "email": "Celia.Wade-Brown@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Governance and Administration",
+          "role": "Member"
+        },
+        {
+          "committee": "MP Parliamentary Engagement Committee",
+          "role": "Chairperson"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Democracy and Electoral Reform"
+        },
+        {
+          "portfolio": "Digitising Government"
+        },
+        {
+          "portfolio": "Local Government"
+        },
+        {
+          "portfolio": "Tourism and Hospitality"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.greens.org.nz/celia_wade_brown",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/celia.wadebrown/"
+        }
+      ]
+    },
+    {
+      "slug": "rawiri-waititi",
+      "name": "Rawiri Waititi",
+      "lastName": "Waititi",
+      "firstName": "Rawiri",
+      "party": "Te Pāti Māori",
+      "electorate": "Waiariki",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/waititi-rawiri/",
+      "researchStatus": "parliament-scraped",
+      "email": "Rawiri.Waititi@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Finance and Expenditure",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.maoriparty.org.nz/rawiri_waititi",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/RawiriWaititiMP"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/Rawiri_Waititi"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/rawiri_waititi/"
+        }
+      ]
+    },
+    {
+      "slug": "vanushi-walters",
+      "name": "Vanushi Walters",
+      "lastName": "Walters",
+      "firstName": "Vanushi",
+      "party": "Labour Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/walters-vanushi/",
+      "researchStatus": "parliament-scraped",
+      "email": "Vanushi.Walters@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Justice",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [
+        {
+          "role": "Shadow Attorney General",
+          "since": "13/05/2025"
+        }
+      ],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/vanushi-walters/",
+      "socialLinks": [
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/vanushi_walters"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/vanushiwalters"
+        }
+      ]
+    },
+    {
+      "slug": "simon-watts",
+      "name": "Simon Watts",
+      "lastName": "Watts",
+      "firstName": "Simon",
+      "party": "National Party",
+      "electorate": "North Shore",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/watts-simon/",
+      "researchStatus": "parliament-scraped",
+      "email": "Simon.Watts@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://simonwatts.national.org.nz/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/simonwattsmp"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/simonwattsmp/"
+        }
+      ]
+    },
+    {
+      "slug": "duncan-webb",
+      "name": "Duncan Webb",
+      "lastName": "Webb",
+      "firstName": "Duncan",
+      "party": "Labour Party",
+      "electorate": "Christchurch Central",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/webb-duncan/",
+      "researchStatus": "parliament-scraped",
+      "email": "Duncan.Webb@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Justice",
+          "role": "Member"
+        },
+        {
+          "committee": "Privileges",
+          "role": "Deputy Chairperson"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Justice"
+        },
+        {
+          "portfolio": "Natural Hazards Commission"
+        },
+        {
+          "portfolio": "Regulation"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/hon-dr-duncan-webb/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/DuncanWebbLabour"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/Duncan_Webb_"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/duncanwebbmp/"
+        }
+      ]
+    },
+    {
+      "slug": "catherine-wedd",
+      "name": "Catherine Wedd",
+      "lastName": "Wedd",
+      "firstName": "Catherine",
+      "party": "National Party",
+      "electorate": "Tukituki",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/wedd-catherine/",
+      "researchStatus": "parliament-scraped",
+      "email": "Catherine.Wedd@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Environment",
+          "role": "Chairperson"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.national.org.nz/catherinewedd",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/catherineweddfortukituki"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/nzcatherinewedd/"
+        }
+      ]
+    },
+    {
+      "slug": "vanessa-weenink",
+      "name": "Vanessa Weenink",
+      "lastName": "Weenink",
+      "firstName": "Vanessa",
+      "party": "National Party",
+      "electorate": "Banks Peninsula",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/weenink-vanessa/",
+      "researchStatus": "parliament-scraped",
+      "email": "Vanessa.Weenink@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Economic Development, Science and Innovation",
+          "role": "Deputy Chairperson"
+        },
+        {
+          "committee": "Education and Workforce",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.national.org.nz/vanessaweenink",
+      "socialLinks": []
+    },
+    {
+      "slug": "helen-white",
+      "name": "Helen White",
+      "lastName": "White",
+      "firstName": "Helen",
+      "party": "Labour Party",
+      "electorate": "Mt Albert",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/white-helen/",
+      "researchStatus": "parliament-scraped",
+      "email": "Helen.White@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Social Services and Community",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Community and Voluntary Sector"
+        },
+        {
+          "portfolio": "Prevention of Family and Sexual Violence"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/helen-white/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "http://www.facebook.com/HelenWhiteLabour/"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/helen_white_labour/"
+        }
+      ]
+    },
+    {
+      "slug": "arena-williams",
+      "name": "Arena Williams",
+      "lastName": "Williams",
+      "firstName": "Arena",
+      "party": "Labour Party",
+      "electorate": "Manurewa",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/williams-arena/",
+      "researchStatus": "parliament-scraped",
+      "email": "Arena.Williams@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Economic Development, Science and Innovation",
+          "role": "Member"
+        },
+        {
+          "committee": "Regulations Review",
+          "role": "Chairperson"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Building and Construction"
+        },
+        {
+          "portfolio": "Commerce and Consumer Affairs"
+        },
+        {
+          "portfolio": "Youth"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/arena-williams/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/ArenaWilliamsManurewa"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/arenaa"
+        }
+      ]
+    },
+    {
+      "slug": "nicola-willis",
+      "name": "Nicola Willis",
+      "lastName": "Willis",
+      "firstName": "Nicola",
+      "party": "National Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/willis-nicola/",
+      "researchStatus": "parliament-scraped",
+      "email": "Nicola.Willis@parliament.govt.nz",
+      "selectCommittees": [],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://nicolawillis.national.org.nz/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/NicolaWillisMP/"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/NicolaWillisMP"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/nicolawillismp/"
+        }
+      ]
+    },
+    {
+      "slug": "scott-willis",
+      "name": "Scott Willis",
+      "lastName": "Willis",
+      "firstName": "Scott",
+      "party": "Green Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/willis-scott/",
+      "researchStatus": "parliament-scraped",
+      "email": "Scott.Willis@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Economic Development, Science and Innovation",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Dunedin Issues"
+        },
+        {
+          "portfolio": "Energy"
+        },
+        {
+          "portfolio": "Hunting and Fishing"
+        },
+        {
+          "portfolio": "Regional Development"
+        },
+        {
+          "portfolio": "Rural Communities"
+        },
+        {
+          "portfolio": "Small Business and Manufacturing"
+        },
+        {
+          "portfolio": "Sports and Recreation"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.greens.org.nz/scott_willis",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/ScottWillisforTaieri"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/scottwillisnz"
+        }
+      ]
+    },
+    {
+      "slug": "david-wilson",
+      "name": "David Wilson",
+      "lastName": "Wilson",
+      "firstName": "David",
+      "party": "NZ First Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/wilson-david/",
+      "researchStatus": "parliament-scraped",
+      "email": "David.WilsonMP@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Economic Development, Science and Innovation",
+          "role": "Member"
+        },
+        {
+          "committee": "Finance and Expenditure",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.nzfirst.nz/david-wilson",
+      "socialLinks": []
+    },
+    {
+      "slug": "megan-woods",
+      "name": "Megan Woods",
+      "lastName": "Woods",
+      "firstName": "Megan",
+      "party": "Labour Party",
+      "electorate": "Wigram",
+      "isList": false,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/woods-megan/",
+      "researchStatus": "parliament-scraped",
+      "email": "Megan.Woods@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Finance and Expenditure",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Energy and Resources"
+        },
+        {
+          "portfolio": "Manufacturing and Industry"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.labour.org.nz/our-team/megan-woods/",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/MeganWoodsWigram/"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/Megan_Woods"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/megancwoods/"
+        }
+      ]
+    },
+    {
+      "slug": "lawrence-xu-nan",
+      "name": "Lawrence Xu-Nan",
+      "lastName": "Xu-Nan",
+      "firstName": "Lawrence",
+      "party": "Green Party",
+      "electorate": null,
+      "isList": true,
+      "parliamentUrl": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/xu-nan-lawrence/",
+      "researchStatus": "parliament-scraped",
+      "email": "Lawrence.Xu-Nan@parliament.govt.nz",
+      "selectCommittees": [
+        {
+          "committee": "Justice",
+          "role": "Member"
+        }
+      ],
+      "spokespersonRoles": [
+        {
+          "portfolio": "Courts"
+        },
+        {
+          "portfolio": "Education"
+        },
+        {
+          "portfolio": "Ethnic Communities"
+        },
+        {
+          "portfolio": "Justice"
+        },
+        {
+          "portfolio": "Overseas New Zealanders"
+        },
+        {
+          "portfolio": "Seniors"
+        },
+        {
+          "portfolio": "Trade"
+        }
+      ],
+      "parliamentaryRoles": [],
+      "partyBioUrl": "https://www.greens.org.nz/lawrence_xu_nan",
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/lawrence.xunan/"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://www.instagram.com/lawrence_xunan/"
+        },
+        {
+          "platform": "X (Formerly Twitter)",
+          "url": "https://twitter.com/lx_xunan"
+        }
+      ]
+    }
   ]
 }
