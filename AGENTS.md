@@ -4,9 +4,20 @@ This project sends personalized letters (with donations) to New Zealand MPs expr
 
 **If you're an AI assistant starting fresh, read this file first.**
 
-## Current Task: Phase B Research
+## Current Task: Phase C Letter Drafting
 
-We're researching 121 MPs to find postal addresses, donation methods, and AI involvement. 
+We're refining the letter template section by section.
+
+## MP Count
+
+**There are 123 MPs in NZ Parliament.** Don't get confused by the data structure:
+- `data/mps.json` has 121 object entries + 2 string entries = 123 total
+- The 2 strings are special cases (Greg O'Connor, Scott Willis) with personal connections to Max
+- `data/research/` has 121 JSON files (the 2 special cases are in `data/SPECIAL-NOTES.md`)
+
+---
+
+## Research Phase (Complete) 
 
 ### How to Run Research
 
@@ -58,7 +69,7 @@ console.log('Next 10:', pending.slice(0, 10).join('\\n'));
 
 ## Project Goal
 
-Send letters to ~120 NZ MPs that:
+Send letters to all 123 NZ MPs that:
 1. Express *extreme concern* (but not dramatic) about AI's impact on humanity's future
 2. Urge prioritization of multilateral coordination on AI safety
 3. Include a donation to ensure the letter gets read
