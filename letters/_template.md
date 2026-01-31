@@ -1,51 +1,119 @@
 # Letter Template
 
-## Core Message
+## Format
 
-Dear {MP Name},
+- **Front page:** Main letter (~350 words)
+- **Back page:** Supplementary info (about me, resources, contact)
+- **Output:** PDF for print shop
+- **Paper:** Nice quality, professional look
 
-I am writing to you as a New Zealand citizen with a matter of serious concern.
+---
 
-{FOR GREG O'CONNOR ONLY: "I am writing to you as your constituent in Ōhāriu..."}
+## FRONT PAGE
 
-The future of humanity is contingent on the details of the development and deployment of artificial intelligence. This is not hyperbole - it is the considered view of leading researchers in the field, and increasingly of governments worldwide.
+Dear {Honorific} {Name},
 
-{PERSONALIZED SECTION - based on their background, committee work, or previous statements}
+I am writing to you as a New Zealand citizen about a matter I consider critically important.
 
-As a Member of Parliament, anything you can do to ensure New Zealand contributes to multilateral coordination on AI safety and control should be among your highest priorities. This is not a partisan issue - it affects everyone, and New Zealand's voice in international forums matters.
+{OPENING VARIANT:
+- Greg O'Connor: "I am writing to you as your constituent in Ōhāriu. We have met before at [event]..."
+- Scott Willis: "I am writing to you as an old family friend..."
+- Electorate MPs: "I am writing to you as a New Zealand citizen, and to you specifically as the representative for {Electorate}..."
+- List MPs: "I am writing to you as a New Zealand citizen..."}
 
-{CONCRETE ASK - specific to their role, e.g.:
-- If on Foreign Affairs: "NZ's position in upcoming UN discussions..."
-- If on Justice: "The legal frameworks we establish now..."
-- If electorate MP: "Your constituents need you to raise this..."}
+The trajectory of artificial intelligence development will likely determine the future of humanity. This is not hyperbole - it is the considered view of leading AI researchers, and increasingly of governments worldwide. Systems more capable than humans at most cognitive tasks may exist within years, not decades.
 
-I have enclosed $50 with this letter. I am sending the same letter and amount to every Member of Parliament - all 121 of you. This is not a small sum of money for me, but I believe this information is important enough to warrant it.
+{PERSONALIZED PARAGRAPH - varies for every MP. Draw from:
+- Their spokesperson portfolio (if relevant to AI, tech, foreign affairs, regulation)
+- Their committee membership (link to AI implications)
+- Their electorate (tech industry presence, constituent concerns, future generations)
+- Their party's values (connect AI safety to those values)
+- Their background (former occupation, expertise)
+- Their previous statements on tech/innovation (if any)
 
-{TODO: Refine wording. Key points to convey:
-- $50 to all 121 MPs (transparency, non-partisan)
-- Significant personal cost (~$6,000 total)
-- Gesture of seriousness, not attempt to influence
-- They can keep it - it's a gift to support their work}
+Examples:
+- Foreign Affairs spokesperson: "As [Party]'s spokesperson for Foreign Affairs, you are well-positioned to advocate for New Zealand's voice in international AI governance discussions..."
+- Justice Committee member: "Your work on the Justice Committee means you understand the importance of regulatory frameworks. The legal structures we establish now for AI will shape..."
+- Electorate MP in tech hub: "Your electorate is home to many in the technology sector who understand both the potential and the risks..."
+- List MP with education background: "Your background in education gives you insight into how AI will transform learning and work for the next generation..."}
 
-Thank you for your service to New Zealand.
+New Zealand is a small country, but our voice matters. We have a proud history of principled positions on nuclear disarmament and other global issues. I urge you to consider what role you can play in ensuring New Zealand contributes to multilateral coordination on AI safety.
 
-Sincerely,
-Max
+{DONATION PARAGRAPH}
+
+I have enclosed $50 with this letter. I am sending the same to every Member of Parliament - all 123 of you. This is not a small sum for me; in total I am spending over $6,000 to share this message. I ask nothing in return except that you take a few minutes to consider it.
+
+Yours sincerely,
+
+Max Oakes
+{Address}
+{Email}
+
+---
+
+## BACK PAGE
+
+### About Me
+
+I am a software engineer based in Wellington with [X] years of experience in the technology industry. I have followed AI development closely for [X] years. I am not affiliated with any political party or advocacy organisation. This letter represents my personal views and concerns.
+
+### Why I Am Writing
+
+[2-3 sentences on personal motivation - not apocalyptic, but genuine concern. Could mention having read key reports, followed the field, etc.]
+
+### Resources
+
+If you would like to learn more, I recommend:
+
+- **[Report/Resource 1]** - [One-line description]
+- **[Report/Resource 2]** - [One-line description]
+- **[Report/Resource 3]** - [One-line description]
+- **[Organisation]** - [One-line description]
+
+### What New Zealand Can Do
+
+[2-3 concrete policy options or international forums where NZ has a voice]
+
+### Contact
+
+If you would like to discuss this further, I welcome the opportunity:
+- Email: {email}
+- Phone: {phone}
+
+---
+
+## Personalization Tiers
+
+### Heavy (16 MPs)
+Personal connections + key ministers + AI-involved MPs.
+Multiple personalized paragraphs, specific asks, deeper engagement.
+
+### Medium (16 MPs)
+Relevant committees (Justice, Foreign Affairs, Economic) + tangential AI involvement.
+One substantial personalized paragraph with specific hook.
+
+### Light (91 MPs)
+Everyone else.
+One personalized paragraph drawing on electorate/party/committee/background.
 
 ---
 
 ## Tone Notes
 
-- Extremely concerned, but not dramatic
-- No apocalyptic language
-- Short - respect their time
-- Professional and respectful
-- Non-partisan framing
+- Extremely concerned, but measured - not dramatic or apocalyptic
+- Respectful of their time and position
+- Professional but personal
+- Non-partisan - this affects everyone
+- Humble - "I urge you to consider" not "you must act"
 
-## Personalization Checklist
+---
 
-- [ ] Addressed correctly (electorate vs list MP)
-- [ ] Referenced their relevant background/committee work
-- [ ] Concrete ask appropriate to their role
-- [ ] Donation method confirmed
-- [ ] Correct opening: "NZ citizen" for all except Greg O'Connor ("constituent in Ōhāriu")
+## Checklist Per Letter
+
+- [ ] Correct honorific (Hon. for ministers/former ministers)
+- [ ] Personalized paragraph crafted
+- [ ] Electorate/list status reflected in opening
+- [ ] No factual errors about their role
+- [ ] Under 400 words front page
+- [ ] Back page complete
+- [ ] PDF generated
