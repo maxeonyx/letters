@@ -18,11 +18,11 @@ I am sending a letter, along with $50, to every Member of Parliament.
 
 The future of humanity depends on how artificial intelligence develops. I am asking you to support international efforts to control, restrict, and democratize AI development. For yourself, for your children, for New Zealand.
 
-{OPENING VARIANT - personalized first line for some MPs:
-- Greg O'Connor: "I am writing to you as your constituent in Ōhāriu. We have met before at [event]..."
-- Scott Willis: "I am writing to you as an old family friend..."
-- Electorate MPs: "I am writing to you as a New Zealand citizen, and to you specifically as the representative for {Electorate}..."
-- List MPs: "I am writing to you as a New Zealand citizen..."}
+{OPENING VARIANT - only these 2 MPs get a different opening line BEFORE the standard opening:
+- Greg O'Connor: "I am writing to you as your constituent in Ōhāriu." (Max's actual electorate MP)
+- Scott Willis: "I am writing to you as an old family friend." (personal connection)
+
+All other MPs use the standard opening above. See data/SPECIAL-NOTES.md for full details on these two.}
 
 [SECTION 2 - CORE CLAIM]
 AI offers real benefits—in medicine, science, productivity, and more. But those benefits come with serious risks that require active management.
@@ -56,9 +56,23 @@ Examples:
 - Law & order focused MP: "You understand the threats AI poses to public safety: deepfakes undermining trust, AI-enabled fraud and scams, and the use of AI in organised crime. These are not hypothetical—they are happening now..."}
 
 [SECTION 4 - NZ'S ROLE / THE ASK]
-New Zealand's economy is fundamentally human-serving. Farming, tourism, fishing, entertainment—these industries exist to provide for people's needs. Unlike larger economies that feed into the technological supply chain, we export to people. Our farmers and producers depend on people around the world having disposable income to buy our lamb, dairy, wine, and tourism. If AI displaces workers globally, who buys what we grow? This is not one side of a political argument; it is a national interest that all MPs should recognise.
+New Zealand's economy fundamentally serves people. Farming, tourism, fishing and entertainment provide for human needs, not for machines or manufacturing supply chains. Unlike larger economies, we export to people. As AI increasingly replaces human labor, more people may struggle to provide value and earn income. Without earnings, who buys our lamb, dairy, wine, and tourism? Keeping the future human is a national interest of New Zealand.
 
 New Zealand is a small country, but our voice matters. We have a proud history of principled positions on nuclear disarmament and other global issues. I ask that you support New Zealand's active participation in international AI governance—including the AI Safety Summit process (Bletchley, Seoul, Paris, and the upcoming India Summit), OECD AI principles, and UN discussions on AI risk. We should be at the table, advocating for control of AI systems, investment in AI safety research, and restrictions on the unchecked release of increasingly powerful AI.
+
+{TODO: International cooperation requirements - REVIEW INDIVIDUALLY before integrating into paragraph above.
+
+What we WANT from international cooperation:
+1. ALIGNMENT - AI systems that understand and follow human values and ethics
+2. REDISTRIBUTION - Global mechanisms to redistribute gains from AI companies replacing labor (without this, labor replacement = income replacement = collapse of human welfare)
+3. RESTRICTIONS ON DANGEROUS USE - No AI for warfare, bioweapons, autonomous weapons
+4. CONTAINMENT - Keep advanced AI development among treaty parties (non-proliferation model)
+5. DEMOCRATIC CONTROL - Not left to free market; autonomous systems cannot be controlled long-term if left unchecked
+
+What we DON'T want (worth mentioning "not that"):
+- [TO RESEARCH: Which existing frameworks/proposals fail to address the above?]
+
+The goal: AI must be harnessed to improve the lives of ALL people. Not just some people, and not left as runaway economic power benefiting no one.}
 
 {TODO: Domestic ask - NEEDS FURTHER THOUGHT. Notes from Max:
 
@@ -137,17 +151,15 @@ If you would like to discuss this further, I welcome the opportunity:
 
 ## Personalization Tiers
 
-### Heavy (16 MPs)
+All 123 MPs receive a personalized letter. Tiers determine depth of personalization:
+
+### Heavy
 Personal connections + key ministers + AI-involved MPs.
-Multiple personalized paragraphs, specific asks, deeper engagement.
+Multiple personalized paragraphs, deeper engagement.
 
-### Medium (16 MPs)
-Relevant committees (Justice, Foreign Affairs, Economic) + tangential AI involvement.
-One substantial personalized paragraph with specific hook.
-
-### Light (91 MPs)
+### Medium
 Everyone else.
-One personalized paragraph drawing on electorate/party/committee/background.
+One substantial personalized paragraph with specific hook (see examples above).
 
 ---
 
@@ -157,7 +169,7 @@ One personalized paragraph drawing on electorate/party/committee/background.
 - Respectful of their time and position
 - Professional but personal
 - Non-partisan - this affects everyone
-- Humble - "I urge you to consider" not "you must act"
+- Direct but respectful - "I am asking you to support" (clear ask, not vague urging)
 
 ---
 
@@ -168,7 +180,13 @@ One personalized paragraph drawing on electorate/party/committee/background.
 - [x] NZ economy serves humans: NZ's economy is fundamentally human-serving - farming, tourism, logging, entertainment, fishing. These industries exist to provide for humans. So keeping the future human is a national priority, not just one side of a political argument. → INCORPORATED INTO SECTION 4
 - [ ] Domestic policy ask: What should NZ do internally? (placeholder in Section 4)
 - [x] Upcoming forum: AI Impact Summit in India, 19-20 February 2026 (imminent). Previous summits: Bletchley Park 2023, Seoul 2024, Paris 2025. Could reference NZ participation in these international efforts. → INCORPORATED INTO SECTION 4 (named all summits)
-- [ ] Soften apocalyptic language: "it is not a given that humanity will survive" (back page) triggers skepticism in some readers. Needs careful rewording.
+- [x] Soften apocalyptic language: "it is not a given that humanity will survive" (back page) triggers skepticism in some readers. Needs careful rewording. → REPLACED with "Without our work, we should not be confident that the outcome will be good"
+- [ ] International cooperation requirements: Review the 5 requirements (alignment, redistribution, restrictions, containment, democratic control) and integrate into Section 4
+- [ ] Links website: Create a simple website with resources, video links, QR code for letters. URL TBD. Resources to include:
+  - https://keepthefuturehuman.ai/
+  - AI Safety Summit info (Bletchley, Seoul, Paris, India)
+  - Video links (TBD)
+  - More resources (TBD)
 
 ---
 
@@ -178,6 +196,6 @@ One personalized paragraph drawing on electorate/party/committee/background.
 - [ ] Personalized paragraph crafted
 - [ ] Electorate/list status reflected in opening
 - [ ] No factual errors about their role
-- [ ] Under 400 words front page
+- [ ] Front page fits on one page when laid out
 - [ ] Back page complete
 - [ ] PDF generated

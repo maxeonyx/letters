@@ -40,7 +40,7 @@ Rationale: People already deep in AI policy have their views. People with *some*
 
 ## Data Requirements
 
-For each of 120 MPs, we need:
+For each of 123 MPs, we need:
 
 ### Tier 1 - Required to Act
 - Name
@@ -60,7 +60,7 @@ For each of 120 MPs, we need:
 
 ### Phase A: Bulk Data Collection (1 agent, ~5 mins)
 
-Scrape parliament.nz for all 120 MPs' basic info:
+Scrape parliament.nz for all 123 MPs' basic info:
 - https://www.parliament.nz/en/mps-and-wards/current-mps/
 
 This gives us names, parties, electorates, contact info, select committees.
