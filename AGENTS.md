@@ -123,6 +123,6 @@ See `data/SPECIAL-NOTES.md` for their data. Scripts will crash on these entries,
 ## Phase Status
 
 - [x] Phase A: Bulk data collection (123 MPs scraped from parliament.nz)
-- [ ] Phase B: Per-MP research (3/121 done)
-- [ ] Letter drafting
+- [x] Phase B: Per-MP research (121/121 done)
+- [ ] Phase C: Letter drafting (current task — see header)
 - [ ] Sending
