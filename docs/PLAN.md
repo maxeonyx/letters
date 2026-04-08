@@ -105,7 +105,7 @@ For each MP, research:
 - Works in isolation (own browser tab, own output file)
 - Clear success/failure criteria
 - Timeout after N minutes
-- Writes findings to `data/research/{mp-slug}.md`
+- Writes findings to `data/research/{mp-slug}.json`
 
 See `scripts/research-worker.md` for exact instructions.
 
@@ -128,7 +128,7 @@ See `docs/PHASE-2-IDEAS.md` for details.
 
 ### Avoiding Conflicts
 - Each agent gets its own MP assignment
-- Agents write to separate files (`data/research/{mp-slug}.md`)
+- Agents write to separate files (`data/research/{mp-slug}.json`)
 - Agents do NOT modify `mps.json` (only read from it)
 - Each agent opens only ONE browser tab
 

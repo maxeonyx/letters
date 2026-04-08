@@ -85,22 +85,28 @@ Send letters to all 123 NZ MPs that:
 
 ```
 letters/
+├── .gitignore             # Ignores generated/private files
 ├── AGENTS.md              # You are here
+├── README.md              # Human-facing project overview
 ├── data/
 │   ├── mps.json           # Master list of all MPs (source of truth, read-only)
 │   ├── SPECIAL-NOTES.md   # Greg O'Connor & Scott Willis (personal connections)
 │   └── research/          # Per-MP research JSON files
 │       ├── _schema.json   # JSON schema for research files
+│       ├── _template.md   # Template/example research record
 │       └── {mp-slug}.json # One file per MP (121 total)
+├── docs/
+│   ├── CRITICAL-REVIEW.md # Known issues and risks
+│   ├── DONATION-RULES.md  # NZ electoral donation research (important!)
+│   ├── index.html         # Simple project landing page
+│   ├── PHASE-2-IDEAS.md   # Post-letter follow-up ideas
+│   ├── PLAN.md            # Full project plan and context
+│   └── why.html           # Public-facing explainer page
+├── letters/
+│   └── _template.md       # Letter template
 ├── scripts/
 │   ├── research-worker.md # Detailed instructions for researcher agent
 │   └── orchestration.md   # How to coordinate parallel research
-├── letters/
-│   └── _template.md       # Letter template
-└── docs/
-    ├── PLAN.md            # Full project plan and context
-    ├── DONATION-RULES.md  # NZ electoral donation research (important!)
-    └── CRITICAL-REVIEW.md # Known issues and risks
 ```
 
 ## Research Priority Order
