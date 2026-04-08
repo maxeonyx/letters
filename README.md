@@ -1,6 +1,6 @@
 # Letters to NZ Parliament on AI Safety
 
-A personal project to send letters to all 120 New Zealand Members of Parliament expressing concern about AI safety and urging multilateral coordination.
+A personal project to send letters to all 123 New Zealand Members of Parliament expressing concern about AI safety and urging multilateral coordination.
 
 ## Why
 
@@ -15,7 +15,7 @@ The future of humanity is contingent on the details of AI development and deploy
 
 ## Status
 
-This project is in early planning stages.
+Research is complete for all 123 MPs. Letter drafting is underway.
 
 ## For AI Assistants
 
