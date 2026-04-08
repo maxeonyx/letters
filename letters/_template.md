@@ -58,7 +58,7 @@ Examples:
 [SECTION 4 - NZ'S ROLE / THE ASK]
 New Zealand's economy fundamentally serves people. Farming, tourism, fishing and entertainment provide for human needs, not for machines or manufacturing supply chains. Unlike larger economies, we export to people. As AI increasingly replaces human labor, more people may struggle to provide value and earn income. Without earnings, who buys our lamb, dairy, wine, and tourism? Keeping the future human is a national interest of New Zealand.
 
-New Zealand is a small country, but our voice matters. We have a proud history of principled positions on nuclear disarmament and other global issues. I ask that you support New Zealand's active participation in international AI governance—including the AI Safety Summit process (Bletchley, Seoul, Paris, and the upcoming India Summit), OECD AI principles, and UN discussions on AI risk. We should be at the table, advocating for control of AI systems, investment in AI safety research, and restrictions on the unchecked release of increasingly powerful AI.
+New Zealand is a small country, but our voice matters. We have a proud history of principled positions on nuclear disarmament and other global issues. I ask that you support New Zealand's active participation in international AI governance—including the AI Safety Summit process (Bletchley, Seoul, Paris, and India), OECD AI principles, and UN discussions on AI risk. We should be at the table, advocating for control of AI systems, investment in AI safety research, and restrictions on the unchecked release of increasingly powerful AI.
 
 {TODO: International cooperation requirements - REVIEW INDIVIDUALLY before integrating into paragraph above.
 
