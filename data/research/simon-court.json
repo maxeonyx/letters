@@ -9,14 +9,6 @@
     "source": "https://www.haveyoursay.org.nz/mp/simon-court",
     "notes": "Postal address listed on Have Your Say profile"
   },
-  "donationMethod": {
-    "status": "not-found",
-    "method": "party-channel",
-    "url": "https://action.act.org.nz/donate",
-    "bankAccount": "01-0102-0670937-00",
-    "details": "Particulars: Post Code (per donate page); online form available",
-    "notes": "ACT donation page is party-level; no MP-specific donation method found"
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -30,12 +22,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Freepost Parliament / Private Bag 18 888 postal address"
-    },
-    {
-      "source": "https://action.act.org.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Found ACT donation page and bank account 01-0102-0670937-00 (party-level)"
     },
     {
       "source": "https://www.act.org.nz/people/simon-court",

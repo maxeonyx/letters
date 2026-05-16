@@ -9,14 +9,6 @@
     "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/ferris-t%C4%81kuta/",
     "notes": "Parliament Office postal address listed under Contact Details"
   },
-  "donationMethod": {
-    "status": "not-found",
-    "method": "none-found",
-    "url": null,
-    "bankAccount": null,
-    "details": null,
-    "notes": "No public donation method found on sources checked."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -36,12 +28,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160) and parliament email address"
-    },
-    {
-      "source": "https://www.haveyoursay.org.nz/mp/takuta-ferris",
-      "checked": true,
-      "foundUseful": false,
-      "notes": "Checked for donation links/keywords; none present on this page."
     },
     {
       "source": "data/mps.json",

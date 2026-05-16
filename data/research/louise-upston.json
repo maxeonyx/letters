@@ -9,14 +9,6 @@
     "source": "https://www.national.org.nz/team/louiseupston/contact",
     "notes": "Electorate office (Taupō) listed on National Party MP contact page."
   },
-  "donationMethod": {
-    "status": "found",
-    "method": "party-channel",
-    "url": "https://www.national.org.nz/donate",
-    "bankAccount": null,
-    "details": "Donate via National Party online donation page",
-    "notes": "No MP-specific donation method found on contact page; National provides party donation form."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -30,12 +22,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found electorate office postal address (PO Box 280, Taupō 3351) and physical address (67 Paora Hapi Street, Taupō)."
-    },
-    {
-      "source": "https://www.national.org.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Found National Party donation page (party channel)."
     },
     {
       "source": "https://www.national.org.nz/team/louiseupston/contact",

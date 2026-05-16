@@ -9,14 +9,6 @@
     "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/watts-simon/",
     "notes": "Parliament Office postal address listed under Contact Details"
   },
-  "donationMethod": {
-    "status": "found",
-    "method": "party-channel",
-    "url": "https://www.national.org.nz/donate",
-    "bankAccount": null,
-    "details": "Donation appears to be via National Party donation form (not MP-specific).",
-    "notes": "No MP-specific donation method found; party donation page linked from MP page."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -30,12 +22,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found electorate office street address: 1 Earnoch Avenue, Takapuna, Auckland 0622."
-    },
-    {
-      "source": "https://www.national.org.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "National Party donation page (party-level donation form)."
     },
     {
       "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/watts-simon/",

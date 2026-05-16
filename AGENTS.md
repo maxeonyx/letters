@@ -1,134 +1,104 @@
-# Letters to NZ Parliament - AI Safety
+# Letters to NZ Parliament - AI
 
-This project sends personalized letters (with donations) to New Zealand MPs expressing concern about AI safety and the need for multilateral coordination.
+This project is about preparing personalized letters to New Zealand MPs about AI, with a focus on international coordination, New Zealand's long-term interests, and keeping the future human.
 
 **If you're an AI assistant starting fresh, read this file first.**
 
-## Current Task: Phase C Letter Drafting
+## Current Task
 
-We're refining the letter template section by section.
+The repo has been rebaselined around the current direction in `VISION.md`.
+
+The active work is now the letter package itself:
+
+- keep the strategy consistent with `VISION.md`
+- keep the main letter prose unwritten by the assistant unless Max explicitly asks otherwise
+- treat `letters/_template.md` as a commented scaffold, not finished copy
+
+## Read First
+
+Read these files in this order:
+
+1. `VISION.md` for the current direction, constraints, and reviewed wording from Max
+2. `docs/PLAN.md` for the staged plan from here to sending
+3. `letters/_template.md` when working on the template structure or comments
 
 ## MP Count
 
 **There are 123 MPs in NZ Parliament.** Don't get confused by the data structure:
+
 - `data/mps.json` has 121 object entries + 2 string entries = 123 total
 - The 2 strings are special cases (Greg O'Connor, Scott Willis) with personal connections to Max
 - `data/research/` has 121 JSON files (the 2 special cases are in `data/SPECIAL-NOTES.md`)
 
----
-
-## Research Phase (Complete) 
-
-### How to Run Research
-
-Use the `researcher` subagent via the Task tool. Launch **5-10 in parallel** for speed:
-
-```
-Task(subagent_type="researcher", description="Research MPs batch 1", prompt="
-Research these MPs:
-1. slug-one (Full Name)
-2. slug-two (Full Name)
-...
-
-Find postal addresses first for ALL MPs, then donation methods.
-Update data/research/{slug}.json immediately after each finding.
-")
-```
-
-### Check Progress
-
-```bash
-node -e "
-const fs = require('fs');
-const files = fs.readdirSync('data/research').filter(f => f.endsWith('.json') && !f.startsWith('_'));
-const stats = {pending: 0, 'in-progress': 0, done: 0, partial: 0};
-for (const f of files) {
-  const d = JSON.parse(fs.readFileSync('data/research/' + f, 'utf8'));
-  stats[d.researchStatus] = (stats[d.researchStatus] || 0) + 1;
-}
-console.log(stats);
-"
-```
-
-### Get Next Batch
-
-```bash
-node -e "
-const fs = require('fs');
-const files = fs.readdirSync('data/research').filter(f => f.endsWith('.json') && !f.startsWith('_'));
-const pending = [];
-for (const f of files) {
-  const d = JSON.parse(fs.readFileSync('data/research/' + f, 'utf8'));
-  if (d.researchStatus === 'pending') pending.push(d.slug + ' (' + d.name + ')');
-}
-console.log('Next 10:', pending.slice(0, 10).join('\\n'));
-"
-```
-
----
-
 ## Project Goal
 
-Send letters to all 123 NZ MPs that:
-1. Express *extreme concern* (but not dramatic) about AI's impact on humanity's future
-2. Urge prioritization of multilateral coordination on AI safety
-3. Include a donation to ensure the letter gets read
-4. Provide concrete, personalized action points where possible
+Prepare letters to all 123 NZ MPs that:
+
+1. express serious concern about AI's impact on humanity's future without slipping into unnecessary alarmism
+2. urge attention to international coordination and AI control measures
+3. frame the issue in New Zealand terms, including the importance of keeping the future human
+4. point toward other people, groups, events, and resources in New Zealand rather than leaning on Max's authority
+5. can later be personalized where useful without straining weak connections
 
 ## Key Design Decisions
 
-- **Non-partisan**: Target individual MPs, not parties. This should inform cross-party consensus.
-- **Target tangentially-involved MPs**: Not people already deep in AI policy, but people who have touched on related tech issues.
-- **Donation is key**: The donation ensures attention. Physical letter is optional; email is fine if donation is handled separately.
+- **Non-partisan:** target individual MPs, not parties
+- **Serious and concise:** the letters should be readable by staffers and MPs under time pressure
+- **Concerned-citizen voice:** Max is not trying to win by status
+- **Template first:** the assistant may help with comments, structure, and later MP-specific dynamic sections, but should not draft the main letter prose unless asked
 
 ## Directory Structure
 
-```
+```text
 letters/
-├── .gitignore             # Ignores generated/private files
 ├── AGENTS.md              # You are here
 ├── README.md              # Human-facing project overview
+├── VISION.md              # Current direction and reviewed requirements
 ├── data/
 │   ├── mps.json           # Master list of all MPs (source of truth, read-only)
 │   ├── SPECIAL-NOTES.md   # Greg O'Connor & Scott Willis (personal connections)
 │   └── research/          # Per-MP research JSON files
-│       ├── _schema.json   # JSON schema for research files
-│       ├── _template.md   # Template/example research record
+│       ├── _schema.json   # Research file schema
+│       ├── _template.md   # Research note template
 │       └── {mp-slug}.json # One file per MP (121 total)
 ├── docs/
-│   ├── CRITICAL-REVIEW.md # Known issues and risks
-│   ├── DONATION-RULES.md  # NZ electoral donation research (important!)
-│   ├── index.html         # Simple project landing page
-│   ├── PHASE-2-IDEAS.md   # Post-letter follow-up ideas
+│   ├── CRITICAL-REVIEW.md # Current risks and gaps in the project
+│   ├── PHASE-2-IDEAS.md   # Later ideas after the letter campaign
 │   ├── PLAN.md            # Full project plan and context
-│   └── why.html           # Public-facing explainer page
+│   ├── index.html         # Placeholder support/resources page
+│   └── why.html           # Placeholder public explainer page
 ├── letters/
-│   └── _template.md       # Letter template
-├── scripts/
-│   ├── research-worker.md # Detailed instructions for researcher agent
-│   └── orchestration.md   # How to coordinate parallel research
+│   └── _template.md       # Commented letter scaffold
+└── scripts/
+    ├── research-worker.md # Follow-up research guidance if more MP research is needed
+    └── orchestration.md   # Follow-up research coordination notes
 ```
 
-## Research Priority Order
+## Research Status
 
-For each MP, gather in this order (breadth-first across all MPs):
+The main MP research pass is complete.
 
-1. **Postal address** - Electorate office or parliament address
-2. **Donation method** - Bank account, donation page, or confirm none exists
-3. **AI involvement** - Quick scan for tech/AI statements (none/tangential/deep)
-4. **Personalization notes** - Useful hooks for the letter
+What the research data is for now:
+
+- postal addresses
+- AI involvement / tech-adjacent evidence
+- personalization notes
+
+If more research is needed, use the research files to enrich those areas rather than reopening the old project framing.
 
 ## Special Cases
 
-Two MPs in `mps.json` are **strings instead of objects** - this is intentional. They have personal connections to Max:
+Two MPs in `mps.json` are **strings instead of objects**. This is intentional.
+
 - **Greg O'Connor** - Max's actual MP
 - **Scott Willis** - Family friend
 
-See `data/SPECIAL-NOTES.md` for their data. Scripts will crash on these entries, which is the point.
+See `data/SPECIAL-NOTES.md` for their data. Scripts that assume every entry is a normal object should fail on these entries.
 
 ## Phase Status
 
-- [x] Phase A: Bulk data collection (123 MPs scraped from parliament.nz)
-- [x] Phase B: Per-MP research (121/121 done)
-- [ ] Phase C: Letter drafting (current task — see header)
-- [ ] Sending
+- [x] Phase A: Bulk data collection
+- [x] Phase B: Per-MP research
+- [x] Phase C: Repo rebaseline around the new direction
+- [ ] Phase D: Commented template and support package
+- [ ] Phase E: Drafting, testing, printing, and sending

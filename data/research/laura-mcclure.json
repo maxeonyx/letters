@@ -9,14 +9,6 @@
     "source": "https://action.act.org.nz/contact",
     "notes": "ACT contact page lists head office street address and PO Box."
   },
-  "donationMethod": {
-    "status": "found",
-    "method": "party-channel",
-    "url": "https://action.act.org.nz/donate",
-    "bankAccount": "01-0102-0670937-00",
-    "details": "Donate via ACT New Zealand; bank transfer reference: Full Name; particulars: Post Code",
-    "notes": "ACT donation page provides online form and bank transfer details; no MP-specific donation method found."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "tangential",
@@ -37,12 +29,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found address in authorisation footer: Suite 2.5, 27 Gillies Avenue, Newmarket, Auckland 1023."
-    },
-    {
-      "source": "https://action.act.org.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Found ACT donation method (party channel) including bank account 01-0102-0670937-00 and instructions."
     },
     {
       "source": "https://action.act.org.nz/contact",

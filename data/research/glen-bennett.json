@@ -9,14 +9,6 @@
     "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/bennett-glen/",
     "notes": "Parliament MP page Contact Details lists Parliament Office postal address."
   },
-  "donationMethod": {
-    "status": "not-found",
-    "method": "party-channel",
-    "url": "https://www.labour.org.nz/donate",
-    "bankAccount": null,
-    "details": "Labour Party donation page linked from Labour profile.",
-    "notes": "No MP-specific donation method found; Labour profile links to party donation page."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -30,12 +22,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160) in Contact Details."
-    },
-    {
-      "source": "https://www.labour.org.nz/our-team/glen-bennett/",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Donation link present but goes to party donate page: https://www.labour.org.nz/donate"
     },
     {
       "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/bennett-glen/",

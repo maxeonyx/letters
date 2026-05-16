@@ -9,14 +9,6 @@
     "source": "https://www.labour.org.nz/reubendavidson",
     "notes": "Electorate office street address shown under 'Contact Reuben Davidson'"
   },
-  "donationMethod": {
-    "status": "found",
-    "method": "party-channel",
-    "url": "https://www.labour.org.nz/donate",
-    "bankAccount": null,
-    "details": "Donation page is for the New Zealand Labour Party (not specific to Reuben Davidson)",
-    "notes": "Labour MP bio page links to Labour donate page; no public direct-to-MP donation method found"
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "tangential",
@@ -43,18 +35,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160)"
-    },
-    {
-      "source": "https://www.labour.org.nz/reubendavidson",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Found electorate office street address (Level 1, 202 Marine Parade, New Brighton) and donation link to Labour donate page"
-    },
-    {
-      "source": "https://www.labour.org.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Donation page is Labour Party-level online form; not MP-specific"
     },
     {
       "source": "data/mps.json",

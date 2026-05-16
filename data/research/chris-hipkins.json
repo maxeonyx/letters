@@ -9,14 +9,6 @@
     "source": "https://www.labour.org.nz/our-team/rt-hon-chris-hipkins/",
     "notes": "Parliamentary office postal address listed on Labour profile page."
   },
-  "donationMethod": {
-    "status": "not-found",
-    "method": "party-channel",
-    "url": "https://www.labour.org.nz/donate",
-    "bankAccount": null,
-    "details": null,
-    "notes": "No individual MP donation method found; page links to Labour party donation page."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -30,12 +22,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Freepost PO Box address for parliamentary mail."
-    },
-    {
-      "source": "https://www.labour.org.nz/our-team/rt-hon-chris-hipkins/",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Donation link present but appears to be party-level donate page (https://www.labour.org.nz/donate); no MP-specific donation method listed."
     },
     {
       "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/hipkins-chris/#mp-contact-details",

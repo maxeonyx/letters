@@ -9,14 +9,6 @@
     "source": "https://www3.parliament.nz/media/11976/electorate-and-community-offices-address-as-at-25-september-2025.csv",
     "notes": "Electorate/community office mailing address from Parliament office list CSV (Row: Andrew Bayly MP)."
   },
-  "donationMethod": {
-    "status": "not-found",
-    "method": "party-channel",
-    "url": "https://www.national.org.nz/donate",
-    "bankAccount": null,
-    "details": null,
-    "notes": "No individual MP donation method found; contact page includes party donation link."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",

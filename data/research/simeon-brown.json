@@ -9,14 +9,6 @@
     "source": "https://www.national.org.nz/team/simeonbrown/contact",
     "notes": null
   },
-  "donationMethod": {
-    "status": "not-found",
-    "method": "party-channel",
-    "url": "https://www.national.org.nz/donate",
-    "bankAccount": null,
-    "details": null,
-    "notes": "No MP-specific donation method found; National has party donation page"
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -30,12 +22,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Pakuranga Electorate Office street address"
-    },
-    {
-      "source": "https://www.national.org.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "National party donation page (appears not MP-specific)"
     },
     {
       "source": "https://www.national.org.nz/team/simeonbrown",

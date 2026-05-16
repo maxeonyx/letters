@@ -9,14 +9,6 @@
     "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/rurawhe-adrian/#mp-contact-details",
     "notes": "Parliament Office postal address listed on Parliament contact details section."
   },
-  "donationMethod": {
-    "status": "not-found",
-    "method": "party-channel",
-    "url": "https://www.labour.org.nz/donate",
-    "bankAccount": null,
-    "details": null,
-    "notes": "No individual MP donation method found; Labour profile includes party donation page."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -54,12 +46,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found postal address (Parliament Buildings Freepost PO Box)."
-    },
-    {
-      "source": "https://www.labour.org.nz/our-team/rt-hon-adrian-rurawhe/",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Donate link on page points to Labour Party donation page (https://www.labour.org.nz/donate); no MP-specific donation method listed."
     },
     {
       "source": "https://duckduckgo.com/html/?q=Adrian%20Rurawhe%20electorate%20office%20address",

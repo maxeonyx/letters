@@ -11,11 +11,11 @@ What already exists:
 - A complete MP dataset in `data/mps.json`
 - Research records for 121 MPs in `data/research/`
 - Special handling notes for Greg O'Connor and Scott Willis in `data/SPECIAL-NOTES.md`
-- An existing letter template and public-facing docs that still reflect the old donation-based strategy
+- An existing letter scaffold, support pages, and research data that need to stay aligned with the current direction
 
 What has changed:
 
-- The project is no longer centered on money or donations
+- The repo has been rebaselined away from the old money-centered strategy
 - The letters now need to be informational, concise, and serious
 - The focus is international coordination, AI control measures, and Max's framework for thinking about New Zealand's national interest in an increasingly automated world
 - The letters should not present Max as the expert; they should point toward other people, groups, events, and resources in New Zealand
@@ -42,17 +42,16 @@ Purpose: remove the old project story and make the repo internally consistent.
 Input:
 
 - The updated direction in `VISION.md`
-- Existing docs and templates that still reflect the old strategy
+- Existing docs and templates that may drift away from the current direction over time
 
 Output:
 
 - Root docs, planning docs, and letter materials all point in the same direction
-- The project no longer tells Max or a fresh agent to pursue donations
 - Obsolete or misleading material is either rewritten, parked clearly as historical, or deleted
 
 Key risks if skipped:
 
-- Future work keeps pulling in the old framing by accident
+- Future work keeps pulling in stale framing by accident
 - Drafts and decisions are judged against contradictory goals
 
 ### Stage 2: Define the letter requirements and evaluation criteria
@@ -239,28 +238,26 @@ Output:
 
 The concrete steps to get the project sorted out are:
 
-1. Rebaseline the checked-in docs so the repo stops pointing toward donations.
-2. Write down the current letter requirements in a form we can review and refine.
-3. Define the impact model and failure modes so we know what the letters are trying to achieve.
-4. Plan the commented-template approach: decide what kinds of comments, placeholders, and section constraints the template should contain, without writing the letter copy itself.
-5. Build or revise the links website and supporting resources.
-6. Gather outside feedback on representative draft letters.
-7. Research and decide the print / envelope / postage workflow.
-8. Create a send-tracking system.
-9. Run a small end-to-end pilot.
-10. Prepare the full batch for sending.
+1. Review and refine the current letter requirements in a form we can judge drafts against.
+2. Define the impact model and failure modes so we know what the letters are trying to achieve.
+3. Plan the commented-template approach: decide what kinds of comments, placeholders, and section constraints the template should contain, without writing the letter copy itself.
+4. Build or revise the links website and supporting resources.
+5. Gather outside feedback on representative draft letters.
+6. Research and decide the print / envelope / postage workflow.
+7. Create a send-tracking system.
+8. Run a small end-to-end pilot.
+9. Prepare the full batch for sending.
 
 ## Dependencies
 
-- Step 1 must happen before almost everything else, because the repo currently contains contradictory guidance.
-- Steps 2 and 3 should happen before serious redrafting.
-- Step 4 depends on Steps 2 and 3.
-- The actual commented template edits should wait until Step 1 has cleaned up the repo roots enough that the template is not being shaped by contradictory guidance.
-- Step 5 depends on Step 4 enough to know what the links page is for.
-- Step 6 depends on having something real to react to from Steps 4 and 5.
-- Steps 7 and 8 can partly proceed in parallel once the high-level direction is stable.
-- Step 9 depends on Steps 4 through 8.
-- Step 10 depends on a successful pilot.
+- Steps 1 and 2 should happen before serious redrafting.
+- Step 3 depends on Steps 1 and 2.
+- The actual commented template edits should stay constrained by the no-letter-copy rule unless Max asks otherwise.
+- Step 4 depends on Step 3 enough to know what the links page is for.
+- Step 5 depends on having something real to react to from Steps 3 and 4.
+- Steps 6 and 7 can partly proceed in parallel once the high-level direction is stable.
+- Step 8 depends on Steps 3 through 7.
+- Step 9 depends on a successful pilot.
 
 ## Done Criteria
 

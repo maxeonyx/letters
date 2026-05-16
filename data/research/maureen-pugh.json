@@ -9,14 +9,6 @@
     "source": "https://www.national.org.nz/team/maureenpugh/contact",
     "notes": "Electorate office street addresses listed on National Party MP contact page (no PO Box shown)."
   },
-  "donationMethod": {
-    "status": "found",
-    "method": "party-channel",
-    "url": "https://www.national.org.nz/donate",
-    "bankAccount": null,
-    "details": "Donate via National Party online donation page",
-    "notes": "No MP-specific donation method found on contact page; National provides party donation form."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -32,16 +24,10 @@
       "notes": "Found electorate office addresses (Hokitika; Motueka)."
     },
     {
-      "source": "https://www.national.org.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Found National Party donation page (party channel)."
-    },
-    {
       "source": "https://www.haveyoursay.org.nz/mp/maureen-pugh",
       "checked": true,
       "foundUseful": true,
-      "notes": "Found parliamentary postal address (Freepost Parliament / Private Bag 18 888) as an alternative." 
+      "notes": "Found parliamentary postal address (Freepost Parliament / Private Bag 18 888) as an alternative."
     },
     {
       "source": "https://www.national.org.nz/team/maureenpugh",

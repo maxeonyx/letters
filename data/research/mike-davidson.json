@@ -9,14 +9,6 @@
     "source": "https://www.haveyoursay.org.nz/mp/mike-davidson",
     "notes": "Have your say lists MP postal address as Freepost Parliament / Private Bag 18 888."
   },
-  "donationMethod": {
-    "status": "found",
-    "method": "website",
-    "url": "https://www.greens.org.nz/donate",
-    "bankAccount": null,
-    "details": "Green Party online donation form.",
-    "notes": "Party donation page; no MP-specific donation mechanism found."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -36,12 +28,6 @@
       "checked": true,
       "foundUseful": false,
       "notes": "No MP electorate/parliament postal address found on page."
-    },
-    {
-      "source": "https://www.greens.org.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Green Party donation page with embedded form."
     },
     {
       "source": "https://www.haveyoursay.org.nz/mp/mike-davidson",

@@ -9,14 +9,6 @@
     "source": "https://www.labour.org.nz/our-team/hon-rachel-brooking/",
     "notes": "Labour MP profile page contact section lists Dunedin office address and also lists 'Freepost PO Box 18 888, Parliament Buildings, Wellington 6160'."
   },
-  "donationMethod": {
-    "status": "not-found",
-    "method": "party-channel",
-    "url": "https://www.labour.org.nz/donate/",
-    "bankAccount": null,
-    "details": "No public, MP-specific donation method found; Labour provides a party donation page.",
-    "notes": "Only clear public donation path located was via Labour Party donate page."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -29,13 +21,7 @@
       "source": "https://www.labour.org.nz/our-team/hon-rachel-brooking/",
       "checked": true,
       "foundUseful": true,
-      "notes": "Found Dunedin office address and Freepost Parliament postal address." 
-    },
-    {
-      "source": "https://www.labour.org.nz/donate/",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Labour Party donation page (party-channel)."
+      "notes": "Found Dunedin office address and Freepost Parliament postal address."
     }
   ]
 }

@@ -9,14 +9,6 @@
     "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/tangaere-manuel-cushla/#mp-contact-details",
     "notes": "Parliament Office postal address listed on Parliament contact details section."
   },
-  "donationMethod": {
-    "status": "not-found",
-    "method": "party-channel",
-    "url": "https://www.labour.org.nz/donate",
-    "bankAccount": null,
-    "details": null,
-    "notes": "Only public donation link found is Labour Party donate page (not an MP-specific donation method)."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "tangential",
@@ -43,12 +35,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Parliament Office postal address: Private Bag 18888, Parliament Buildings, Wellington 6160."
-    },
-    {
-      "source": "https://www.labour.org.nz/our-team/cushla-tangaere-manuel/",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Donate link on page points to Labour Party donation page."
     }
   ]
 }

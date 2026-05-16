@@ -9,14 +9,6 @@
     "source": "https://www.national.org.nz/team/nicolawillis/contact",
     "notes": "National Party contact page lists Johnsonville office address and a Parliamentary Office address (1 Molesworth Street, Pipitea, Wellington 6011)."
   },
-  "donationMethod": {
-    "status": "not-found",
-    "method": "party-channel",
-    "url": "https://www.national.org.nz/donate",
-    "bankAccount": null,
-    "details": "No public, MP-specific donation method found; National Party provides a party donation form.",
-    "notes": "National Party site uses a central party donation page."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -29,19 +21,13 @@
       "source": "https://nicolawillis.national.org.nz/contact/",
       "checked": true,
       "foundUseful": false,
-      "notes": "Returned HTTP response code failure in Playwright; could not access this site from this environment." 
+      "notes": "Returned HTTP response code failure in Playwright; could not access this site from this environment."
     },
     {
       "source": "https://www.national.org.nz/team/nicolawillis/contact",
       "checked": true,
       "foundUseful": true,
       "notes": "Found Johnsonville office postal address and parliamentary office address."
-    },
-    {
-      "source": "https://www.national.org.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "National Party donation form (party-channel)."
     }
   ]
 }

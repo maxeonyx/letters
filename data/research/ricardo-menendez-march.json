@@ -9,14 +9,6 @@
     "source": "https://www.greens.org.nz/ricardo_menendez_march",
     "notes": "Address shown in page footer (Green Party address)"
   },
-  "donationMethod": {
-    "status": "found",
-    "method": "party-channel",
-    "url": "https://www.greens.org.nz/donate",
-    "bankAccount": null,
-    "details": "Donation page is for Green Party (not specific to Ricardo Menéndez March)",
-    "notes": "No public direct-to-MP donation method found on MP/party bio; only party donation page linked"
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -30,18 +22,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160). Direct slug URL returned HTTP 500; accessed via listing search (?term=Menendez)"
-    },
-    {
-      "source": "https://www.greens.org.nz/ricardo_menendez_march",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Page links to Green Party donation page (party-level, not MP-specific)"
-    },
-    {
-      "source": "https://www.greens.org.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Donation page is an online form for the Green Party; no MP-specific donation method found"
     },
     {
       "source": "https://www.greens.org.nz/ricardo_menendez_march",

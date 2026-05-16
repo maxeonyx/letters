@@ -9,14 +9,6 @@
     "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/rutherford-tom/",
     "notes": "Parliament Office postal address (contact details section)"
   },
-  "donationMethod": {
-    "status": "found",
-    "method": "party-channel",
-    "url": "https://www.national.org.nz/donate",
-    "bankAccount": null,
-    "details": null,
-    "notes": "Party donation page linked from National Party profile for Tom Rutherford"
-  },
   "aiInvolvement": {
     "status": "unknown",
     "level": null,
@@ -30,12 +22,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160)."
-    },
-    {
-      "source": "https://www.national.org.nz/team/tomrutherford",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Found Donate link pointing to https://www.national.org.nz/donate (party-level donation, not MP-specific)."
     }
   ]
 }

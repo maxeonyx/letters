@@ -9,14 +9,6 @@
     "source": "https://www.national.org.nz/team/danbidois/contact",
     "notes": "Electorate office address listed under Offices."
   },
-  "donationMethod": {
-    "status": "not-found",
-    "method": "party-channel",
-    "url": "https://www.national.org.nz/donate",
-    "bankAccount": null,
-    "details": null,
-    "notes": "Only public donation link found is National Party donation page (not an MP-specific donation method)."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -30,12 +22,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found office address (street/suburb); postcode not shown on page."
-    },
-    {
-      "source": "https://www.national.org.nz/team/danbidois",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Donate link on MP page points to National Party donation page."
     },
     {
       "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/bidois-dan/#mp-contact-details",

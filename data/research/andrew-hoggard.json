@@ -9,14 +9,6 @@
     "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/hoggard-andrew/#mp-contact-details",
     "notes": "Parliament Office postal address listed on Parliament contact details section."
   },
-  "donationMethod": {
-    "status": "not-found",
-    "method": "party-channel",
-    "url": "https://action.act.org.nz/donate",
-    "bankAccount": null,
-    "details": null,
-    "notes": "No individual MP donation method found; ACT site only offers party donation page."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",

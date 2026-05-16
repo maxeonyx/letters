@@ -9,14 +9,6 @@
     "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/webb-duncan/",
     "notes": "Parliament MP page Contact Details lists Parliament Office postal address. (Labour profile also lists electorate office street address.)"
   },
-  "donationMethod": {
-    "status": "not-found",
-    "method": "party-channel",
-    "url": "https://www.labour.org.nz/donate",
-    "bankAccount": null,
-    "details": "Labour Party donation page.",
-    "notes": "No obvious public method found for donating directly to Duncan Webb personally; only party donation page found."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -30,12 +22,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Christchurch Central electorate office address (132b Victoria St, Christchurch Central) and Wellington Freepost PO Box 18 888."
-    },
-    {
-      "source": "https://www.labour.org.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Found Labour online donation form (party donation channel)."
     },
     {
       "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/webb-duncan/",

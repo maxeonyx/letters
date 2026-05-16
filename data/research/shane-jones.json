@@ -9,14 +9,6 @@
     "source": "https://www.haveyoursay.org.nz/mp/shane-jones",
     "notes": "Postal address listed on Have Your Say profile"
   },
-  "donationMethod": {
-    "status": "not-found",
-    "method": "party-channel",
-    "url": "https://www.nzfirst.nz/donate",
-    "bankAccount": null,
-    "details": null,
-    "notes": "NZ First donation page exists; no MP-specific donation method found"
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -30,18 +22,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Freepost Parliament / Private Bag 18 888 postal address"
-    },
-    {
-      "source": "https://www.nzfirst.nz/shane-jones",
-      "checked": true,
-      "foundUseful": false,
-      "notes": "Profile page has a DONATE link but it goes to party donate page"
-    },
-    {
-      "source": "https://www.nzfirst.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "NZ First party donation page (online form); no MP-specific donation method listed"
     },
     {
       "source": "https://www.haveyoursay.org.nz/mp/shane-jones",

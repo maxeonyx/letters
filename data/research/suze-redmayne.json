@@ -9,14 +9,6 @@
     "source": "https://www.national.org.nz/team/suzeredmayne/contact",
     "notes": "Electorate office address and PO Box listed on National Party contact page."
   },
-  "donationMethod": {
-    "status": "found",
-    "method": "party-channel",
-    "url": "https://www.national.org.nz/donate",
-    "bankAccount": null,
-    "details": "Donation appears to be via National Party donation form (not MP-specific).",
-    "notes": "No MP-specific donation method found; party donation page used."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -30,12 +22,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Feilding electorate office + PO Box: 51 Fergusson Street, Feilding 4702; PO Box 335, Feilding 4740."
-    },
-    {
-      "source": "https://www.national.org.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "National Party donation page (party-level donation form)."
     },
     {
       "source": "data/mps.json",

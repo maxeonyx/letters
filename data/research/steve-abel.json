@@ -9,14 +9,6 @@
     "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/abel-steve/",
     "notes": "Parliament Office postal address listed under Contact Details"
   },
-  "donationMethod": {
-    "status": "found",
-    "method": "party-channel",
-    "url": "https://www.greens.org.nz/donate",
-    "bankAccount": null,
-    "details": "Donation link present on Green Party bio page (party-level donation page).",
-    "notes": "No MP-specific donation method found; donation is via Green Party website."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -30,12 +22,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found address line in footer: 'Level 5, 108 The Terrace, Wellington'."
-    },
-    {
-      "source": "https://www.greens.org.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Donation link from MP bio leads to Green Party donation page."
     },
     {
       "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/abel-steve/",

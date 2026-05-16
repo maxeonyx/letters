@@ -9,14 +9,6 @@
     "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/costley-tim/",
     "notes": "Parliament Office (Contact Details section)"
   },
-  "donationMethod": {
-    "status": "found",
-    "method": "party-channel",
-    "url": "https://www.national.org.nz/donate",
-    "bankAccount": null,
-    "details": null,
-    "notes": "Public donate link found on National Party bio page for Tim Costley"
-  },
   "aiInvolvement": {
     "status": "unknown",
     "level": null,
@@ -30,12 +22,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160)"
-    },
-    {
-      "source": "https://www.national.org.nz/team/timcostley",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Found donate link (https://www.national.org.nz/donate)"
     }
   ]
 }

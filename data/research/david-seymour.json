@@ -9,14 +9,6 @@
     "source": "https://action.act.org.nz/contact#epsom_electorate_office",
     "notes": "Mailing address shown on ACT contact page. Street address also listed: Suite 2.4, Level 2, 27 Gillies Avenue, Newmarket, Auckland 1023."
   },
-  "donationMethod": {
-    "status": "not-found",
-    "method": "party-channel",
-    "url": "https://action.act.org.nz/donate",
-    "bankAccount": null,
-    "details": "ACT Party donation page.",
-    "notes": "No obvious public method found for donating directly to David Seymour personally; only party donation page found."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -30,12 +22,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Epsom Electorate Office postal (PO Box) and street address for David Seymour."
-    },
-    {
-      "source": "https://action.act.org.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Found ACT online donation form (party donation channel)."
     },
     {
       "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/seymour-david/",

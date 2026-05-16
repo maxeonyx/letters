@@ -9,14 +9,6 @@
     "source": "https://www.national.org.nz/team/ryanhamilton/contact",
     "notes": "Electorate office street address listed under 'Offices'"
   },
-  "donationMethod": {
-    "status": "found",
-    "method": "party-channel",
-    "url": "https://www.national.org.nz/donate",
-    "bankAccount": null,
-    "details": "Donation page is for National Party (not specific to Ryan Hamilton)",
-    "notes": "No public direct-to-MP donation method found on MP/party bio; only party donation page (form)"
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -32,22 +24,10 @@
       "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160)"
     },
     {
-      "source": "https://www.national.org.nz/team/ryanhamilton",
-      "checked": true,
-      "foundUseful": false,
-      "notes": "No donation method/link found on MP bio page"
-    },
-    {
       "source": "https://www.national.org.nz/team/ryanhamilton/contact",
       "checked": true,
       "foundUseful": true,
       "notes": "Found electorate office street address: Hamilton East Office, Level 2, 697c Wairere Drive, Chartwell, Hamilton 3210"
-    },
-    {
-      "source": "https://www.national.org.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Donation page is for National Party (online form), not MP-specific"
     },
     {
       "source": "data/mps.json",

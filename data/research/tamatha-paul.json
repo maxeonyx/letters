@@ -9,14 +9,6 @@
     "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/paul-tamatha/",
     "notes": "Parliament Office (Contact Details section)"
   },
-  "donationMethod": {
-    "status": "found",
-    "method": "party-channel",
-    "url": "https://www.greens.org.nz/donate",
-    "bankAccount": null,
-    "details": null,
-    "notes": "Public donate link found on Green Party bio page for Tamatha Paul"
-  },
   "aiInvolvement": {
     "status": "unknown",
     "level": null,
@@ -30,12 +22,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160)"
-    },
-    {
-      "source": "https://www.greens.org.nz/tamatha_paul",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Found donate link (https://www.greens.org.nz/donate)"
     }
   ]
 }

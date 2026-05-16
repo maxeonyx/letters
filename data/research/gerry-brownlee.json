@@ -9,14 +9,6 @@
     "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/brownlee-gerry/",
     "notes": "Parliament MP page Contact Details lists Parliament Office postal address."
   },
-  "donationMethod": {
-    "status": "not-found",
-    "method": "party-channel",
-    "url": "https://www.national.org.nz/donate",
-    "bankAccount": null,
-    "details": "National Party donation page linked from National profile.",
-    "notes": "No MP-specific donation method found; National profile links to party donation page."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "tangential",
@@ -37,12 +29,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160) in Contact Details."
-    },
-    {
-      "source": "https://www.national.org.nz/team/gerrybrownlee",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Donation link present but goes to party donate page: https://www.national.org.nz/donate"
     },
     {
       "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/brownlee-gerry/",

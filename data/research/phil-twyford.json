@@ -9,14 +9,6 @@
     "source": "https://www.labour.org.nz/our-team/hon-phil-twyford/",
     "notes": "Te Atatū electorate office"
   },
-  "donationMethod": {
-    "status": "found",
-    "method": "party-channel",
-    "url": "https://www.labour.org.nz/donate",
-    "bankAccount": null,
-    "details": null,
-    "notes": "No MP-specific donation method found; party donation page available"
-  },
   "aiInvolvement": {
     "status": "unknown",
     "level": null,
@@ -36,12 +28,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Te Atatū electorate office street address"
-    },
-    {
-      "source": "https://www.labour.org.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Party donation page (no MP-specific method)"
     }
   ]
 }

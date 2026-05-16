@@ -9,14 +9,6 @@
     "source": "https://www.labour.org.nz/our-team/lemauga-lydia-sosene/",
     "notes": "Labour MP page lists electorate community office street address and parliamentary Freepost/Private Bag address."
   },
-  "donationMethod": {
-    "status": "found",
-    "method": "party-channel",
-    "url": "https://www.labour.org.nz/donate",
-    "bankAccount": null,
-    "details": "Donate via Labour Party donation page",
-    "notes": "No MP-specific donation method found on Labour MP page; donation appears to be via party."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -30,12 +22,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found electorate community office address (Shop 9, 93 Bader Drive, Māngere Town Centre) and parliamentary Freepost/Private Bag address."
-    },
-    {
-      "source": "https://www.labour.org.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Found Labour Party donation page (party channel)."
     },
     {
       "source": "https://www.labour.org.nz/our-team/lemauga-lydia-sosene/",

@@ -9,14 +9,6 @@
     "source": "https://www.labour.org.nz/our-team/hon-dr-megan-woods/",
     "notes": "Labour MP page lists electorate office street address and parliamentary Freepost/PO Box address."
   },
-  "donationMethod": {
-    "status": "found",
-    "method": "party-channel",
-    "url": "https://www.labour.org.nz/donate",
-    "bankAccount": null,
-    "details": "Donate via Labour Party donation page",
-    "notes": "No MP-specific donation method found on Labour MP page; donation appears to be via party."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "tangential",
@@ -37,12 +29,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found electorate office address (Shop 8, McCarthy Street Shops, Hoon Hay, Christchurch) and parliamentary Freepost/PO Box address."
-    },
-    {
-      "source": "https://www.labour.org.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Found Labour Party donation page (party channel)."
     },
     {
       "source": "https://www.haveyoursay.org.nz/mp/megan-woods",

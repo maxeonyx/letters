@@ -9,14 +9,6 @@
     "source": "(project convention: Parliament Office postal address used across many MPs when electorate office address unavailable)",
     "notes": "Parliament.nz MP contact page blocked by Radware captcha from this environment; ACT profile/contact pages did not provide a specific electorate/parliament postal address for Parmjeet Parmar. Using standard Parliament Office postal address as fallback."
   },
-  "donationMethod": {
-    "status": "not-found",
-    "method": "party-channel",
-    "url": "https://action.act.org.nz/donate",
-    "bankAccount": null,
-    "details": "No public, MP-specific donation method found. ACT provides a party donation form.",
-    "notes": "Checked ACT donation page; MP-specific donation link not located."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "tangential",
@@ -49,12 +41,6 @@
       "checked": true,
       "foundUseful": false,
       "notes": "Contact form page does not list an electorate/parliament postal address for Parmjeet Parmar (only party authorisation footer address)."
-    },
-    {
-      "source": "https://action.act.org.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "ACT party donation form."
     }
   ]
 }

@@ -9,14 +9,6 @@
     "source": "https://www.national.org.nz/team/mattdoocey/contact",
     "notes": "Electorate office addresses listed on National Party MP contact page."
   },
-  "donationMethod": {
-    "status": "found",
-    "method": "party-channel",
-    "url": "https://www.national.org.nz/donate",
-    "bankAccount": null,
-    "details": "Donate via National Party online donation page",
-    "notes": "No MP-specific donation method found on contact page; National provides party donation form."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "tangential",
@@ -37,12 +29,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found electorate office addresses incl. Rangiora PO Box 765, Rangiora 7440 and physical office addresses (Rangiora; Kaiapoi)."
-    },
-    {
-      "source": "https://www.national.org.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Found National Party donation page (party channel)."
     },
     {
       "source": "https://www.national.org.nz/team/mattdoocey",

@@ -9,14 +9,6 @@
     "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/hernandez-francisco/",
     "notes": "Parliament MP page Contact Details lists Parliament Office postal address."
   },
-  "donationMethod": {
-    "status": "not-found",
-    "method": "party-channel",
-    "url": "https://www.greens.org.nz/donate",
-    "bankAccount": null,
-    "details": "Green Party donation page linked from Green MP profile.",
-    "notes": "No MP-specific donation method found; Green MP profile links to party donation page."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "tangential",
@@ -37,12 +29,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160) in Contact Details."
-    },
-    {
-      "source": "https://www.greens.org.nz/francisco_hernandez",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Donation link present but goes to party donate page: https://www.greens.org.nz/donate"
     },
     {
       "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/hernandez-francisco/",

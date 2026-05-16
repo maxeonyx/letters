@@ -9,14 +9,6 @@
     "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/wilson-david/",
     "notes": "Parliament MP page Contact Details lists Parliament Office postal address."
   },
-  "donationMethod": {
-    "status": "not-found",
-    "method": "party-channel",
-    "url": "https://www.nzfirst.nz/donate",
-    "bankAccount": null,
-    "details": "NZ First party donation page.",
-    "notes": "No obvious public method found for donating directly to David Wilson personally; only party donation page found."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -36,12 +28,6 @@
       "checked": true,
       "foundUseful": false,
       "notes": "Bio page did not list a personal postal address; linked to party contact page."
-    },
-    {
-      "source": "https://www.nzfirst.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Found NZ First online donation form (party donation channel)."
     },
     {
       "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/wilson-david/",

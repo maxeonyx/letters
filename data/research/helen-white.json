@@ -9,14 +9,6 @@
     "source": "https://www.labour.org.nz/our-team/helen-white/",
     "notes": "Listed on Labour profile page (Parliamentary office address)"
   },
-  "donationMethod": {
-    "status": "not-found",
-    "method": "party-channel",
-    "url": "https://www.labour.org.nz/donate",
-    "bankAccount": null,
-    "details": null,
-    "notes": "Labour profile page links to party donation page; no MP-specific donation method found."
-  },
   "aiInvolvement": {
     "status": "unknown",
     "level": null,
@@ -30,18 +22,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Parliament page Contact Details section includes Parliament Office address (Private Bag 18888, Parliament Buildings, Wellington 6160)."
-    },
-    {
-      "source": "https://www.labour.org.nz/our-team/helen-white/",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Found postal address on Labour profile page: Freepost Parliament, Private Bag 18 888, Parliament Buildings, Wellington 6160. Also links to party donate page."
-    },
-    {
-      "source": "https://www.labour.org.nz/donate",
-      "checked": true,
-      "foundUseful": false,
-      "notes": "Party donation page; no MP-specific donation method identified."
     }
   ]
 }

@@ -9,14 +9,6 @@
     "source": "https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/peters-winston/",
     "notes": "Parliament Office address listed under Contact Details"
   },
-  "donationMethod": {
-    "status": "found",
-    "method": "party-channel",
-    "url": "https://www.nzfirst.nz/donate",
-    "bankAccount": null,
-    "details": null,
-    "notes": "NZ First site has party donation page; no MP-specific donation method found"
-  },
   "aiInvolvement": {
     "status": "unknown",
     "level": null,
@@ -30,18 +22,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Parliament Office postal address (Private Bag 18888, Parliament Buildings, Wellington 6160)"
-    },
-    {
-      "source": "https://www.nzfirst.nz/winston-peters",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "MP profile page includes DONATE link (to party donation page)"
-    },
-    {
-      "source": "https://www.nzfirst.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Donation page is for NZ First (party-channel), not MP-specific"
     }
   ]
 }

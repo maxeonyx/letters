@@ -9,14 +9,6 @@
     "source": "https://www.greens.org.nz/huhana_lyndon",
     "notes": "Green Party bio page footer address (party headquarters)"
   },
-  "donationMethod": {
-    "status": "not-found",
-    "method": "party-channel",
-    "url": "https://www.greens.org.nz/donate",
-    "bankAccount": null,
-    "details": "Green Party donation page.",
-    "notes": "No MP-specific donation method found; only party donation page found."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -42,12 +34,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found address in footer: Level 5, 108 The Terrace, Wellington"
-    },
-    {
-      "source": "https://www.greens.org.nz/huhana_lyndon",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Donation link present but goes to party donate page: https://www.greens.org.nz/donate"
     },
     {
       "source": "https://www.greens.org.nz/huhana_lyndon",

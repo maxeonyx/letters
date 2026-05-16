@@ -1,22 +1,27 @@
-# Letters to NZ Parliament on AI Safety
+# Letters to NZ Parliament on AI
 
-A personal project to send letters to all 123 New Zealand Members of Parliament expressing concern about AI safety and urging multilateral coordination.
+This repo is for preparing a letter campaign to New Zealand MPs about AI.
 
-## Why
+The current direction is:
 
-The future of humanity is contingent on the details of AI development and deployment. New Zealand's voice in multilateral forums matters, and MPs need to hear from constituents that this is a priority.
-
-## Approach
-
-- Personal letters to individual MPs (not parties)
-- Accompanied by donations to ensure attention
-- Focused on MPs who are tangentially involved in tech/AI issues
-- Non-partisan: this should inform cross-party consensus
+- informational, concise, and serious letters
+- a focus on international coordination and AI control measures
+- a New Zealand framing, including keeping the future human in an increasingly automated world
+- a concerned-citizen voice rather than a claim of personal authority
 
 ## Status
 
-Research is complete for all 123 MPs. Letter drafting is underway.
+- MP research is complete
+- the repo has been rebaselined around the new direction
+- the main letter prose is still to be written by Max
+
+## Main Files
+
+- `VISION.md` - current direction, constraints, and reviewed notes
+- `docs/PLAN.md` - staged plan from here to sending
+- `letters/_template.md` - commented scaffold for the letter template
+- `data/research/` - per-MP research for addresses, AI involvement, and personalization
 
 ## For AI Assistants
 
-See `AGENTS.md` for project context and instructions.
+Read `AGENTS.md` first.

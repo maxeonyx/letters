@@ -9,14 +9,6 @@
     "source": "https://www.haveyoursay.org.nz/mp/oriini-kaipara",
     "notes": "Have your say lists MP postal address as Freepost Parliament / Private Bag 18 888."
   },
-  "donationMethod": {
-    "status": "found",
-    "method": "party-channel",
-    "url": "https://www.maoriparty.org.nz/donate",
-    "bankAccount": null,
-    "details": "No public, MP-specific donation method found. Te Pāti Māori provides a party donation (koha) form.",
-    "notes": "Checked Te Pāti Māori koha/donation page."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -36,12 +28,6 @@
       "checked": true,
       "foundUseful": false,
       "notes": "Profile page includes email and authorisation line but no postal address."
-    },
-    {
-      "source": "https://www.maoriparty.org.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "Te Pāti Māori party koha/donation form."
     },
     {
       "source": "https://www.haveyoursay.org.nz/mp/oriini-kaipara",

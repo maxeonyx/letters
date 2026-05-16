@@ -9,14 +9,6 @@
     "source": "https://www.haveyoursay.org.nz/mp/nancy-lu",
     "notes": "Have your say lists MP postal address as Freepost Parliament / Private Bag 18 888."
   },
-  "donationMethod": {
-    "status": "found",
-    "method": "party-channel",
-    "url": "https://www.national.org.nz/donate",
-    "bankAccount": null,
-    "details": "No public, MP-specific donation method found; National Party provides a party donation form.",
-    "notes": "National Party site uses a central party donation page."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -35,13 +27,7 @@
       "source": "https://www.national.org.nz/team/nancylu/contact",
       "checked": true,
       "foundUseful": false,
-      "notes": "No postal address shown; email only." 
-    },
-    {
-      "source": "https://www.national.org.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "National Party donation form (party-channel)."
+      "notes": "No postal address shown; email only."
     },
     {
       "source": "https://www.haveyoursay.org.nz/mp/nancy-lu",

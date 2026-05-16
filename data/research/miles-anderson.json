@@ -9,14 +9,6 @@
     "source": "https://www.national.org.nz/team/milesanderson/contact",
     "notes": "National Party contact page lists Oamaru office address (also lists Wanaka office: Spencer House Mall, 12/31 Dunmore Street, Wanaka 9305)."
   },
-  "donationMethod": {
-    "status": "not-found",
-    "method": "party-channel",
-    "url": "https://www.national.org.nz/donate",
-    "bankAccount": null,
-    "details": "No public, MP-specific donation method found; National Party provides a party donation form.",
-    "notes": "Used party donation page as the only clear public donation path located."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -30,12 +22,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found electorate office street address (Oamaru) and an additional office (Wanaka)."
-    },
-    {
-      "source": "https://www.national.org.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "National Party donation form (party-channel)."
     }
   ]
 }

@@ -9,14 +9,6 @@
     "source": "https://www.national.org.nz/team/stuartsmith/contact",
     "notes": "Office address and PO Box listed on National Party contact page."
   },
-  "donationMethod": {
-    "status": "found",
-    "method": "party-channel",
-    "url": "https://www.national.org.nz/donate",
-    "bankAccount": null,
-    "details": "Donation appears to be via National Party donation form (not MP-specific).",
-    "notes": "No MP-specific donation method found; party donation page used."
-  },
   "aiInvolvement": {
     "status": "checked",
     "level": "none",
@@ -30,12 +22,6 @@
       "checked": true,
       "foundUseful": true,
       "notes": "Found Blenheim office + PO Box: 22 Scott Street, Blenheim; PO Box 130, Blenheim 7240."
-    },
-    {
-      "source": "https://www.national.org.nz/donate",
-      "checked": true,
-      "foundUseful": true,
-      "notes": "National Party donation page (party-level donation form)."
     },
     {
       "source": "data/mps.json",

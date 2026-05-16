@@ -1,25 +1,25 @@
 # {MP Full Name}
 
 ## Basic Info
-- **Party:** 
-- **Electorate:** 
-- **Parliament page:** 
+- **Party:**
+- **Electorate:**
+- **Parliament page:**
 
-## Donation Method
+## Postal Address
 
-{Describe what you found, or "No public donation method found"}
+{Describe what you found, or "No postal address confirmed"}
 
 If found:
-- **Method:** 
-- **URL:** 
-- **Notes:** 
+- **Address:**
+- **Source:**
+- **Notes:**
 
 ## AI Involvement
 
 **Level:** {none / tangential / deep}
 
 **Evidence:**
-- 
+-
 
 ## Personalization Notes
 
@@ -27,6 +27,6 @@ If found:
 
 ## Research Notes
 
-- **Sources checked:** 
+- **Sources checked:**
 - **Confidence:** {high / medium / low}
-- **Time spent:** 
+- **Time spent:**
