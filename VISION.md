@@ -36,6 +36,10 @@ Max wants the letters to acknowledge existential risk concerns without slipping 
 
 Max wants to avoid presenting himself as the authority on this issue, and instead point MPs toward other credible people, groups, events, and resources in New Zealand.
 
+Max wouldn't like to overstate himself as an expert, although he is moderately so. He doesn't want it to come off as though he's trying to rely on that for authority, because he certainly shouldn't be.
+
+Max's angle is mostly that he is a concerned citizen with some expertise and he wants to raise awareness of issues, ask for consideration and point towards other people who are doing work on this.
+
 Max wants the project to be worth doing in practice: it should have a plausible path to impact, and it should not interfere with other people working on AI safety in New Zealand.
 
 Max wants a practical sending setup: printing, paper, envelopes, postage or freepost details, and a clear operational workflow.
@@ -58,9 +62,71 @@ An MP can understand that this is not only about abstract global risk; it is als
 
 The letters should not overclaim Max's authority.
 
+The letters should position Max as a concerned citizen with some expertise, not as the main authority MPs should rely on.
+
 The letters should instead direct MPs to other people and institutions working on this issue in New Zealand, such as the Christchurch AI Safety Conference and potentially Good Ancestors New Zealand if that starts soon.
 
 The project should likely have a links page / website that can be referenced from the letters.
+
+For the letter itself, Max is interested in writing that himself. If helpful, supporting comments can be added in the template, for example markdown comments or HTML comments, but the letter copy itself should not be written by the assistant. The only exception is the dynamic statements by MP that we will do later.
+
+Max likes the idea of a commented template that he will then fill in, getting the text to achieve certain purposes at each stage.
+
+For the dynamic sections by MP, the process is that we will take a number of examples, diverse examples, and Max will help draft copy for those examples. Then we will use that as a way to roll out many more dynamic sections and Max will review those, correct them, and then we will do the rest. We will iterate increasingly more MPs each time, building a set of examples that we then hone in on for the exact form that these dynamic sections are going to take.
+
+Max thinks the requirements need to have audience in there. Purpose, audience, credibility, tone.
+
+Max is not sure about support material or ask. Ask might be similar to purpose. Support material might be a separate part of the letter, which has its own requirements.
+
+Max is not sure `evaluation` belongs in the requirements either. We do need to evaluate sections, but that is probably part of the process of writing the letter rather than a requirement or constraint.
+
+On purpose: Max thinks MPs do take AI seriously as a fast-moving issue. His point is to try to get them to take it more seriously as a more severe and more fast-moving issue.
+
+Max wants to somehow influence them toward considering the bigger picture, basically. If he had to put the vibe of the letter in one sentence it would be that he is there to advocate for the biggest picture on AI possible.
+
+Ideally the letter should connect that bigger-picture view to their agenda somehow, for example a big-picture take of AI in the New Zealand context.
+
+There are some concrete asks as a result of that frame, and there is follow-up available as well if they want it.
+
+On audience: the primary readers are the staffer who triages and summarizes correspondence, and the MP who may read either the letter itself or the staff summary.
+
+If possible, there should also be some knowledge about the individual MP specifically for their personal section.
+
+Ideally there would be individual staffer context as well, but that is probably a stretch. In some cases it might be possible.
+
+More generally, the project can consider priorities for that MP rather than personality. The letter should not strain for a connection. We are talking about AI, so the connections to areas like farming or Auckland property are not going to be huge, but there is still something there.
+
+On credibility: we are not trying to win by status. We want to avoid that.
+
+The credibility wording is a load-bearing part of the letter and likely needs heavy bikeshedding. A key question is why they should finish reading it, basically, and why they should forward it to the MP.
+
+On tone: it does not have to be one hundred percent calm, as it is going to be talking about existential risk concerns.
+
+Max wants them to believe he takes this seriously, while understanding that they may not take it seriously, but also that they should take it seriously.
+
+Max takes this seriously, and is also a regular person, and not crazy. Some of that `not crazy` signal should come from directing outwards and from tidy formatting and presentation.
+
+For the commented template, Max is imagining an explainer in the template that defines some terminology for him to understand. Lower down, that terminology and structure can be referenced into smaller comments that guide what to write in certain boxes.
+
+Examples include: what is the opening sentence, what should the address be, what should the international cooperation paragraph, the New Zealand context paragraph, the other people working on this paragraph, and the who am I paragraph say, and what is the purpose of each.
+
+The comments located inline in the template should be short because they rely on things defined above. What to do and what not to do along various dimensions should be explained.
+
+The template should think through the reader experience. What order the letter needs to run in might not be the intuitive order.
+
+The letter may need to signpost and signal, but it needs to do so without being boring.
+
+An important question is how to hook credibly.
+
+The reader journey is one of the constraints under which we need to write the letter.
+
+The reader journey should be a planned thing: we have a framework for the reader journey, and then the comments should help Max work within that framework.
+
+Additional content-side constraint buckets Max likes are skimmability, personal relevance, and signposting.
+
+The commented template should likely have a section for each top-level constraint, explaining what each paragraph or part of the letter needs to do in order to work within that constraint for this particular letter or this particular MP.
+
+Then, down in the actual letter body itself, those should be summarized so Max has them close to eye when writing that section.
 
 ### Paths to impact
 

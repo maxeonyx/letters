@@ -1,152 +1,271 @@
 # Project Plan
 
-This document captures the full context and decisions for this project. It was developed through conversation between Max and an AI assistant.
+This plan is about getting the project from its current state to a clean, testable, sendable letter campaign.
 
-## Background
+The research phase is complete. The current work is rebaselining the project around the updated direction in `VISION.md`, then driving it through drafting, validation, production, and sending.
 
-Max is increasingly worried about AI. Living in New Zealand, there's only so much one person can do, but at minimum: send letters to NZ politicians expressing concern.
+## Current Situation
 
-### Core Message (from Max)
+What already exists:
 
-The letter should convey:
+- A complete MP dataset in `data/mps.json`
+- Research records for 121 MPs in `data/research/`
+- Special handling notes for Greg O'Connor and Scott Willis in `data/SPECIAL-NOTES.md`
+- An existing letter template and public-facing docs that still reflect the old donation-based strategy
 
-1. The future of humanity is contingent on the details of the development & deployment of AI as a technology.
-2. Anything at all that *you* can do to ensure multilateral coordination for AI safety and control, is something that should be at the top of your priorities as a member of parliament.
-3. Ideally, some concrete information and action points for the MP in question.
+What has changed:
 
-### Tone
+- The project is no longer centered on money or donations
+- The letters now need to be informational, concise, and serious
+- The focus is international coordination, AI control measures, and Max's framework for thinking about New Zealand's national interest in an increasingly automated world
+- The letters should not present Max as the expert; they should point toward other people, groups, events, and resources in New Zealand
 
-- **Extremely concerned** - this is not casual
-- **Not dramatic** - no apocalyptic language, just serious
-- **Short** - respect the reader's time
+## End State
 
-### The Donation Strategy
+The project is ready for Max to continue, test to completion, and send the letters.
 
-> "The donation hopefully ensures it gets read."
+That means:
 
-The donation is the key mechanism for ensuring attention. Physical letters are not required - email works if the donation is handled separately. However, physical letters make cash donations operationally easy.
+- The repo consistently reflects the new direction
+- The letter requirements are clear enough to judge drafts against
+- The letter template is strong enough to trial with real readers
+- Supporting resources and links are ready
+- The production workflow is ready: printing, envelopes, addressing, postage / freepost, batching, and tracking
+- The sending process can be run without ad hoc decisions at the last minute
 
-**NZ donation rules:** Donating directly to individual MPs (not parties) is inconsistently possible. Some electorate MPs have public donation info, most don't. This requires per-MP research. See `docs/DONATION-RULES.md` for full legal research.
+## Process Stages
 
-**Donor identity:** Max will use his real name on donations. This avoids anonymous-donation complications and is simpler. Anonymity would only be considered if there were a strong reason (e.g., if the act were somehow illegal but still worth doing).
+### Stage 1: Rebaseline the project
 
-## Target Selection
+Purpose: remove the old project story and make the repo internally consistent.
 
-> "My goal is to focus on members that are *tangentially* involved - not people who have engaged with this a lot, but ideally people who have engaged with this a little."
+Input:
 
-Rationale: People already deep in AI policy have their views. People with *some* exposure might be more receptive to new framing.
+- The updated direction in `VISION.md`
+- Existing docs and templates that still reflect the old strategy
 
-> "I do *not* want to operate this at the level of parties... this should inform a cross-party consensus on New Zealand's position on this issue in multilateral forums."
+Output:
 
-## Data Requirements
+- Root docs, planning docs, and letter materials all point in the same direction
+- The project no longer tells Max or a fresh agent to pursue donations
+- Obsolete or misleading material is either rewritten, parked clearly as historical, or deleted
 
-For each of 123 MPs, we need:
+Key risks if skipped:
 
-### Tier 1 - Required to Act
-- Name
-- Contact method (email OR physical address)  
-- Donation method (if available) OR fallback plan
+- Future work keeps pulling in the old framing by accident
+- Drafts and decisions are judged against contradictory goals
 
-### Tier 2 - Personalization
-- Party, Electorate
-- Select committee memberships
-- AI involvement level (none / tangential / deep)
+### Stage 2: Define the letter requirements and evaluation criteria
 
-### Tier 3 - Nice to Have
-- Voting history on conscience votes
-- Detailed background
+Purpose: decide what a good letter must do before trying to polish wording.
 
-## Research Approach
+Input:
 
-### Phase A: Bulk Data Collection (1 agent, ~5 mins)
+- Rebaselined project docs
+- Max's current goals, constraints, and concerns
 
-Scrape parliament.nz for all 123 MPs' basic info:
-- https://www.parliament.nz/en/mps-and-wards/current-mps/
+Output:
 
-This gives us names, parties, electorates, contact info, select committees.
+- A concrete set of letter requirements
+- A clear statement of the ask
+- A clear statement of what must be preserved in tone and framing
+- A lightweight evaluation rubric for deciding whether a draft is actually good enough to send
 
-Output: `data/mps.json`
+Key questions to settle in this stage:
 
-### Phase B: Per-MP Deep Research (parallel agents)
+- What is the primary ask?
+- What is the minimum viable ask if the stronger wording feels forced?
+- How should existential risk be present without making the letter feel melodramatic?
+- How should the New Zealand economic / national-interest framing appear?
+- How explicitly should the letter say "keep an open mind" given that AI may change substantially by election day?
+- How strongly should the letter point MPs toward external people and organisations rather than toward Max?
 
-For each MP, research:
-- Donation method (check their personal/electorate website)
-- AI involvement (search hansard, news articles)
-- Anything relevant for personalizing the letter
+Key risks if skipped:
 
-**Parallelism:** 3 agents at a time  
-**Initial test:** 5 MPs to validate the approach
+- Endless drafting without agreement on what success looks like
+- Good-sounding prose that does not serve the actual goals
 
-### Sources for Research
+### Stage 3: Validate the strategy against paths to impact
 
-**Basic info:**
-- https://www.parliament.nz/en/mps-and-wards/current-mps/
+Purpose: confirm that sending these letters still looks worthwhile and non-disruptive.
 
-**AI involvement:**
-- Parliament Hansard search
-- News: stuff.co.nz, nzherald.co.nz, rnz.co.nz
-- MP's own website/social media
+Input:
 
-**Donation info:**
-- MP's personal/electorate website
-- Electoral Commission rules
+- Letter requirements
+- Max's stated paths to impact
 
-## Automation System
+Output:
 
-### Constraints
-- Max has limited AI credits (GitHub Copilot premium requests)
-- Credits reset daily
-- Need bounded parallelism (3 agents)
-- Agents must not interfere (separate directories, single browser tab each)
-- Must handle rate limits gracefully
+- A clear view of why the project is worth doing
+- A list of failure modes to avoid
+- A decision on what the letters are realistically trying to achieve
 
-### Worker Setup
-- Each worker is assigned ONE MP
-- Works in isolation (own browser tab, own output file)
-- Clear success/failure criteria
-- Timeout after N minutes
-- Writes findings to `data/research/{mp-slug}.json`
+What this stage needs to answer:
 
-See `scripts/research-worker.md` for exact instructions.
+- Does the current letter concept plausibly help with any of the three paths to impact?
+- Could the letters interfere with, confuse, or undermine other people working on AI safety in New Zealand?
+- What kinds of tone, claims, or asks would reduce the chance of impact?
+- What kinds of links or supporting resources increase the chance that an MP or staffer actually does something useful next?
 
-## Phase 2: After Letters
+Loop:
 
-Ideas for further action:
+- If the strategy looks weak or misaligned, go back to Stage 2 and revise the requirements before further drafting
 
-> - Gathering signatures in Wellington for an existing grassroots campaign. Presenting this to parliament?
-> - Creating short YouTube videos on the fundamental arguments (especially from a micro-economic perspective, which is something I find extremely lacking in AI safety discourse)
-> - Anything else that is within my power & energy.
+### Stage 4: Build the content package
 
-See `docs/PHASE-2-IDEAS.md` for details.
+Purpose: create the materials the letters rely on.
 
-## Technical Notes
+Input:
 
-### Credit Management
-- GitHub Copilot premium requests: ~300/day (resets daily)
-- Test with 5 MPs first to validate approach
-- 3 parallel agents as good balance of speed vs. rate limits
+- Stable requirements and strategy
 
-### Avoiding Conflicts
-- Each agent gets its own MP assignment
-- Agents write to separate files (`data/research/{mp-slug}.json`)
-- Agents do NOT modify `mps.json` (only read from it)
-- Each agent opens only ONE browser tab
+Output:
 
-### Model Selection Notes
+- A strong base letter template
+- Personalization guidance that matches the new strategy
+- A links page / website with credible supporting resources
+- A short list of NZ-specific references to include or mention, if appropriate
 
-**GPT-5.2** is extremely capable for research and analysis, but has a recognizable, somewhat unpleasant writing style. When using GPT-5.2:
-- Use it for research, planning, and critical review
-- Do NOT leave its prose in final artifacts (letters, committed docs)
-- Have another model (e.g., `grok-code-fast-1`) rewrite any user-facing text
+Work inside this stage:
 
-### Running Agents via CLI
+- Redraft `letters/_template.md`
+- Decide what belongs in the main letter vs a back page vs the links page
+- Decide whether the links page is primarily explanatory, resource-oriented, or both
+- Confirm whether Christchurch AI Safety Conference and Good Ancestors New Zealand should be included, and how
+- Rework any public-facing pages so they match the new framing
 
-To run a research agent from the command line:
-```bash
-opencode run -m github-copilot-max/gpt-5.2 "Your prompt here"
-```
+Loop:
 
-Options:
-- `-m provider/model` - specify the model
-- `-c` or `-s session-id` - continue an existing session
-- `--title "..."` - name the session
+- Drafts from this stage are reviewed against the Stage 2 rubric and the Stage 3 impact check
+
+### Stage 5: Test the message with humans
+
+Purpose: find out whether the letters actually land the way Max wants.
+
+Input:
+
+- A candidate letter package
+
+Output:
+
+- Feedback on clarity, tone, credibility, emotional temperature, and likely impact
+- A list of revisions grounded in reader response rather than speculation
+
+What should be tested:
+
+- Does the letter feel serious but not overblown?
+- Is the ask clear enough?
+- Does the New Zealand framing make sense to a non-expert?
+- Does the letter sound like informed concern rather than self-importance?
+- Does the use of external resources increase credibility?
+
+Loop:
+
+- Feedback from real readers may send us back to Stage 2 or Stage 4
+
+### Stage 6: Prepare operations for physical sending
+
+Purpose: make sure the campaign is operationally real, not just rhetorically ready.
+
+Input:
+
+- A stable content package
+- Existing MP contact data
+
+Output:
+
+- A print specification
+- A chosen print provider or printing method
+- Envelope and paper decisions
+- Addressing and postage rules confirmed
+- A send workflow and tracking method
+
+Questions this stage needs to answer:
+
+- Where should the letters be printed?
+- What paper stock and print quality are good enough?
+- How should double-sided printing be set up?
+- What envelopes should be used?
+- Which addresses are the right destination for each MP?
+- Which letters can use freepost and which cannot?
+- What tracking file do we use to record print status, packed status, sent status, and any replies?
+
+Key risks if skipped:
+
+- The final week becomes a scramble of printing and postage decisions
+- Good letters are delayed or sent inconsistently
+
+### Stage 7: Run a small end-to-end pilot
+
+Purpose: test the whole process before committing to the full batch.
+
+Input:
+
+- Final candidate materials
+- Operational workflow
+
+Output:
+
+- Confidence that the full campaign can be executed cleanly
+- Any last operational or wording fixes discovered by real use
+
+Possible pilot scope:
+
+- Print a few sample letters
+- Check print quality, paper feel, duplex layout, envelope fit, and addressing
+- Optionally send a very small batch if that makes sense
+
+Loop:
+
+- If the pilot exposes issues, return to Stage 4 or Stage 6 as needed
+
+### Stage 8: Final production and sending
+
+Purpose: execute the campaign cleanly.
+
+Input:
+
+- Approved letter package
+- Approved operations workflow
+- Successful pilot
+
+Output:
+
+- Letters printed, packed, addressed, and sent
+- Sending status recorded
+- Any responses or follow-up opportunities captured
+
+## Work Plan
+
+The concrete steps to get the project sorted out are:
+
+1. Rebaseline the checked-in docs so the repo stops pointing toward donations.
+2. Write down the current letter requirements in a form we can review and refine.
+3. Define the impact model and failure modes so we know what the letters are trying to achieve.
+4. Plan the commented-template approach: decide what kinds of comments, placeholders, and section constraints the template should contain, without writing the letter copy itself.
+5. Build or revise the links website and supporting resources.
+6. Gather outside feedback on representative draft letters.
+7. Research and decide the print / envelope / postage workflow.
+8. Create a send-tracking system.
+9. Run a small end-to-end pilot.
+10. Prepare the full batch for sending.
+
+## Dependencies
+
+- Step 1 must happen before almost everything else, because the repo currently contains contradictory guidance.
+- Steps 2 and 3 should happen before serious redrafting.
+- Step 4 depends on Steps 2 and 3.
+- The actual commented template edits should wait until Step 1 has cleaned up the repo roots enough that the template is not being shaped by contradictory guidance.
+- Step 5 depends on Step 4 enough to know what the links page is for.
+- Step 6 depends on having something real to react to from Steps 4 and 5.
+- Steps 7 and 8 can partly proceed in parallel once the high-level direction is stable.
+- Step 9 depends on Steps 4 through 8.
+- Step 10 depends on a successful pilot.
+
+## Done Criteria
+
+This plan is complete when:
+
+- A fresh agent can read the repo and understand the current project direction without being misled by obsolete docs
+- Max has a letter package that has been reviewed against explicit requirements and tested with real readers
+- The physical sending workflow has been rehearsed enough that the remaining work is mostly execution
