@@ -4,6 +4,19 @@
 
 This project is about writing to New Zealand MPs about AI in a way that is informational, concise, and serious.
 
+Update from Max on 2026-06-24:
+
+> I'd like to keep it going and sent these letters within a couple of weeks.
+>
+> Things I want to do:
+>
+> - Finalize copy template
+> - Finalize dynamic content for special MPs
+> - Find somewhere to print letters on high quality letterhead
+> - Actually print the letters and order some envelopes and stamps for those that aren't going to parliament (parliament ones can have freepost)
+>
+> Also - I'm open to not doing all 120+
+
 Current direction from Max:
 
 - Get rid of any mention of money involved here.

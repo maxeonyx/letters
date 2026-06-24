@@ -248,6 +248,36 @@ The concrete steps to get the project sorted out are:
 8. Run a small end-to-end pilot.
 9. Prepare the full batch for sending.
 
+## Near-Term Send Push
+
+Max's 2026-06-24 near-term goal: "I'd like to keep it going and sent these letters within a couple of weeks."
+
+This means the near-term work should bias toward a sendable package and an executable physical workflow, not more open-ended research.
+
+Immediate work:
+
+1. Finalize the copy template enough for Max to write and review the main prose.
+2. Finalize dynamic content for special MPs, starting with Greg O'Connor and Scott Willis from `data/SPECIAL-NOTES.md`.
+3. Decide whether to send all 123 letters or a smaller prioritized batch.
+4. If sending a smaller batch, pick the batch based on plausible path to impact, not only ease of personalization.
+5. Find and choose a printing option for high-quality letterhead / paper, duplex printing, and professional output.
+6. Confirm envelopes, stamps, and freepost rules, especially which letters can be sent to Parliament by freepost and which need ordinary postage.
+7. Create a print/send tracker before production starts.
+8. Run a small end-to-end print/mail pilot before committing to the full or prioritized batch.
+
+Scope note:
+
+- Max said: "Also - I'm open to not doing all 120+"
+- A smaller batch is acceptable if it increases quality, reduces operational drag, or makes the campaign more likely to actually get sent within the current timeline.
+
+Operational notes found 2026-06-24:
+
+- NZ Post Standard Mail for domestic letters: medium letters are currently $2.90 / 1 KiwiStamp, large letters are $4.20, oversize letters are $5.50; standard delivery estimate is 3 working days. Source: https://www.nzpost.co.nz/personal/sending-in-nz/letters
+- Parliament's contact page was blocked by browser verification from this environment, but DuckDuckGo snippets for the Parliament page say: "If you want to send a letter to all members of Parliament, send us 121 copies of your letter in one envelope. Include a covering note asking for a copy to be distributed to each MP." This needs manual confirmation because the repo source-of-truth says there are 123 MPs.
+- Search snippets from the official NZ Parliament Facebook account quote the individual freepost format as: `[MP name]`, `FreePost Parliament`, `Private Bag 18888`, `Parliament Buildings`, `Wellington 6160`. Confirm before relying on it for production.
+- Printing candidates worth checking first: Rieger's Print, Wellington CBD, 04 473 1444, print@riegers.co.nz, https://www.riegers.co.nz/; Hotprint, Wellington CBD, 04 499 6588, sales@hotprint.nz, https://hotprint.nz/services/business_stationary/.
+- Other possible print options: About Print, https://www.aboutprint.co.nz/; Warehouse Stationery / WS Print for convenience if bespoke local printing is not needed.
+
 ## Dependencies
 
 - Steps 1 and 2 should happen before serious redrafting.
