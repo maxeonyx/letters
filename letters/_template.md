@@ -137,6 +137,13 @@ Prefer:
 Avoid:
 - fake intimacy
 - hobby-horse connections that feel bolted on
+
+Dynamic paragraph rule of thumb:
+- use one factual hook
+- make one relevance bridge to AI / long-term governance / international coordination
+- end with one small ask or reason this MP should keep the issue live
+
+If the hook feels weak, use a lighter paragraph rather than over-explaining it.
 -->
 
 ### Signposting
@@ -218,6 +225,12 @@ Possible grounding:
 - spokesperson portfolio
 - committee work
 - background / previous public comments
+
+Personalization types:
+- special relationship: Greg O'Connor / Scott Willis only; do not generate these as ordinary mail merge copy
+- explicit AI/tech evidence: mention only if the evidence still seems relevant and non-forced when drafting
+- committee / portfolio relevance: use responsibilities rather than pretending the MP has already engaged with AI
+- default: keep this short; a weak personalized paragraph is worse than a clean general letter
 
 Special cases:
 - Greg O'Connor: actual electorate MP
@@ -301,10 +314,14 @@ Question:
 This section is a planning note, not final letter copy.
 
 Potential use:
-- heavy: special cases / unusually important MPs / difficult edge cases
-- medium: standard personalized paragraph
+- special: known personal connection; not normal template output
+- heavy: unusually important MPs / difficult edge cases
+- medium: role, portfolio, committee, or AI/tech-adjacent evidence
+- light: minimal personalization where the connection is weak
 
 This is for workflow only. It should not leak into the visible letter.
+
+See `docs/SEND-SCOPE.md` when deciding which tiers belong in the first batch.
 -->
 
 ## Checklist Per Letter

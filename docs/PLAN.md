@@ -258,11 +258,11 @@ Immediate work:
 
 1. Finalize the copy template enough for Max to write and review the main prose.
 2. Finalize dynamic content for special MPs, starting with Greg O'Connor and Scott Willis from `data/SPECIAL-NOTES.md`.
-3. Decide whether to send all 123 letters or a smaller prioritized batch.
+3. Decide whether to send all 123 letters or a smaller prioritized batch. Use `docs/SEND-SCOPE.md` for the current decision gate and first-batch shape.
 4. If sending a smaller batch, pick the batch based on plausible path to impact, not only ease of personalization.
 5. Find and choose a printing option for high-quality letterhead / paper, duplex printing, and professional output.
 6. Confirm envelopes, stamps, and freepost rules, especially which letters can be sent to Parliament by freepost and which need ordinary postage.
-7. Create a print/send tracker before production starts.
+7. Maintain `data/send-tracker.csv` as the print/send tracker before production starts.
 8. Run a small end-to-end print/mail pilot before committing to the full or prioritized batch.
 
 Scope note:

@@ -19,8 +19,10 @@ The current direction is:
 
 - `VISION.md` - current direction, constraints, and reviewed notes
 - `docs/PLAN.md` - staged plan from here to sending
+- `docs/SEND-SCOPE.md` - near-term send-scope choices when deciding between all-MP and first-batch sending
 - `letters/_template.md` - commented scaffold for the letter template
 - `data/research/` - per-MP research for addresses, AI involvement, and personalization
+- `data/send-tracker.csv` - per-MP production tracker for scope, drafting, printing, and sending status
 
 ## For AI Assistants
 
